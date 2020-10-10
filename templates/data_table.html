@@ -1,0 +1,3506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Gradient must be added into head to have it show from top to bottom of page -->
+  <div id="gradient" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>A Group 4 San Diego Burritos</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="/" style="color:white">San Diego Burrito Project</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Nav bar drop down -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="visualsDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Visualizations
+          </a>
+          <div class="dropdown-menu" aria-labelledby="visualsDropdown">
+            <a class="dropdown-item" href="gauges">Neighborhood Ratings</a>
+            <a class="dropdown-item" href="topfive_scores">Top Five Review Scores</a>
+            <a class="dropdown-item" href="topfive_costs">Top Five Burrito Cost</a>
+            <a class="dropdown-item" href="plot">Cost vs Score Plot</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="data_table">Data Table</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="data_code_sources" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Data-Code Sources
+          </a>
+          <div class="dropdown-menu" aria-labelledby="visualsDropdown">
+            <a class="dropdown-item" href="https://www.kaggle.com/srcole/burritos-in-san-diego">Data Source</a>
+            <a class="dropdown-item" href="https://github.com/bourbonracer/SD_Burrito_Project">Git Repository</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Background Image -->
+  <div id="img-container">
+    <img class="col-md-12 col-sm-12" src="../static/css/ca_burrito.jpg" id="bg-img" alt="California Burrito">
+  </div>
+
+  <!-- Jumbotron -->
+  <div class="row">
+    <div style="color: white" class="col-md-12 jumbotron text-center">
+      <h1>A Group 4 San Diego Burritos</h1>
+      <p>A project by Kristi Mar, Laura Paakh, Jacqueline Sailer, and Stephen Hong</p>
+    </div>
+  </div>
+
+  <!-- Container -->
+  <div class="container">
+
+    <!-- H1 and H2 -->
+    <h1 style="color:white">San Diego Burritos</h1>
+
+    <section>
+      <h2 style="color:white">Data</h2>
+      <hr>
+    </section>
+
+    <!-- Table Start -->
+    <div class="table-responsive">
+      <table class="table">
+        <table border="1" class="dataframe" style="font-family: 'Arial Black';border: 3px solid white; color: white">
+          <thead>
+            <tr style="text-align: right;">
+              <th></th>
+              <th>Location</th>
+              <th>Burrito</th>
+              <th>Neighborhood</th>
+              <th>Address</th>
+              <th>Yelp</th>
+              <th>Google</th>
+              <th>Cost</th>
+              <th>key</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>0</th>
+              <td>Albertacos</td>
+              <td>California</td>
+              <td>San Marcos</td>
+              <td>500 W San Marcos Blvd # 103</td>
+              <td>3.5</td>
+              <td>3.9</td>
+              <td>5.70</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <th>1</th>
+              <td>Albertacos</td>
+              <td>Carne asada</td>
+              <td>San Marcos</td>
+              <td>500 W San Marcos Blvd # 103</td>
+              <td>3.5</td>
+              <td>3.9</td>
+              <td>5.25</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <th>2</th>
+              <td>Burros and Fries</td>
+              <td>California</td>
+              <td>Clairemont</td>
+              <td>4705 Clairemont Dr</td>
+              <td>3.5</td>
+              <td>4.1</td>
+              <td>6.89</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <th>3</th>
+              <td>Burros and Fries</td>
+              <td>Carne asada</td>
+              <td>Clairemont</td>
+              <td>4705 Clairemont Dr</td>
+              <td>3.5</td>
+              <td>4.1</td>
+              <td>6.89</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <th>4</th>
+              <td>Burros and Fries</td>
+              <td>Shrimp california</td>
+              <td>Clairemont</td>
+              <td>4705 Clairemont Dr</td>
+              <td>3.5</td>
+              <td>4.1</td>
+              <td>6.99</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <th>5</th>
+              <td>Burros and Fries</td>
+              <td>California</td>
+              <td>Clairemont</td>
+              <td>4705 Clairemont Dr</td>
+              <td>3.5</td>
+              <td>4.1</td>
+              <td>7.19</td>
+              <td>6</td>
+            </tr>
+            <tr>
+              <th>6</th>
+              <td>Caliente Mexican Food</td>
+              <td>carne asada</td>
+              <td>Sorrento Valley</td>
+              <td>11815 Sorrento Valley Rd</td>
+              <td>3.5</td>
+              <td>4.4</td>
+              <td>5.56</td>
+              <td>7</td>
+            </tr>
+            <tr>
+              <th>7</th>
+              <td>Caliente Mexican Food</td>
+              <td>carne asada</td>
+              <td>Sorrento Valley</td>
+              <td>11815 Sorrento Valley Rd</td>
+              <td>3.5</td>
+              <td>4.4</td>
+              <td>5.56</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <th>8</th>
+              <td>Caliente Mexican Food</td>
+              <td>fried fish</td>
+              <td>Sorrento Valley</td>
+              <td>11815 Sorrento Valley Rd</td>
+              <td>3.5</td>
+              <td>4.4</td>
+              <td>5.56</td>
+              <td>9</td>
+            </tr>
+            <tr>
+              <th>9</th>
+              <td>Caliente Mexican Food</td>
+              <td>California</td>
+              <td>Sorrento Valley</td>
+              <td>11815 Sorrento Valley Rd</td>
+              <td>3.5</td>
+              <td>4.4</td>
+              <td>6.47</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <th>10</th>
+              <td>California Burrito Company</td>
+              <td>Dave's California</td>
+              <td>Miramar</td>
+              <td>6912 Miramar Rd</td>
+              <td>3.5</td>
+              <td>4.4</td>
+              <td>6.50</td>
+              <td>11</td>
+            </tr>
+            <tr>
+              <th>11</th>
+              <td>California Burrito Company</td>
+              <td>California</td>
+              <td>Miramar</td>
+              <td>6912 Miramar Rd</td>
+              <td>3.5</td>
+              <td>4.4</td>
+              <td>5.50</td>
+              <td>12</td>
+            </tr>
+            <tr>
+              <th>12</th>
+              <td>California Burrito Company</td>
+              <td>California</td>
+              <td>Miramar</td>
+              <td>6912 Miramar Rd</td>
+              <td>3.5</td>
+              <td>4.4</td>
+              <td>5.50</td>
+              <td>13</td>
+            </tr>
+            <tr>
+              <th>13</th>
+              <td>California Burrito Company</td>
+              <td>Fajitas</td>
+              <td>Miramar</td>
+              <td>6912 Miramar Rd</td>
+              <td>3.5</td>
+              <td>4.4</td>
+              <td>6.50</td>
+              <td>14</td>
+            </tr>
+            <tr>
+              <th>14</th>
+              <td>California Burrito Company</td>
+              <td>California</td>
+              <td>Miramar</td>
+              <td>6912 Miramar Rd</td>
+              <td>3.5</td>
+              <td>4.4</td>
+              <td>5.50</td>
+              <td>15</td>
+            </tr>
+            <tr>
+              <th>15</th>
+              <td>California Burritos</td>
+              <td>California Everything</td>
+              <td>Linda Vista</td>
+              <td>7754 Starling Dr</td>
+              <td>4.5</td>
+              <td>4.4</td>
+              <td>6.25</td>
+              <td>16</td>
+            </tr>
+            <tr>
+              <th>16</th>
+              <td>California Burritos</td>
+              <td>California Everything</td>
+              <td>Linda Vista</td>
+              <td>7754 Starling Dr</td>
+              <td>4.5</td>
+              <td>4.4</td>
+              <td>6.25</td>
+              <td>17</td>
+            </tr>
+            <tr>
+              <th>17</th>
+              <td>California Burritos</td>
+              <td>California Everything</td>
+              <td>Linda Vista</td>
+              <td>7754 Starling Dr</td>
+              <td>4.5</td>
+              <td>4.4</td>
+              <td>6.25</td>
+              <td>18</td>
+            </tr>
+            <tr>
+              <th>18</th>
+              <td>California Burritos</td>
+              <td>Chile relleno and carnitas</td>
+              <td>Linda Vista</td>
+              <td>7754 Starling Dr</td>
+              <td>4.5</td>
+              <td>4.4</td>
+              <td>6.50</td>
+              <td>19</td>
+            </tr>
+            <tr>
+              <th>19</th>
+              <td>California Burritos</td>
+              <td>California (only cheese)</td>
+              <td>Linda Vista</td>
+              <td>7754 Starling Dr</td>
+              <td>4.5</td>
+              <td>4.4</td>
+              <td>6.25</td>
+              <td>20</td>
+            </tr>
+            <tr>
+              <th>20</th>
+              <td>California Burritos</td>
+              <td>California Everything</td>
+              <td>Linda Vista</td>
+              <td>7754 Starling Dr</td>
+              <td>4.5</td>
+              <td>4.4</td>
+              <td>6.25</td>
+              <td>21</td>
+            </tr>
+            <tr>
+              <th>21</th>
+              <td>California Burritos</td>
+              <td>California Everything</td>
+              <td>Linda Vista</td>
+              <td>7754 Starling Dr</td>
+              <td>4.5</td>
+              <td>4.4</td>
+              <td>6.25</td>
+              <td>22</td>
+            </tr>
+            <tr>
+              <th>22</th>
+              <td>California Burritos</td>
+              <td>California Everything</td>
+              <td>Linda Vista</td>
+              <td>7754 Starling Dr</td>
+              <td>4.5</td>
+              <td>4.4</td>
+              <td>6.25</td>
+              <td>23</td>
+            </tr>
+            <tr>
+              <th>23</th>
+              <td>California Burritos</td>
+              <td>California Everything</td>
+              <td>Linda Vista</td>
+              <td>7754 Starling Dr</td>
+              <td>4.5</td>
+              <td>4.4</td>
+              <td>6.25</td>
+              <td>24</td>
+            </tr>
+            <tr>
+              <th>24</th>
+              <td>California Burritos</td>
+              <td>California Everything</td>
+              <td>Linda Vista</td>
+              <td>7754 Starling Dr</td>
+              <td>4.5</td>
+              <td>4.4</td>
+              <td>6.25</td>
+              <td>25</td>
+            </tr>
+            <tr>
+              <th>25</th>
+              <td>California Burritos</td>
+              <td>Carnitas</td>
+              <td>Linda Vista</td>
+              <td>7754 Starling Dr</td>
+              <td>4.5</td>
+              <td>4.4</td>
+              <td>5.50</td>
+              <td>26</td>
+            </tr>
+            <tr>
+              <th>26</th>
+              <td>California Burritos</td>
+              <td>Carne asada everything</td>
+              <td>Linda Vista</td>
+              <td>7754 Starling Dr</td>
+              <td>4.5</td>
+              <td>4.4</td>
+              <td>6.25</td>
+              <td>27</td>
+            </tr>
+            <tr>
+              <th>27</th>
+              <td>California Burritos</td>
+              <td>Carne asada everything</td>
+              <td>Linda Vista</td>
+              <td>7754 Starling Dr</td>
+              <td>4.5</td>
+              <td>4.4</td>
+              <td>6.25</td>
+              <td>28</td>
+            </tr>
+            <tr>
+              <th>28</th>
+              <td>California Burritos</td>
+              <td>Carne asada everything</td>
+              <td>Linda Vista</td>
+              <td>7754 Starling Dr</td>
+              <td>4.5</td>
+              <td>4.4</td>
+              <td>6.25</td>
+              <td>29</td>
+            </tr>
+            <tr>
+              <th>29</th>
+              <td>Cancun Mexican &amp; Seafood</td>
+              <td>California</td>
+              <td>Encinitas</td>
+              <td>1766 N Coast Hwy</td>
+              <td>4.5</td>
+              <td>4.1</td>
+              <td>6.99</td>
+              <td>30</td>
+            </tr>
+            <tr>
+              <th>30</th>
+              <td>Cancun Mexican &amp; Seafood</td>
+              <td>Machaca</td>
+              <td>Encinitas</td>
+              <td>1766 N Coast Hwy</td>
+              <td>4.5</td>
+              <td>4.1</td>
+              <td>5.99</td>
+              <td>31</td>
+            </tr>
+            <tr>
+              <th>31</th>
+              <td>Cancun Mexican &amp; Seafood</td>
+              <td>Adobada</td>
+              <td>Encinitas</td>
+              <td>1766 N Coast Hwy</td>
+              <td>4.5</td>
+              <td>4.1</td>
+              <td>6.45</td>
+              <td>32</td>
+            </tr>
+            <tr>
+              <th>32</th>
+              <td>Cancun Mexican &amp; Seafood</td>
+              <td>California</td>
+              <td>Encinitas</td>
+              <td>1766 N Coast Hwy</td>
+              <td>4.5</td>
+              <td>4.1</td>
+              <td>6.99</td>
+              <td>33</td>
+            </tr>
+            <tr>
+              <th>33</th>
+              <td>Cancun Mexican &amp; Seafood</td>
+              <td>California</td>
+              <td>Encinitas</td>
+              <td>1766 N Coast Hwy</td>
+              <td>4.5</td>
+              <td>4.1</td>
+              <td>6.99</td>
+              <td>34</td>
+            </tr>
+            <tr>
+              <th>34</th>
+              <td>Cancun Mexican &amp; Seafood</td>
+              <td>California</td>
+              <td>Encinitas</td>
+              <td>1766 N Coast Hwy</td>
+              <td>4.5</td>
+              <td>4.1</td>
+              <td>6.99</td>
+              <td>35</td>
+            </tr>
+            <tr>
+              <th>35</th>
+              <td>Carmen's Mexican Food</td>
+              <td>Adobada</td>
+              <td>Clairemont</td>
+              <td>4937 Diane Ave</td>
+              <td>4.0</td>
+              <td>4.2</td>
+              <td>6.50</td>
+              <td>36</td>
+            </tr>
+            <tr>
+              <th>36</th>
+              <td>Carmen's Mexican Food</td>
+              <td>Carne asada</td>
+              <td>Clairemont</td>
+              <td>4937 Diane Ave</td>
+              <td>4.0</td>
+              <td>4.2</td>
+              <td>6.50</td>
+              <td>37</td>
+            </tr>
+            <tr>
+              <th>37</th>
+              <td>Chipotle</td>
+              <td>Carnitas</td>
+              <td>Carlsbad</td>
+              <td>2505 Palomar airport Rd</td>
+              <td>3.0</td>
+              <td>4.2</td>
+              <td>7.15</td>
+              <td>38</td>
+            </tr>
+            <tr>
+              <th>38</th>
+              <td>Chipotle</td>
+              <td>Custom</td>
+              <td>Carlsbad</td>
+              <td>2505 Palomar airport Rd</td>
+              <td>3.0</td>
+              <td>4.2</td>
+              <td>7.00</td>
+              <td>39</td>
+            </tr>
+            <tr>
+              <th>39</th>
+              <td>Colima's Mexican Food</td>
+              <td>Hawaiian</td>
+              <td>North Park</td>
+              <td>2302 University Ave</td>
+              <td>4.0</td>
+              <td>4.2</td>
+              <td>6.29</td>
+              <td>40</td>
+            </tr>
+            <tr>
+              <th>40</th>
+              <td>Colima's Mexican Food</td>
+              <td>Bandido</td>
+              <td>North Park</td>
+              <td>2302 University Ave</td>
+              <td>4.0</td>
+              <td>4.2</td>
+              <td>6.49</td>
+              <td>41</td>
+            </tr>
+            <tr>
+              <th>41</th>
+              <td>Colima's Mexican Food</td>
+              <td>Bandido</td>
+              <td>North Park</td>
+              <td>2302 University Ave</td>
+              <td>4.0</td>
+              <td>4.2</td>
+              <td>6.49</td>
+              <td>42</td>
+            </tr>
+            <tr>
+              <th>42</th>
+              <td>Colima's Mexican Food</td>
+              <td>Colimas burrito</td>
+              <td>North Park</td>
+              <td>2302 University Ave</td>
+              <td>4.0</td>
+              <td>4.2</td>
+              <td>8.25</td>
+              <td>43</td>
+            </tr>
+            <tr>
+              <th>43</th>
+              <td>Cortez Mexican Food</td>
+              <td>California</td>
+              <td>Bonsall</td>
+              <td>5517 Mission Rd</td>
+              <td>4.2</td>
+              <td>4.0</td>
+              <td>6.25</td>
+              <td>44</td>
+            </tr>
+            <tr>
+              <th>44</th>
+              <td>Cotixan</td>
+              <td>California</td>
+              <td>Clairemont</td>
+              <td>4370 Genessee Ave</td>
+              <td>4.0</td>
+              <td>4.0</td>
+              <td>7.19</td>
+              <td>45</td>
+            </tr>
+            <tr>
+              <th>45</th>
+              <td>Cotixan</td>
+              <td>California</td>
+              <td>Clairemont</td>
+              <td>4370 Genessee Ave</td>
+              <td>4.0</td>
+              <td>4.0</td>
+              <td>6.90</td>
+              <td>46</td>
+            </tr>
+            <tr>
+              <th>46</th>
+              <td>Don Carlos Taco Shop</td>
+              <td>California</td>
+              <td>La Jolla</td>
+              <td>737 Pearl St</td>
+              <td>4.0</td>
+              <td>4.5</td>
+              <td>7.75</td>
+              <td>47</td>
+            </tr>
+            <tr>
+              <th>47</th>
+              <td>Don Carlos Taco Shop</td>
+              <td>California</td>
+              <td>La Jolla</td>
+              <td>737 Pearl St</td>
+              <td>4.0</td>
+              <td>4.5</td>
+              <td>7.75</td>
+              <td>48</td>
+            </tr>
+            <tr>
+              <th>48</th>
+              <td>Donato's Taco Shop</td>
+              <td>California</td>
+              <td>Miramar</td>
+              <td>6780 Miramar Rd</td>
+              <td>3.5</td>
+              <td>4.2</td>
+              <td>6.49</td>
+              <td>49</td>
+            </tr>
+            <tr>
+              <th>49</th>
+              <td>Donato's Taco Shop</td>
+              <td>Al pastor</td>
+              <td>Miramar</td>
+              <td>6780 Miramar Rd</td>
+              <td>3.5</td>
+              <td>4.2</td>
+              <td>5.99</td>
+              <td>50</td>
+            </tr>
+            <tr>
+              <th>50</th>
+              <td>Donato's Taco Shop</td>
+              <td>Carne asada</td>
+              <td>Miramar</td>
+              <td>6780 Miramar Rd</td>
+              <td>3.5</td>
+              <td>4.2</td>
+              <td>5.99</td>
+              <td>51</td>
+            </tr>
+            <tr>
+              <th>51</th>
+              <td>El Cuervo</td>
+              <td>California</td>
+              <td>Hillcrest</td>
+              <td>110 Washington St</td>
+              <td>4.0</td>
+              <td>4.3</td>
+              <td>6.95</td>
+              <td>52</td>
+            </tr>
+            <tr>
+              <th>52</th>
+              <td>El Cuervo</td>
+              <td>Pollo adobado</td>
+              <td>Hillcrest</td>
+              <td>110 Washington St</td>
+              <td>4.0</td>
+              <td>4.3</td>
+              <td>5.95</td>
+              <td>53</td>
+            </tr>
+            <tr>
+              <th>53</th>
+              <td>El Dorado Mexican Food</td>
+              <td>California</td>
+              <td>Temecula</td>
+              <td>29000 Old Town Front St</td>
+              <td>4.5</td>
+              <td>4.0</td>
+              <td>6.94</td>
+              <td>54</td>
+            </tr>
+            <tr>
+              <th>54</th>
+              <td>El Dorado Mexican Food</td>
+              <td>Super</td>
+              <td>Temecula</td>
+              <td>29000 Old Town Front St</td>
+              <td>4.5</td>
+              <td>4.0</td>
+              <td>6.94</td>
+              <td>55</td>
+            </tr>
+            <tr>
+              <th>55</th>
+              <td>El Dorado Mexican Food</td>
+              <td>California</td>
+              <td>Temecula</td>
+              <td>29000 Old Town Front St</td>
+              <td>4.5</td>
+              <td>4.0</td>
+              <td>7.40</td>
+              <td>56</td>
+            </tr>
+            <tr>
+              <th>56</th>
+              <td>El Dorado Mexican Food</td>
+              <td>California</td>
+              <td>Temecula</td>
+              <td>29000 Old Town Front St</td>
+              <td>4.5</td>
+              <td>4.0</td>
+              <td>7.40</td>
+              <td>57</td>
+            </tr>
+            <tr>
+              <th>57</th>
+              <td>El Indio</td>
+              <td>California</td>
+              <td>San Diego</td>
+              <td>3695 India St</td>
+              <td>3.5</td>
+              <td>3.9</td>
+              <td>7.84</td>
+              <td>58</td>
+            </tr>
+            <tr>
+              <th>58</th>
+              <td>El Nopalito</td>
+              <td>Especial</td>
+              <td>Encinitas</td>
+              <td>582 Santa Fe Dr</td>
+              <td>4.0</td>
+              <td>4.0</td>
+              <td>4.87</td>
+              <td>59</td>
+            </tr>
+            <tr>
+              <th>59</th>
+              <td>El Nopalito</td>
+              <td>Ranchero steak</td>
+              <td>Encinitas</td>
+              <td>582 Santa Fe Dr</td>
+              <td>4.0</td>
+              <td>4.0</td>
+              <td>4.87</td>
+              <td>60</td>
+            </tr>
+            <tr>
+              <th>60</th>
+              <td>El Pollo Loco</td>
+              <td>Chicken avocado</td>
+              <td>Oceanside</td>
+              <td>3500 College Blvd</td>
+              <td>3.5</td>
+              <td>4.1</td>
+              <td>5.99</td>
+              <td>61</td>
+            </tr>
+            <tr>
+              <th>61</th>
+              <td>El Portal Fresh Mexican Grill</td>
+              <td>Mahi</td>
+              <td>Clairemont</td>
+              <td>4101 Genesee Ave</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>7.35</td>
+              <td>62</td>
+            </tr>
+            <tr>
+              <th>62</th>
+              <td>El Portal Fresh Mexican Grill</td>
+              <td>Carnitas</td>
+              <td>Clairemont</td>
+              <td>4101 Genesee Ave</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>6.70</td>
+              <td>63</td>
+            </tr>
+            <tr>
+              <th>63</th>
+              <td>El Pueblo Mexican Food</td>
+              <td>California</td>
+              <td>Cardiff</td>
+              <td>820 Birmingham Dr</td>
+              <td>4.0</td>
+              <td>4.7</td>
+              <td>4.99</td>
+              <td>64</td>
+            </tr>
+            <tr>
+              <th>64</th>
+              <td>El Rey Moro</td>
+              <td>California Surf</td>
+              <td>Clairemont</td>
+              <td>4471 Clairemont Mesa Blvd</td>
+              <td>4.0</td>
+              <td>3.8</td>
+              <td>9.19</td>
+              <td>65</td>
+            </tr>
+            <tr>
+              <th>65</th>
+              <td>El Rey Moro</td>
+              <td>Hashbrown</td>
+              <td>Clairemont</td>
+              <td>4471 Clairemont Mesa Blvd</td>
+              <td>4.0</td>
+              <td>3.8</td>
+              <td>6.47</td>
+              <td>66</td>
+            </tr>
+            <tr>
+              <th>66</th>
+              <td>El Rey Moro</td>
+              <td>Hashbrown</td>
+              <td>Clairemont</td>
+              <td>4471 Clairemont Mesa Blvd</td>
+              <td>4.0</td>
+              <td>3.8</td>
+              <td>8.94</td>
+              <td>67</td>
+            </tr>
+            <tr>
+              <th>67</th>
+              <td>El Torrito Foods</td>
+              <td>Asada</td>
+              <td>Vista</td>
+              <td>249 Emerald Dr</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>5.49</td>
+              <td>68</td>
+            </tr>
+            <tr>
+              <th>68</th>
+              <td>El Torrito Foods</td>
+              <td>Adobada</td>
+              <td>Vista</td>
+              <td>249 Emerald Dr</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>3.99</td>
+              <td>69</td>
+            </tr>
+            <tr>
+              <th>69</th>
+              <td>El Zarape</td>
+              <td>California</td>
+              <td>University Heights</td>
+              <td>4642 Park Blvd</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>6.25</td>
+              <td>70</td>
+            </tr>
+            <tr>
+              <th>70</th>
+              <td>El Zarape</td>
+              <td>California chicken</td>
+              <td>University Heights</td>
+              <td>4642 Park Blvd</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>6.25</td>
+              <td>71</td>
+            </tr>
+            <tr>
+              <th>71</th>
+              <td>El Zarape</td>
+              <td>Azteca</td>
+              <td>University Heights</td>
+              <td>4642 Park Blvd</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>6.25</td>
+              <td>72</td>
+            </tr>
+            <tr>
+              <th>72</th>
+              <td>El Zarape</td>
+              <td>Lobster</td>
+              <td>University Heights</td>
+              <td>4642 Park Blvd</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>9.50</td>
+              <td>73</td>
+            </tr>
+            <tr>
+              <th>73</th>
+              <td>El Zarape</td>
+              <td>Surf and Turf</td>
+              <td>University Heights</td>
+              <td>4642 Park Blvd</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>7.00</td>
+              <td>74</td>
+            </tr>
+            <tr>
+              <th>74</th>
+              <td>El Zarape</td>
+              <td>California</td>
+              <td>University Heights</td>
+              <td>4642 Park Blvd</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>6.25</td>
+              <td>75</td>
+            </tr>
+            <tr>
+              <th>75</th>
+              <td>El Zarape</td>
+              <td>California</td>
+              <td>University Heights</td>
+              <td>4642 Park Blvd</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>6.25</td>
+              <td>76</td>
+            </tr>
+            <tr>
+              <th>76</th>
+              <td>El Zarape</td>
+              <td>California</td>
+              <td>University Heights</td>
+              <td>4642 Park Blvd</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>6.25</td>
+              <td>77</td>
+            </tr>
+            <tr>
+              <th>77</th>
+              <td>El Zarape</td>
+              <td>Carne asada supreme</td>
+              <td>University Heights</td>
+              <td>4642 Park Blvd</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>6.25</td>
+              <td>78</td>
+            </tr>
+            <tr>
+              <th>78</th>
+              <td>Famoso Mexican Street Food</td>
+              <td>Cali Diablo</td>
+              <td>Downtown</td>
+              <td>815 C St</td>
+              <td>4.5</td>
+              <td>3.9</td>
+              <td>10.50</td>
+              <td>79</td>
+            </tr>
+            <tr>
+              <th>79</th>
+              <td>Filiberto's</td>
+              <td>Adobada</td>
+              <td>Encinitas</td>
+              <td>476 S Coast Hwy 101</td>
+              <td>3.0</td>
+              <td>3.8</td>
+              <td>6.25</td>
+              <td>80</td>
+            </tr>
+            <tr>
+              <th>80</th>
+              <td>Filiberto's</td>
+              <td>California</td>
+              <td>Encinitas</td>
+              <td>476 S Coast Hwy 101</td>
+              <td>3.0</td>
+              <td>3.8</td>
+              <td>6.25</td>
+              <td>81</td>
+            </tr>
+            <tr>
+              <th>81</th>
+              <td>Gloria's Taco Shop</td>
+              <td>California</td>
+              <td>South Park</td>
+              <td>1233 28th St</td>
+              <td>4.0</td>
+              <td>4.3</td>
+              <td>5.65</td>
+              <td>82</td>
+            </tr>
+            <tr>
+              <th>82</th>
+              <td>Gloria's Taco Shop</td>
+              <td>Cabeza</td>
+              <td>South Park</td>
+              <td>1233 28th St</td>
+              <td>4.0</td>
+              <td>4.3</td>
+              <td>5.49</td>
+              <td>83</td>
+            </tr>
+            <tr>
+              <th>83</th>
+              <td>Goody's</td>
+              <td>Custom</td>
+              <td>La Jolla</td>
+              <td>Marshall College</td>
+              <td>3.5</td>
+              <td>4.1</td>
+              <td>7.25</td>
+              <td>84</td>
+            </tr>
+            <tr>
+              <th>84</th>
+              <td>Goody's</td>
+              <td>Custom</td>
+              <td>La Jolla</td>
+              <td>Marshall College</td>
+              <td>3.5</td>
+              <td>4.1</td>
+              <td>8.00</td>
+              <td>85</td>
+            </tr>
+            <tr>
+              <th>85</th>
+              <td>Goody's</td>
+              <td>Custom</td>
+              <td>La Jolla</td>
+              <td>Marshall College</td>
+              <td>3.5</td>
+              <td>4.1</td>
+              <td>8.00</td>
+              <td>86</td>
+            </tr>
+            <tr>
+              <th>86</th>
+              <td>Goody's</td>
+              <td>Carne Asada</td>
+              <td>La Jolla</td>
+              <td>Marshall College</td>
+              <td>3.5</td>
+              <td>4.1</td>
+              <td>6.25</td>
+              <td>87</td>
+            </tr>
+            <tr>
+              <th>87</th>
+              <td>Graciela's Taco Shop</td>
+              <td>Adobada</td>
+              <td>Bonita</td>
+              <td>5047 Central Ave</td>
+              <td>4.0</td>
+              <td>4.5</td>
+              <td>5.99</td>
+              <td>88</td>
+            </tr>
+            <tr>
+              <th>88</th>
+              <td>Graciela's Taco Shop</td>
+              <td>Barbacoa</td>
+              <td>Bonita</td>
+              <td>5047 Central Ave</td>
+              <td>4.0</td>
+              <td>4.5</td>
+              <td>5.99</td>
+              <td>89</td>
+            </tr>
+            <tr>
+              <th>89</th>
+              <td>JV's Mexican Food</td>
+              <td>Carne Asada</td>
+              <td>Morena</td>
+              <td>1112 Morena Blvd</td>
+              <td>4.0</td>
+              <td>4.1</td>
+              <td>6.25</td>
+              <td>90</td>
+            </tr>
+            <tr>
+              <th>90</th>
+              <td>JV's Mexican Food</td>
+              <td>Surf &amp; Turf</td>
+              <td>Morena</td>
+              <td>1112 Morena Blvd</td>
+              <td>4.0</td>
+              <td>4.1</td>
+              <td>9.50</td>
+              <td>91</td>
+            </tr>
+            <tr>
+              <th>91</th>
+              <td>Jorge's Mexicatessen</td>
+              <td>California</td>
+              <td>Encinitas</td>
+              <td>267 N El Camino Real</td>
+              <td>4.0</td>
+              <td>4.5</td>
+              <td>5.95</td>
+              <td>92</td>
+            </tr>
+            <tr>
+              <th>92</th>
+              <td>Jorge's Mexicatessen</td>
+              <td>Chimichanga beef</td>
+              <td>Encinitas</td>
+              <td>267 N El Camino Real</td>
+              <td>4.0</td>
+              <td>4.5</td>
+              <td>5.50</td>
+              <td>93</td>
+            </tr>
+            <tr>
+              <th>93</th>
+              <td>Jose's Taco</td>
+              <td>California</td>
+              <td>Oceanside</td>
+              <td>3910 Vista Way</td>
+              <td>4.0</td>
+              <td>3.8</td>
+              <td>6.10</td>
+              <td>94</td>
+            </tr>
+            <tr>
+              <th>94</th>
+              <td>Juanita's Taco Shop</td>
+              <td>California</td>
+              <td>Encinitas</td>
+              <td>290 N Coast Hwy 101</td>
+              <td>4.0</td>
+              <td>4.5</td>
+              <td>5.55</td>
+              <td>95</td>
+            </tr>
+            <tr>
+              <th>95</th>
+              <td>Juanita's Taco Shop</td>
+              <td>Arizona</td>
+              <td>Encinitas</td>
+              <td>290 N Coast Hwy 101</td>
+              <td>4.0</td>
+              <td>4.5</td>
+              <td>5.55</td>
+              <td>96</td>
+            </tr>
+            <tr>
+              <th>96</th>
+              <td>Karina's Taco Shop</td>
+              <td>Bomb</td>
+              <td>Encinitas</td>
+              <td>916 N Coast Hwy 101</td>
+              <td>4.0</td>
+              <td>4.2</td>
+              <td>7.99</td>
+              <td>97</td>
+            </tr>
+            <tr>
+              <th>97</th>
+              <td>Karina's Taco Shop</td>
+              <td>California</td>
+              <td>Encinitas</td>
+              <td>916 N Coast Hwy 101</td>
+              <td>4.0</td>
+              <td>4.2</td>
+              <td>6.99</td>
+              <td>98</td>
+            </tr>
+            <tr>
+              <th>98</th>
+              <td>King Burrito</td>
+              <td>Adobada</td>
+              <td>Oceanside</td>
+              <td>3490 Marron Rd</td>
+              <td>4.0</td>
+              <td>3.9</td>
+              <td>4.99</td>
+              <td>99</td>
+            </tr>
+            <tr>
+              <th>99</th>
+              <td>King Burrito</td>
+              <td>California</td>
+              <td>Oceanside</td>
+              <td>3490 Marron Rd</td>
+              <td>4.0</td>
+              <td>3.9</td>
+              <td>5.29</td>
+              <td>100</td>
+            </tr>
+            <tr>
+              <th>100</th>
+              <td>Kotija Jr</td>
+              <td>California</td>
+              <td>Del Mar</td>
+              <td>2668 Del Mar Heights Rd</td>
+              <td>4.0</td>
+              <td>4.2</td>
+              <td>6.99</td>
+              <td>101</td>
+            </tr>
+            <tr>
+              <th>101</th>
+              <td>Kotija Jr</td>
+              <td>Fish</td>
+              <td>Del Mar</td>
+              <td>2668 Del Mar Heights Rd</td>
+              <td>4.0</td>
+              <td>4.2</td>
+              <td>6.50</td>
+              <td>102</td>
+            </tr>
+            <tr>
+              <th>102</th>
+              <td>Kotija Jr</td>
+              <td>Steak fajitas</td>
+              <td>Del Mar</td>
+              <td>2668 Del Mar Heights Rd</td>
+              <td>4.0</td>
+              <td>4.2</td>
+              <td>7.10</td>
+              <td>103</td>
+            </tr>
+            <tr>
+              <th>103</th>
+              <td>La Morena Taco Shop and Seafood</td>
+              <td>California</td>
+              <td>Webster</td>
+              <td>5059 Federal Blvd</td>
+              <td>4.5</td>
+              <td>4.7</td>
+              <td>6.35</td>
+              <td>104</td>
+            </tr>
+            <tr>
+              <th>104</th>
+              <td>La Perla Cocina</td>
+              <td>Addiction</td>
+              <td>Pacific Beach</td>
+              <td>745 Emerald St</td>
+              <td>4.5</td>
+              <td>4.7</td>
+              <td>7.99</td>
+              <td>105</td>
+            </tr>
+            <tr>
+              <th>105</th>
+              <td>La Perla Cocina</td>
+              <td>Oaxacalifornia</td>
+              <td>Pacific Beach</td>
+              <td>745 Emerald St</td>
+              <td>4.5</td>
+              <td>4.7</td>
+              <td>9.99</td>
+              <td>106</td>
+            </tr>
+            <tr>
+              <th>106</th>
+              <td>La Perla Cocina</td>
+              <td>California</td>
+              <td>Pacific Beach</td>
+              <td>745 Emerald St</td>
+              <td>4.5</td>
+              <td>4.7</td>
+              <td>6.50</td>
+              <td>107</td>
+            </tr>
+            <tr>
+              <th>107</th>
+              <td>Lola's 7 Up Market &amp; Deli</td>
+              <td>Shredded beef</td>
+              <td>Carlsbad</td>
+              <td>3292 Roosevelt St</td>
+              <td>4.5</td>
+              <td>4.9</td>
+              <td>6.00</td>
+              <td>108</td>
+            </tr>
+            <tr>
+              <th>108</th>
+              <td>Lola's 7 Up Market &amp; Deli</td>
+              <td>Carne asada</td>
+              <td>Carlsbad</td>
+              <td>3292 Roosevelt St</td>
+              <td>4.5</td>
+              <td>4.9</td>
+              <td>7.00</td>
+              <td>109</td>
+            </tr>
+            <tr>
+              <th>109</th>
+              <td>Lolita's Taco Shop</td>
+              <td>2 in 1</td>
+              <td>Kearny Mesa</td>
+              <td>7305 Clairemont Mesa Blvd</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>8.75</td>
+              <td>110</td>
+            </tr>
+            <tr>
+              <th>110</th>
+              <td>Lolita's Taco Shop</td>
+              <td>Adobado</td>
+              <td>Kearny Mesa</td>
+              <td>7305 Clairemont Mesa Blvd</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>5.50</td>
+              <td>111</td>
+            </tr>
+            <tr>
+              <th>111</th>
+              <td>Lolita's Taco Shop</td>
+              <td>California</td>
+              <td>Kearny Mesa</td>
+              <td>7305 Clairemont Mesa Blvd</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>7.00</td>
+              <td>112</td>
+            </tr>
+            <tr>
+              <th>112</th>
+              <td>Lolita's Taco Shop</td>
+              <td>2 in 1</td>
+              <td>Kearny Mesa</td>
+              <td>7305 Clairemont Mesa Blvd</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>8.75</td>
+              <td>113</td>
+            </tr>
+            <tr>
+              <th>113</th>
+              <td>Lolita's Taco Shop</td>
+              <td>2 in 1</td>
+              <td>Kearny Mesa</td>
+              <td>7305 Clairemont Mesa Blvd</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>8.75</td>
+              <td>114</td>
+            </tr>
+            <tr>
+              <th>114</th>
+              <td>Lolita's Taco Shop</td>
+              <td>Carne asada</td>
+              <td>Kearny Mesa</td>
+              <td>7305 Clairemont Mesa Blvd</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>6.25</td>
+              <td>115</td>
+            </tr>
+            <tr>
+              <th>115</th>
+              <td>Lolita's Taco Shop</td>
+              <td>Shrimp</td>
+              <td>Kearny Mesa</td>
+              <td>7305 Clairemont Mesa Blvd</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>8.95</td>
+              <td>116</td>
+            </tr>
+            <tr>
+              <th>116</th>
+              <td>Lolita's Taco Shop</td>
+              <td>Bean and cheese</td>
+              <td>Kearny Mesa</td>
+              <td>7305 Clairemont Mesa Blvd</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>3.50</td>
+              <td>117</td>
+            </tr>
+            <tr>
+              <th>117</th>
+              <td>Lolita's Taco Shop</td>
+              <td>California</td>
+              <td>Kearny Mesa</td>
+              <td>7305 Clairemont Mesa Blvd</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>7.00</td>
+              <td>118</td>
+            </tr>
+            <tr>
+              <th>118</th>
+              <td>Lolita's Taco Shop</td>
+              <td>California</td>
+              <td>Kearny Mesa</td>
+              <td>7305 Clairemont Mesa Blvd</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>7.00</td>
+              <td>119</td>
+            </tr>
+            <tr>
+              <th>119</th>
+              <td>Lolita's Taco Shop</td>
+              <td>California</td>
+              <td>Kearny Mesa</td>
+              <td>7305 Clairemont Mesa Blvd</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>7.00</td>
+              <td>120</td>
+            </tr>
+            <tr>
+              <th>120</th>
+              <td>Lolita's Taco Shop</td>
+              <td>Mixed</td>
+              <td>Kearny Mesa</td>
+              <td>7305 Clairemont Mesa Blvd</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>8.25</td>
+              <td>121</td>
+            </tr>
+            <tr>
+              <th>121</th>
+              <td>Los Cabos</td>
+              <td>California</td>
+              <td>San Marcos</td>
+              <td>165 S Rancho Santa Fe Rd</td>
+              <td>4.0</td>
+              <td>4.1</td>
+              <td>5.99</td>
+              <td>122</td>
+            </tr>
+            <tr>
+              <th>122</th>
+              <td>Los Cabos</td>
+              <td>Al pastor</td>
+              <td>San Marcos</td>
+              <td>165 S Rancho Santa Fe Rd</td>
+              <td>4.0</td>
+              <td>4.1</td>
+              <td>5.69</td>
+              <td>123</td>
+            </tr>
+            <tr>
+              <th>123</th>
+              <td>Los Palmitos</td>
+              <td>California</td>
+              <td>Clairemont</td>
+              <td>5145 Clairemont Mesa Blvd</td>
+              <td>4.0</td>
+              <td>4.1</td>
+              <td>7.10</td>
+              <td>124</td>
+            </tr>
+            <tr>
+              <th>124</th>
+              <td>Los Palmitos</td>
+              <td>Surf &amp; Turf</td>
+              <td>Clairemont</td>
+              <td>5145 Clairemont Mesa Blvd</td>
+              <td>4.0</td>
+              <td>4.1</td>
+              <td>8.25</td>
+              <td>125</td>
+            </tr>
+            <tr>
+              <th>125</th>
+              <td>Los Panchos Taco Shop</td>
+              <td>California</td>
+              <td>Hillcrest</td>
+              <td>409 Washington St</td>
+              <td>3.0</td>
+              <td>3.4</td>
+              <td>6.25</td>
+              <td>126</td>
+            </tr>
+            <tr>
+              <th>126</th>
+              <td>Los Panchos Taco Shop</td>
+              <td>Bitchin California</td>
+              <td>Hillcrest</td>
+              <td>409 Washington St</td>
+              <td>3.0</td>
+              <td>3.4</td>
+              <td>7.25</td>
+              <td>127</td>
+            </tr>
+            <tr>
+              <th>127</th>
+              <td>Los Panchos Taco Shop</td>
+              <td>Tijuana</td>
+              <td>Hillcrest</td>
+              <td>409 Washington St</td>
+              <td>3.0</td>
+              <td>3.4</td>
+              <td>7.00</td>
+              <td>128</td>
+            </tr>
+            <tr>
+              <th>128</th>
+              <td>Los Primos Mexican Food</td>
+              <td>Monster California</td>
+              <td>University City</td>
+              <td>7770 Regents Rd</td>
+              <td>3.0</td>
+              <td>3.7</td>
+              <td>9.25</td>
+              <td>129</td>
+            </tr>
+            <tr>
+              <th>129</th>
+              <td>Los Primos Mexican Food</td>
+              <td>619 Burrito Original</td>
+              <td>University City</td>
+              <td>7770 Regents Rd</td>
+              <td>3.0</td>
+              <td>3.7</td>
+              <td>11.75</td>
+              <td>130</td>
+            </tr>
+            <tr>
+              <th>130</th>
+              <td>Los Primos Mexican Food</td>
+              <td>California</td>
+              <td>University City</td>
+              <td>7770 Regents Rd</td>
+              <td>3.0</td>
+              <td>3.7</td>
+              <td>7.50</td>
+              <td>131</td>
+            </tr>
+            <tr>
+              <th>131</th>
+              <td>Los Primos Mexican Food</td>
+              <td>Monster California</td>
+              <td>University City</td>
+              <td>7770 Regents Rd</td>
+              <td>3.0</td>
+              <td>3.7</td>
+              <td>9.25</td>
+              <td>132</td>
+            </tr>
+            <tr>
+              <th>132</th>
+              <td>Los Primos Mexican Food</td>
+              <td>California</td>
+              <td>University City</td>
+              <td>7770 Regents Rd</td>
+              <td>3.0</td>
+              <td>3.7</td>
+              <td>7.00</td>
+              <td>133</td>
+            </tr>
+            <tr>
+              <th>133</th>
+              <td>Los Primos Mexican Food</td>
+              <td>California breakfast</td>
+              <td>University City</td>
+              <td>7770 Regents Rd</td>
+              <td>3.0</td>
+              <td>3.7</td>
+              <td>6.25</td>
+              <td>134</td>
+            </tr>
+            <tr>
+              <th>134</th>
+              <td>Los Primos Mexican Food</td>
+              <td>Baja monster</td>
+              <td>University City</td>
+              <td>7770 Regents Rd</td>
+              <td>3.0</td>
+              <td>3.7</td>
+              <td>6.00</td>
+              <td>135</td>
+            </tr>
+            <tr>
+              <th>135</th>
+              <td>Los Primos Mexican Food</td>
+              <td>Baja monster</td>
+              <td>University City</td>
+              <td>7770 Regents Rd</td>
+              <td>3.0</td>
+              <td>3.7</td>
+              <td>6.00</td>
+              <td>136</td>
+            </tr>
+            <tr>
+              <th>136</th>
+              <td>Los Primos Mexican Food</td>
+              <td>Carnitas</td>
+              <td>University City</td>
+              <td>7770 Regents Rd</td>
+              <td>3.0</td>
+              <td>3.7</td>
+              <td>6.35</td>
+              <td>137</td>
+            </tr>
+            <tr>
+              <th>137</th>
+              <td>Los Primos Mexican Food</td>
+              <td>Surf &amp; Turf</td>
+              <td>University City</td>
+              <td>7770 Regents Rd</td>
+              <td>3.0</td>
+              <td>3.7</td>
+              <td>7.00</td>
+              <td>138</td>
+            </tr>
+            <tr>
+              <th>138</th>
+              <td>Los Primos Mexican Food</td>
+              <td>Adobada</td>
+              <td>University City</td>
+              <td>7770 Regents Rd</td>
+              <td>3.0</td>
+              <td>3.7</td>
+              <td>6.25</td>
+              <td>139</td>
+            </tr>
+            <tr>
+              <th>139</th>
+              <td>Los Primos Mexican Food</td>
+              <td>Carne asada</td>
+              <td>University City</td>
+              <td>7770 Regents Rd</td>
+              <td>3.0</td>
+              <td>3.7</td>
+              <td>7.00</td>
+              <td>140</td>
+            </tr>
+            <tr>
+              <th>140</th>
+              <td>Los Tacos</td>
+              <td>Local</td>
+              <td>Oceanside</td>
+              <td>2183 Vista Way</td>
+              <td>4.0</td>
+              <td>4.2</td>
+              <td>7.90</td>
+              <td>141</td>
+            </tr>
+            <tr>
+              <th>141</th>
+              <td>Los Tacos</td>
+              <td>Fusion</td>
+              <td>Oceanside</td>
+              <td>2183 Vista Way</td>
+              <td>4.0</td>
+              <td>4.2</td>
+              <td>8.50</td>
+              <td>142</td>
+            </tr>
+            <tr>
+              <th>142</th>
+              <td>Los Tacos</td>
+              <td>California</td>
+              <td>Oceanside</td>
+              <td>2183 Vista Way</td>
+              <td>4.0</td>
+              <td>4.2</td>
+              <td>7.90</td>
+              <td>143</td>
+            </tr>
+            <tr>
+              <th>143</th>
+              <td>Los Tacos</td>
+              <td>Local</td>
+              <td>Oceanside</td>
+              <td>2183 Vista Way</td>
+              <td>4.0</td>
+              <td>4.2</td>
+              <td>7.90</td>
+              <td>144</td>
+            </tr>
+            <tr>
+              <th>144</th>
+              <td>Los Tacos</td>
+              <td>Fusion</td>
+              <td>Oceanside</td>
+              <td>2183 Vista Way</td>
+              <td>4.0</td>
+              <td>4.2</td>
+              <td>8.50</td>
+              <td>145</td>
+            </tr>
+            <tr>
+              <th>145</th>
+              <td>Los Tacos</td>
+              <td>Local</td>
+              <td>Oceanside</td>
+              <td>2183 Vista Way</td>
+              <td>4.0</td>
+              <td>4.2</td>
+              <td>7.90</td>
+              <td>146</td>
+            </tr>
+            <tr>
+              <th>146</th>
+              <td>Los Tacos</td>
+              <td>Local</td>
+              <td>Oceanside</td>
+              <td>2183 Vista Way</td>
+              <td>4.0</td>
+              <td>4.2</td>
+              <td>7.90</td>
+              <td>147</td>
+            </tr>
+            <tr>
+              <th>147</th>
+              <td>Los Tacos</td>
+              <td>Local</td>
+              <td>Oceanside</td>
+              <td>2183 Vista Way</td>
+              <td>4.0</td>
+              <td>4.2</td>
+              <td>7.90</td>
+              <td>148</td>
+            </tr>
+            <tr>
+              <th>148</th>
+              <td>Los Tacos</td>
+              <td>Local</td>
+              <td>Oceanside</td>
+              <td>2183 Vista Way</td>
+              <td>4.0</td>
+              <td>4.2</td>
+              <td>7.90</td>
+              <td>149</td>
+            </tr>
+            <tr>
+              <th>149</th>
+              <td>Los Tacos</td>
+              <td>Local</td>
+              <td>Oceanside</td>
+              <td>2183 Vista Way</td>
+              <td>4.0</td>
+              <td>4.2</td>
+              <td>7.90</td>
+              <td>150</td>
+            </tr>
+            <tr>
+              <th>150</th>
+              <td>Los Tacos</td>
+              <td>Local</td>
+              <td>Oceanside</td>
+              <td>2183 Vista Way</td>
+              <td>4.0</td>
+              <td>4.2</td>
+              <td>7.90</td>
+              <td>151</td>
+            </tr>
+            <tr>
+              <th>151</th>
+              <td>Los Tacos</td>
+              <td>Local</td>
+              <td>Oceanside</td>
+              <td>2183 Vista Way</td>
+              <td>4.0</td>
+              <td>4.2</td>
+              <td>7.90</td>
+              <td>152</td>
+            </tr>
+            <tr>
+              <th>152</th>
+              <td>Los Tacos</td>
+              <td>Local</td>
+              <td>Oceanside</td>
+              <td>2183 Vista Way</td>
+              <td>4.0</td>
+              <td>4.2</td>
+              <td>8.50</td>
+              <td>153</td>
+            </tr>
+            <tr>
+              <th>153</th>
+              <td>Los Tacos</td>
+              <td>Local</td>
+              <td>Oceanside</td>
+              <td>2183 Vista Way</td>
+              <td>4.0</td>
+              <td>4.2</td>
+              <td>8.50</td>
+              <td>154</td>
+            </tr>
+            <tr>
+              <th>154</th>
+              <td>Los Tacos 2</td>
+              <td>Al pastor tradicional</td>
+              <td>Oceanside</td>
+              <td>3480 Marron Rd</td>
+              <td>4.5</td>
+              <td>5.0</td>
+              <td>8.25</td>
+              <td>155</td>
+            </tr>
+            <tr>
+              <th>155</th>
+              <td>Los Tacos 2</td>
+              <td>Cheese steak</td>
+              <td>Oceanside</td>
+              <td>3480 Marron Rd</td>
+              <td>4.5</td>
+              <td>5.0</td>
+              <td>9.95</td>
+              <td>156</td>
+            </tr>
+            <tr>
+              <th>156</th>
+              <td>Los Tacos 2</td>
+              <td>Local</td>
+              <td>Oceanside</td>
+              <td>3480 Marron Rd</td>
+              <td>4.5</td>
+              <td>5.0</td>
+              <td>8.50</td>
+              <td>157</td>
+            </tr>
+            <tr>
+              <th>157</th>
+              <td>Los Tacos 2</td>
+              <td>Local</td>
+              <td>Oceanside</td>
+              <td>3480 Marron Rd</td>
+              <td>4.5</td>
+              <td>5.0</td>
+              <td>8.50</td>
+              <td>158</td>
+            </tr>
+            <tr>
+              <th>158</th>
+              <td>Lourdes</td>
+              <td>Carnitas</td>
+              <td>Encinitas</td>
+              <td>2113 San Elijo Ave</td>
+              <td>4.0</td>
+              <td>4.7</td>
+              <td>7.35</td>
+              <td>159</td>
+            </tr>
+            <tr>
+              <th>159</th>
+              <td>Lourdes</td>
+              <td>California</td>
+              <td>Encinitas</td>
+              <td>2113 San Elijo Ave</td>
+              <td>4.0</td>
+              <td>4.7</td>
+              <td>6.35</td>
+              <td>160</td>
+            </tr>
+            <tr>
+              <th>160</th>
+              <td>Lucha Libre North Park</td>
+              <td>Surf &amp; Turf</td>
+              <td>North Park</td>
+              <td>3016 University Ave</td>
+              <td>3.5</td>
+              <td>4.3</td>
+              <td>8.25</td>
+              <td>161</td>
+            </tr>
+            <tr>
+              <th>161</th>
+              <td>Lucha Libre North Park</td>
+              <td>Surf &amp; Turf</td>
+              <td>North Park</td>
+              <td>3016 University Ave</td>
+              <td>3.5</td>
+              <td>4.3</td>
+              <td>8.25</td>
+              <td>162</td>
+            </tr>
+            <tr>
+              <th>162</th>
+              <td>Lucha Libre North Park</td>
+              <td>Surf &amp; Turf</td>
+              <td>North Park</td>
+              <td>3016 University Ave</td>
+              <td>3.5</td>
+              <td>4.3</td>
+              <td>8.25</td>
+              <td>163</td>
+            </tr>
+            <tr>
+              <th>163</th>
+              <td>Lucha Libre North Park</td>
+              <td>Surf &amp; Turf</td>
+              <td>North Park</td>
+              <td>3016 University Ave</td>
+              <td>3.5</td>
+              <td>4.3</td>
+              <td>8.25</td>
+              <td>164</td>
+            </tr>
+            <tr>
+              <th>164</th>
+              <td>Lucha Libre North Park</td>
+              <td>Surf &amp; Turf</td>
+              <td>North Park</td>
+              <td>3016 University Ave</td>
+              <td>3.5</td>
+              <td>4.3</td>
+              <td>8.25</td>
+              <td>165</td>
+            </tr>
+            <tr>
+              <th>165</th>
+              <td>Lucha Libre North Park</td>
+              <td>Surfin California</td>
+              <td>North Park</td>
+              <td>3016 University Ave</td>
+              <td>3.5</td>
+              <td>4.3</td>
+              <td>8.25</td>
+              <td>166</td>
+            </tr>
+            <tr>
+              <th>166</th>
+              <td>Lucha Libre North Park</td>
+              <td>Surfin California</td>
+              <td>North Park</td>
+              <td>3016 University Ave</td>
+              <td>3.5</td>
+              <td>4.3</td>
+              <td>8.25</td>
+              <td>167</td>
+            </tr>
+            <tr>
+              <th>167</th>
+              <td>Lucha Libre North Park</td>
+              <td>Surfin California</td>
+              <td>North Park</td>
+              <td>3016 University Ave</td>
+              <td>3.5</td>
+              <td>4.3</td>
+              <td>8.25</td>
+              <td>168</td>
+            </tr>
+            <tr>
+              <th>168</th>
+              <td>Lucha Libre North Park</td>
+              <td>Surfin California</td>
+              <td>North Park</td>
+              <td>3016 University Ave</td>
+              <td>3.5</td>
+              <td>4.3</td>
+              <td>8.25</td>
+              <td>169</td>
+            </tr>
+            <tr>
+              <th>169</th>
+              <td>Lucha Libre North Park</td>
+              <td>Surfin California</td>
+              <td>North Park</td>
+              <td>3016 University Ave</td>
+              <td>3.5</td>
+              <td>4.3</td>
+              <td>8.25</td>
+              <td>170</td>
+            </tr>
+            <tr>
+              <th>170</th>
+              <td>Lucha Libre North Park</td>
+              <td>Surfin California</td>
+              <td>North Park</td>
+              <td>3016 University Ave</td>
+              <td>3.5</td>
+              <td>4.3</td>
+              <td>8.25</td>
+              <td>171</td>
+            </tr>
+            <tr>
+              <th>171</th>
+              <td>Lucha Libre North Park</td>
+              <td>Surfin California</td>
+              <td>North Park</td>
+              <td>3016 University Ave</td>
+              <td>3.5</td>
+              <td>4.3</td>
+              <td>8.25</td>
+              <td>172</td>
+            </tr>
+            <tr>
+              <th>172</th>
+              <td>Lucha Libre North Park</td>
+              <td>Nutty</td>
+              <td>North Park</td>
+              <td>3016 University Ave</td>
+              <td>3.5</td>
+              <td>4.3</td>
+              <td>7.50</td>
+              <td>173</td>
+            </tr>
+            <tr>
+              <th>173</th>
+              <td>Lucha Libre North Park</td>
+              <td>Veg Out</td>
+              <td>North Park</td>
+              <td>3016 University Ave</td>
+              <td>3.5</td>
+              <td>4.3</td>
+              <td>6.95</td>
+              <td>174</td>
+            </tr>
+            <tr>
+              <th>174</th>
+              <td>Lupe's Taco Shop</td>
+              <td>Hot cheetos</td>
+              <td>Linda Vista</td>
+              <td>7621 Linda Vista Rd</td>
+              <td>3.5</td>
+              <td>4.5</td>
+              <td>7.29</td>
+              <td>175</td>
+            </tr>
+            <tr>
+              <th>175</th>
+              <td>Lupe's Taco Shop</td>
+              <td>Surfin California</td>
+              <td>Linda Vista</td>
+              <td>7621 Linda Vista Rd</td>
+              <td>3.5</td>
+              <td>4.5</td>
+              <td>7.89</td>
+              <td>176</td>
+            </tr>
+            <tr>
+              <th>176</th>
+              <td>Lupe's Taco Shop</td>
+              <td>California</td>
+              <td>Linda Vista</td>
+              <td>7621 Linda Vista Rd</td>
+              <td>3.5</td>
+              <td>4.5</td>
+              <td>7.49</td>
+              <td>177</td>
+            </tr>
+            <tr>
+              <th>177</th>
+              <td>Lupe's Taco Shop</td>
+              <td>Spicy a la Diabla</td>
+              <td>Linda Vista</td>
+              <td>7621 Linda Vista Rd</td>
+              <td>3.5</td>
+              <td>4.5</td>
+              <td>7.49</td>
+              <td>178</td>
+            </tr>
+            <tr>
+              <th>178</th>
+              <td>Lupe's Taco Shop</td>
+              <td>TGunz</td>
+              <td>Linda Vista</td>
+              <td>7621 Linda Vista Rd</td>
+              <td>3.5</td>
+              <td>4.5</td>
+              <td>10.00</td>
+              <td>179</td>
+            </tr>
+            <tr>
+              <th>179</th>
+              <td>Lupe's Taco Shop</td>
+              <td>TGunz</td>
+              <td>Linda Vista</td>
+              <td>7621 Linda Vista Rd</td>
+              <td>3.5</td>
+              <td>4.5</td>
+              <td>10.00</td>
+              <td>180</td>
+            </tr>
+            <tr>
+              <th>180</th>
+              <td>Matador Mexican Food</td>
+              <td>Carnitas</td>
+              <td>Morena</td>
+              <td>5201 Linda Vista Rd</td>
+              <td>4.5</td>
+              <td>4.0</td>
+              <td>6.60</td>
+              <td>181</td>
+            </tr>
+            <tr>
+              <th>181</th>
+              <td>Matador Mexican Food</td>
+              <td>Carne asada</td>
+              <td>Morena</td>
+              <td>5201 Linda Vista Rd</td>
+              <td>4.5</td>
+              <td>4.0</td>
+              <td>6.60</td>
+              <td>182</td>
+            </tr>
+            <tr>
+              <th>182</th>
+              <td>Mi Asador Mexican &amp; Seafood</td>
+              <td>California</td>
+              <td>Oceanside</td>
+              <td>4750 Oceanside Blvd</td>
+              <td>4.5</td>
+              <td>4.4</td>
+              <td>6.89</td>
+              <td>183</td>
+            </tr>
+            <tr>
+              <th>183</th>
+              <td>Mi Asador Mexican &amp; Seafood</td>
+              <td>El Hawaiiano</td>
+              <td>Oceanside</td>
+              <td>4750 Oceanside Blvd</td>
+              <td>4.5</td>
+              <td>4.4</td>
+              <td>6.39</td>
+              <td>184</td>
+            </tr>
+            <tr>
+              <th>184</th>
+              <td>Mikes Taco Club</td>
+              <td>California</td>
+              <td>Ocean Beach</td>
+              <td>5060 Newport Ave</td>
+              <td>4.5</td>
+              <td>4.9</td>
+              <td>8.59</td>
+              <td>185</td>
+            </tr>
+            <tr>
+              <th>185</th>
+              <td>Mikes Taco Club</td>
+              <td>California</td>
+              <td>Ocean Beach</td>
+              <td>5060 Newport Ave</td>
+              <td>4.5</td>
+              <td>4.9</td>
+              <td>8.59</td>
+              <td>186</td>
+            </tr>
+            <tr>
+              <th>186</th>
+              <td>Mister Falafel</td>
+              <td>Chicken Shawarma</td>
+              <td>Clairemont</td>
+              <td>4461 Clairemont Mesa Blvd</td>
+              <td>4.5</td>
+              <td>4.6</td>
+              <td>6.99</td>
+              <td>187</td>
+            </tr>
+            <tr>
+              <th>187</th>
+              <td>Mr. Ruribertos Taco Shop</td>
+              <td>California</td>
+              <td>Mission Beach</td>
+              <td>3202 Mission Blvd</td>
+              <td>3.5</td>
+              <td>3.7</td>
+              <td>7.75</td>
+              <td>188</td>
+            </tr>
+            <tr>
+              <th>188</th>
+              <td>Mr. Ruribertos Taco Shop</td>
+              <td>Carne asada</td>
+              <td>Mission Beach</td>
+              <td>3202 Mission Blvd</td>
+              <td>3.5</td>
+              <td>3.7</td>
+              <td>7.75</td>
+              <td>189</td>
+            </tr>
+            <tr>
+              <th>189</th>
+              <td>Netos Mexican Food</td>
+              <td>California</td>
+              <td>San Marcos</td>
+              <td>325 S Rancho Santa Fe Rd</td>
+              <td>4.5</td>
+              <td>4.1</td>
+              <td>5.99</td>
+              <td>190</td>
+            </tr>
+            <tr>
+              <th>190</th>
+              <td>Netos Mexican Food</td>
+              <td>Carne adobada</td>
+              <td>San Marcos</td>
+              <td>325 S Rancho Santa Fe Rd</td>
+              <td>4.5</td>
+              <td>4.1</td>
+              <td>5.50</td>
+              <td>191</td>
+            </tr>
+            <tr>
+              <th>191</th>
+              <td>Nico's Taco Shop</td>
+              <td>California</td>
+              <td>Carmel Valley</td>
+              <td>3860 Valley Centre Dr #404</td>
+              <td>3.0</td>
+              <td>2.9</td>
+              <td>7.19</td>
+              <td>192</td>
+            </tr>
+            <tr>
+              <th>192</th>
+              <td>Nico's Taco Shop</td>
+              <td>Carnitas</td>
+              <td>Carmel Valley</td>
+              <td>3860 Valley Centre Dr #404</td>
+              <td>3.0</td>
+              <td>2.9</td>
+              <td>6.99</td>
+              <td>193</td>
+            </tr>
+            <tr>
+              <th>193</th>
+              <td>Ortiz's Taco Shop #2</td>
+              <td>California</td>
+              <td>Pacific Beach</td>
+              <td>1313 Garnet Ave</td>
+              <td>4.0</td>
+              <td>4.2</td>
+              <td>6.39</td>
+              <td>194</td>
+            </tr>
+            <tr>
+              <th>194</th>
+              <td>Ortiz's Taco Shop #2</td>
+              <td>California chicken</td>
+              <td>Pacific Beach</td>
+              <td>1313 Garnet Ave</td>
+              <td>4.0</td>
+              <td>4.2</td>
+              <td>6.39</td>
+              <td>195</td>
+            </tr>
+            <tr>
+              <th>195</th>
+              <td>Ortiz's Taco Shop #2</td>
+              <td>California</td>
+              <td>Pacific Beach</td>
+              <td>1313 Garnet Ave</td>
+              <td>4.0</td>
+              <td>4.2</td>
+              <td>6.39</td>
+              <td>196</td>
+            </tr>
+            <tr>
+              <th>196</th>
+              <td>Ortiz's Taco Shop #2</td>
+              <td>California</td>
+              <td>Pacific Beach</td>
+              <td>1313 Garnet Ave</td>
+              <td>4.0</td>
+              <td>4.2</td>
+              <td>6.39</td>
+              <td>197</td>
+            </tr>
+            <tr>
+              <th>197</th>
+              <td>Oscar's Mexican Food</td>
+              <td>California</td>
+              <td>San Marcos</td>
+              <td>225 S Rancho Santa Fe Rd</td>
+              <td>3.5</td>
+              <td>3.3</td>
+              <td>5.45</td>
+              <td>198</td>
+            </tr>
+            <tr>
+              <th>198</th>
+              <td>Oscar's Mexican Food</td>
+              <td>Carnitas</td>
+              <td>San Marcos</td>
+              <td>225 S Rancho Santa Fe Rd</td>
+              <td>3.5</td>
+              <td>3.3</td>
+              <td>4.85</td>
+              <td>199</td>
+            </tr>
+            <tr>
+              <th>199</th>
+              <td>Oscar's Mexican Food</td>
+              <td>Carne asada</td>
+              <td>San Marcos</td>
+              <td>225 S Rancho Santa Fe Rd</td>
+              <td>3.5</td>
+              <td>3.3</td>
+              <td>5.25</td>
+              <td>200</td>
+            </tr>
+            <tr>
+              <th>200</th>
+              <td>Papa Chito's Mexican Food</td>
+              <td>California</td>
+              <td>University City</td>
+              <td>3951 Governor Dr</td>
+              <td>2.5</td>
+              <td>3.3</td>
+              <td>6.25</td>
+              <td>201</td>
+            </tr>
+            <tr>
+              <th>201</th>
+              <td>Papa Chito's Mexican Food</td>
+              <td>California</td>
+              <td>University City</td>
+              <td>3951 Governor Dr</td>
+              <td>2.5</td>
+              <td>3.3</td>
+              <td>6.25</td>
+              <td>202</td>
+            </tr>
+            <tr>
+              <th>202</th>
+              <td>Pokirrito</td>
+              <td>Pokirrito classic</td>
+              <td>Kearny Mesa</td>
+              <td>4646 Convoy St</td>
+              <td>4.0</td>
+              <td>4.3</td>
+              <td>11.95</td>
+              <td>203</td>
+            </tr>
+            <tr>
+              <th>203</th>
+              <td>Pokirrito</td>
+              <td>Mauna Lani</td>
+              <td>Kearny Mesa</td>
+              <td>4646 Convoy St</td>
+              <td>4.0</td>
+              <td>4.3</td>
+              <td>11.95</td>
+              <td>204</td>
+            </tr>
+            <tr>
+              <th>204</th>
+              <td>Pollos Maria</td>
+              <td>California</td>
+              <td>Carlsbad</td>
+              <td>3055 Harding St</td>
+              <td>4.0</td>
+              <td>3.8</td>
+              <td>6.59</td>
+              <td>205</td>
+            </tr>
+            <tr>
+              <th>205</th>
+              <td>Pollos Maria</td>
+              <td>combo chicken</td>
+              <td>Carlsbad</td>
+              <td>3055 Harding St</td>
+              <td>4.0</td>
+              <td>3.8</td>
+              <td>6.99</td>
+              <td>206</td>
+            </tr>
+            <tr>
+              <th>206</th>
+              <td>Pollos Maria</td>
+              <td>Combo chicken</td>
+              <td>Carlsbad</td>
+              <td>3055 Harding St</td>
+              <td>4.0</td>
+              <td>3.8</td>
+              <td>6.99</td>
+              <td>207</td>
+            </tr>
+            <tr>
+              <th>207</th>
+              <td>Pollos Maria</td>
+              <td>Carne asada</td>
+              <td>Carlsbad</td>
+              <td>3055 Harding St</td>
+              <td>4.0</td>
+              <td>3.8</td>
+              <td>6.49</td>
+              <td>208</td>
+            </tr>
+            <tr>
+              <th>208</th>
+              <td>Porkyland</td>
+              <td>Deborah's special</td>
+              <td>Carmel Valley</td>
+              <td>4645 Carmel Mountain Rd</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>8.25</td>
+              <td>209</td>
+            </tr>
+            <tr>
+              <th>209</th>
+              <td>Porkyland</td>
+              <td>Chicken nopalito</td>
+              <td>Carmel Valley</td>
+              <td>4645 Carmel Mountain Rd</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>7.95</td>
+              <td>210</td>
+            </tr>
+            <tr>
+              <th>210</th>
+              <td>Porkyland</td>
+              <td>Chicken nopalito</td>
+              <td>Carmel Valley</td>
+              <td>4645 Carmel Mountain Rd</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>7.95</td>
+              <td>211</td>
+            </tr>
+            <tr>
+              <th>211</th>
+              <td>Porkyland</td>
+              <td>California</td>
+              <td>Carmel Valley</td>
+              <td>4645 Carmel Mountain Rd</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>8.75</td>
+              <td>212</td>
+            </tr>
+            <tr>
+              <th>212</th>
+              <td>Raul's Mexican food</td>
+              <td>Chile verde pork</td>
+              <td>Encinitas</td>
+              <td>490 S Coast Hwy 101</td>
+              <td>4.0</td>
+              <td>4.2</td>
+              <td>5.00</td>
+              <td>213</td>
+            </tr>
+            <tr>
+              <th>213</th>
+              <td>Raul's Mexican food</td>
+              <td>carne asada</td>
+              <td>Encinitas</td>
+              <td>490 S Coast Hwy 101</td>
+              <td>4.0</td>
+              <td>4.2</td>
+              <td>5.00</td>
+              <td>214</td>
+            </tr>
+            <tr>
+              <th>214</th>
+              <td>Rigoberto's Taco Shop</td>
+              <td>Carne asada</td>
+              <td>Miramar</td>
+              <td>7094 Miramar Rd</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>6.60</td>
+              <td>215</td>
+            </tr>
+            <tr>
+              <th>215</th>
+              <td>Rigoberto's Taco Shop</td>
+              <td>Campeon</td>
+              <td>Miramar</td>
+              <td>7094 Miramar Rd</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>7.65</td>
+              <td>216</td>
+            </tr>
+            <tr>
+              <th>216</th>
+              <td>Rigoberto's Taco Shop</td>
+              <td>California</td>
+              <td>Miramar</td>
+              <td>7094 Miramar Rd</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>6.60</td>
+              <td>217</td>
+            </tr>
+            <tr>
+              <th>217</th>
+              <td>Rigoberto's Taco Shop</td>
+              <td>Adobada</td>
+              <td>Miramar</td>
+              <td>7094 Miramar Rd</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>6.60</td>
+              <td>218</td>
+            </tr>
+            <tr>
+              <th>218</th>
+              <td>Rigoberto's Taco Shop</td>
+              <td>California</td>
+              <td>Miramar</td>
+              <td>7094 Miramar Rd</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>6.60</td>
+              <td>219</td>
+            </tr>
+            <tr>
+              <th>219</th>
+              <td>Rigoberto's Taco Shop</td>
+              <td>Surf &amp; Turf</td>
+              <td>Miramar</td>
+              <td>7094 Miramar Rd</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>7.45</td>
+              <td>220</td>
+            </tr>
+            <tr>
+              <th>220</th>
+              <td>Rigoberto's Taco Shop</td>
+              <td>El Rusio</td>
+              <td>Miramar</td>
+              <td>7094 Miramar Rd</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>6.65</td>
+              <td>221</td>
+            </tr>
+            <tr>
+              <th>221</th>
+              <td>Rigoberto's Taco Shop</td>
+              <td>Carne asada</td>
+              <td>Miramar</td>
+              <td>7094 Miramar Rd</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>6.60</td>
+              <td>222</td>
+            </tr>
+            <tr>
+              <th>222</th>
+              <td>Rigoberto's Taco Shop</td>
+              <td>Carne asada</td>
+              <td>Miramar</td>
+              <td>7094 Miramar Rd</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>6.60</td>
+              <td>223</td>
+            </tr>
+            <tr>
+              <th>223</th>
+              <td>Rigoberto's Taco Shop</td>
+              <td>Carnitas</td>
+              <td>Miramar</td>
+              <td>7094 Miramar Rd</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>7.50</td>
+              <td>224</td>
+            </tr>
+            <tr>
+              <th>224</th>
+              <td>Rigoberto's Taco Shop</td>
+              <td>Bacon breakfast</td>
+              <td>Miramar</td>
+              <td>7094 Miramar Rd</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>6.25</td>
+              <td>225</td>
+            </tr>
+            <tr>
+              <th>225</th>
+              <td>Rigoberto's Taco Shop</td>
+              <td>Chile Relleno</td>
+              <td>Miramar</td>
+              <td>7094 Miramar Rd</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>6.60</td>
+              <td>226</td>
+            </tr>
+            <tr>
+              <th>226</th>
+              <td>Rigoberto's Taco Shop</td>
+              <td>Fish</td>
+              <td>Miramar</td>
+              <td>7094 Miramar Rd</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>6.00</td>
+              <td>227</td>
+            </tr>
+            <tr>
+              <th>227</th>
+              <td>Rigoberto's Taco Shop La Jolla</td>
+              <td>California</td>
+              <td>La Jolla</td>
+              <td>7345 La Jolla Blvd</td>
+              <td>2.5</td>
+              <td>4.0</td>
+              <td>6.40</td>
+              <td>228</td>
+            </tr>
+            <tr>
+              <th>228</th>
+              <td>Rigoberto's Taco Shop La Jolla</td>
+              <td>California</td>
+              <td>La Jolla</td>
+              <td>7345 La Jolla Blvd</td>
+              <td>2.5</td>
+              <td>4.0</td>
+              <td>6.40</td>
+              <td>229</td>
+            </tr>
+            <tr>
+              <th>229</th>
+              <td>Rigoberto's Taco Shop La Jolla</td>
+              <td>California</td>
+              <td>La Jolla</td>
+              <td>7345 La Jolla Blvd</td>
+              <td>2.5</td>
+              <td>4.0</td>
+              <td>6.85</td>
+              <td>230</td>
+            </tr>
+            <tr>
+              <th>230</th>
+              <td>Rigoberto's Taco Shop La Jolla</td>
+              <td>California</td>
+              <td>La Jolla</td>
+              <td>7345 La Jolla Blvd</td>
+              <td>2.5</td>
+              <td>4.0</td>
+              <td>6.85</td>
+              <td>231</td>
+            </tr>
+            <tr>
+              <th>231</th>
+              <td>Roberto's Taco Shop Clairemont</td>
+              <td>California</td>
+              <td>Clairemont</td>
+              <td>3095 Clairemont Dr</td>
+              <td>4.0</td>
+              <td>4.0</td>
+              <td>5.79</td>
+              <td>232</td>
+            </tr>
+            <tr>
+              <th>232</th>
+              <td>Roberto's Taco Shop Clairemont</td>
+              <td>California</td>
+              <td>Clairemont</td>
+              <td>3095 Clairemont Dr</td>
+              <td>4.0</td>
+              <td>4.0</td>
+              <td>5.79</td>
+              <td>233</td>
+            </tr>
+            <tr>
+              <th>233</th>
+              <td>Roberto's Taco Shop Clairemont</td>
+              <td>California + Guac + sour cream</td>
+              <td>Clairemont</td>
+              <td>3095 Clairemont Dr</td>
+              <td>4.0</td>
+              <td>4.0</td>
+              <td>7.29</td>
+              <td>234</td>
+            </tr>
+            <tr>
+              <th>234</th>
+              <td>Roberto's Taco Shop Clairemont</td>
+              <td>Carne asada</td>
+              <td>Clairemont</td>
+              <td>3095 Clairemont Dr</td>
+              <td>4.0</td>
+              <td>4.0</td>
+              <td>5.69</td>
+              <td>235</td>
+            </tr>
+            <tr>
+              <th>235</th>
+              <td>Roberto's Taco Shop Hillcrest</td>
+              <td>Asada</td>
+              <td>Hillcrest</td>
+              <td>420 Robinson Ave</td>
+              <td>4.0</td>
+              <td>4.2</td>
+              <td>7.00</td>
+              <td>236</td>
+            </tr>
+            <tr>
+              <th>236</th>
+              <td>Roberto's Taco Shop Hillcrest</td>
+              <td>California Surf and Turf</td>
+              <td>Hillcrest</td>
+              <td>420 Robinson Ave</td>
+              <td>4.0</td>
+              <td>4.2</td>
+              <td>9.00</td>
+              <td>237</td>
+            </tr>
+            <tr>
+              <th>237</th>
+              <td>Roberto's Taco Shop Hillcrest</td>
+              <td>California</td>
+              <td>Hillcrest</td>
+              <td>420 Robinson Ave</td>
+              <td>4.0</td>
+              <td>4.2</td>
+              <td>7.00</td>
+              <td>238</td>
+            </tr>
+            <tr>
+              <th>238</th>
+              <td>Roberto's Taco Shop Hillcrest</td>
+              <td>Golden State</td>
+              <td>Hillcrest</td>
+              <td>420 Robinson Ave</td>
+              <td>4.0</td>
+              <td>4.2</td>
+              <td>25.00</td>
+              <td>239</td>
+            </tr>
+            <tr>
+              <th>239</th>
+              <td>Roberto's Taco Shop Hillcrest</td>
+              <td>California</td>
+              <td>Hillcrest</td>
+              <td>420 Robinson Ave</td>
+              <td>4.0</td>
+              <td>4.2</td>
+              <td>7.00</td>
+              <td>240</td>
+            </tr>
+            <tr>
+              <th>240</th>
+              <td>Roberto's Very Mexican Food</td>
+              <td>Chicken asada</td>
+              <td>Del Mar</td>
+              <td>2206 Carmel Valley Road</td>
+              <td>3.5</td>
+              <td>3.9</td>
+              <td>6.50</td>
+              <td>241</td>
+            </tr>
+            <tr>
+              <th>241</th>
+              <td>Roberto's Very Mexican Food</td>
+              <td>Carnitas</td>
+              <td>Del Mar</td>
+              <td>2206 Carmel Valley Road</td>
+              <td>3.5</td>
+              <td>3.9</td>
+              <td>5.40</td>
+              <td>242</td>
+            </tr>
+            <tr>
+              <th>242</th>
+              <td>Rubios UCSD</td>
+              <td>Tilapia one</td>
+              <td>University City</td>
+              <td>9500 Gilman Dr</td>
+              <td>3.5</td>
+              <td>3.4</td>
+              <td>7.99</td>
+              <td>243</td>
+            </tr>
+            <tr>
+              <th>243</th>
+              <td>Rubios UCSD</td>
+              <td>Grilled fish salmon</td>
+              <td>University City</td>
+              <td>9500 Gilman Dr</td>
+              <td>3.5</td>
+              <td>3.4</td>
+              <td>8.99</td>
+              <td>244</td>
+            </tr>
+            <tr>
+              <th>244</th>
+              <td>Rudy's Taco Shop</td>
+              <td>Chicken</td>
+              <td>Solana Beach</td>
+              <td>524 Stevens Ave</td>
+              <td>4.0</td>
+              <td>4.3</td>
+              <td>6.60</td>
+              <td>245</td>
+            </tr>
+            <tr>
+              <th>245</th>
+              <td>Rudy's Taco Shop</td>
+              <td>Carnitas</td>
+              <td>Solana Beach</td>
+              <td>524 Stevens Ave</td>
+              <td>4.0</td>
+              <td>4.3</td>
+              <td>6.60</td>
+              <td>246</td>
+            </tr>
+            <tr>
+              <th>246</th>
+              <td>Senor Grubby's</td>
+              <td>California</td>
+              <td>Carlsbad</td>
+              <td>377 Carlsbad Village Dr</td>
+              <td>4.0</td>
+              <td>4.1</td>
+              <td>9.00</td>
+              <td>247</td>
+            </tr>
+            <tr>
+              <th>247</th>
+              <td>Senor Grubby's</td>
+              <td>Pastor</td>
+              <td>Carlsbad</td>
+              <td>377 Carlsbad Village Dr</td>
+              <td>4.0</td>
+              <td>4.1</td>
+              <td>9.00</td>
+              <td>248</td>
+            </tr>
+            <tr>
+              <th>248</th>
+              <td>Senor Panchos</td>
+              <td>Pollo asado</td>
+              <td>San Marcos</td>
+              <td>1909 W San Marcos Blvd</td>
+              <td>4.0</td>
+              <td>4.2</td>
+              <td>6.25</td>
+              <td>249</td>
+            </tr>
+            <tr>
+              <th>249</th>
+              <td>Senor Panchos</td>
+              <td>California</td>
+              <td>San Marcos</td>
+              <td>1909 W San Marcos Blvd</td>
+              <td>4.0</td>
+              <td>4.2</td>
+              <td>6.25</td>
+              <td>250</td>
+            </tr>
+            <tr>
+              <th>250</th>
+              <td>Sotos Mexican Food</td>
+              <td>California</td>
+              <td>Miramar</td>
+              <td>6904 Miramar Rd</td>
+              <td>4.5</td>
+              <td>4.6</td>
+              <td>6.75</td>
+              <td>251</td>
+            </tr>
+            <tr>
+              <th>251</th>
+              <td>Sotos Mexican Food</td>
+              <td>Pastor</td>
+              <td>Miramar</td>
+              <td>6904 Miramar Rd</td>
+              <td>4.5</td>
+              <td>4.6</td>
+              <td>5.99</td>
+              <td>252</td>
+            </tr>
+            <tr>
+              <th>252</th>
+              <td>Taco Stand</td>
+              <td>California</td>
+              <td>La Jolla</td>
+              <td>621 Pearl St</td>
+              <td>4.5</td>
+              <td>4.4</td>
+              <td>7.49</td>
+              <td>253</td>
+            </tr>
+            <tr>
+              <th>253</th>
+              <td>Taco Stand</td>
+              <td>Surf and turf</td>
+              <td>La Jolla</td>
+              <td>621 Pearl St</td>
+              <td>4.5</td>
+              <td>4.4</td>
+              <td>8.49</td>
+              <td>254</td>
+            </tr>
+            <tr>
+              <th>254</th>
+              <td>Taco Stand</td>
+              <td>California</td>
+              <td>La Jolla</td>
+              <td>621 Pearl St</td>
+              <td>4.5</td>
+              <td>4.4</td>
+              <td>7.49</td>
+              <td>255</td>
+            </tr>
+            <tr>
+              <th>255</th>
+              <td>Taco Stand</td>
+              <td>California</td>
+              <td>La Jolla</td>
+              <td>621 Pearl St</td>
+              <td>4.5</td>
+              <td>4.4</td>
+              <td>7.49</td>
+              <td>256</td>
+            </tr>
+            <tr>
+              <th>256</th>
+              <td>Taco Stand</td>
+              <td>Carne asada</td>
+              <td>La Jolla</td>
+              <td>621 Pearl St</td>
+              <td>4.5</td>
+              <td>4.4</td>
+              <td>7.89</td>
+              <td>257</td>
+            </tr>
+            <tr>
+              <th>257</th>
+              <td>Taco Stand</td>
+              <td>Al pastor</td>
+              <td>La Jolla</td>
+              <td>621 Pearl St</td>
+              <td>4.5</td>
+              <td>4.4</td>
+              <td>6.99</td>
+              <td>258</td>
+            </tr>
+            <tr>
+              <th>258</th>
+              <td>Taco Stand</td>
+              <td>Carne asada</td>
+              <td>La Jolla</td>
+              <td>621 Pearl St</td>
+              <td>4.5</td>
+              <td>4.4</td>
+              <td>7.89</td>
+              <td>259</td>
+            </tr>
+            <tr>
+              <th>259</th>
+              <td>Taco Stand</td>
+              <td>Carne asada</td>
+              <td>La Jolla</td>
+              <td>621 Pearl St</td>
+              <td>4.5</td>
+              <td>4.4</td>
+              <td>7.89</td>
+              <td>260</td>
+            </tr>
+            <tr>
+              <th>260</th>
+              <td>Taco Stand</td>
+              <td>California</td>
+              <td>La Jolla</td>
+              <td>621 Pearl St</td>
+              <td>4.5</td>
+              <td>4.4</td>
+              <td>8.00</td>
+              <td>261</td>
+            </tr>
+            <tr>
+              <th>261</th>
+              <td>Taco Stand</td>
+              <td>California</td>
+              <td>La Jolla</td>
+              <td>621 Pearl St</td>
+              <td>4.5</td>
+              <td>4.4</td>
+              <td>7.49</td>
+              <td>262</td>
+            </tr>
+            <tr>
+              <th>262</th>
+              <td>Taco Stand</td>
+              <td>California</td>
+              <td>La Jolla</td>
+              <td>621 Pearl St</td>
+              <td>4.5</td>
+              <td>4.4</td>
+              <td>7.49</td>
+              <td>263</td>
+            </tr>
+            <tr>
+              <th>263</th>
+              <td>Taco Stand</td>
+              <td>California</td>
+              <td>La Jolla</td>
+              <td>621 Pearl St</td>
+              <td>4.5</td>
+              <td>4.4</td>
+              <td>7.49</td>
+              <td>264</td>
+            </tr>
+            <tr>
+              <th>264</th>
+              <td>Taco Stand</td>
+              <td>California</td>
+              <td>La Jolla</td>
+              <td>621 Pearl St</td>
+              <td>4.5</td>
+              <td>4.4</td>
+              <td>7.49</td>
+              <td>265</td>
+            </tr>
+            <tr>
+              <th>265</th>
+              <td>Taco Stand</td>
+              <td>California</td>
+              <td>La Jolla</td>
+              <td>621 Pearl St</td>
+              <td>4.5</td>
+              <td>4.4</td>
+              <td>7.49</td>
+              <td>266</td>
+            </tr>
+            <tr>
+              <th>266</th>
+              <td>Taco Stand Encinitas</td>
+              <td>California</td>
+              <td>Encinitas</td>
+              <td>642 S Coast Hwy 101</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>7.49</td>
+              <td>267</td>
+            </tr>
+            <tr>
+              <th>267</th>
+              <td>Taco Stand Encinitas</td>
+              <td>California</td>
+              <td>Encinitas</td>
+              <td>642 S Coast Hwy 101</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>7.49</td>
+              <td>268</td>
+            </tr>
+            <tr>
+              <th>268</th>
+              <td>Taco Stand Encinitas</td>
+              <td>California</td>
+              <td>Encinitas</td>
+              <td>642 S Coast Hwy 101</td>
+              <td>4.0</td>
+              <td>4.4</td>
+              <td>7.89</td>
+              <td>269</td>
+            </tr>
+            <tr>
+              <th>269</th>
+              <td>Taco Surf PB</td>
+              <td>California</td>
+              <td>Pacific Beach</td>
+              <td>4657 Mission Blvd</td>
+              <td>4.0</td>
+              <td>4.6</td>
+              <td>7.14</td>
+              <td>270</td>
+            </tr>
+            <tr>
+              <th>270</th>
+              <td>Taco Surf PB</td>
+              <td>California</td>
+              <td>Pacific Beach</td>
+              <td>4657 Mission Blvd</td>
+              <td>4.0</td>
+              <td>4.6</td>
+              <td>7.14</td>
+              <td>271</td>
+            </tr>
+            <tr>
+              <th>271</th>
+              <td>Taco Surf PB</td>
+              <td>Carne asada</td>
+              <td>Pacific Beach</td>
+              <td>4657 Mission Blvd</td>
+              <td>4.0</td>
+              <td>4.6</td>
+              <td>6.02</td>
+              <td>272</td>
+            </tr>
+            <tr>
+              <th>272</th>
+              <td>Taco Villa</td>
+              <td>Carnitas</td>
+              <td>University City</td>
+              <td>9500 Gilman Dr</td>
+              <td>3.5</td>
+              <td>3.5</td>
+              <td>5.99</td>
+              <td>273</td>
+            </tr>
+            <tr>
+              <th>273</th>
+              <td>Taco Villa</td>
+              <td>Al pastor</td>
+              <td>University City</td>
+              <td>9500 Gilman Dr</td>
+              <td>3.5</td>
+              <td>3.5</td>
+              <td>5.99</td>
+              <td>274</td>
+            </tr>
+            <tr>
+              <th>274</th>
+              <td>Taco Villa</td>
+              <td>Chicken and rice</td>
+              <td>University City</td>
+              <td>9500 Gilman Dr</td>
+              <td>3.5</td>
+              <td>3.5</td>
+              <td>4.95</td>
+              <td>275</td>
+            </tr>
+            <tr>
+              <th>275</th>
+              <td>Taco Villa</td>
+              <td>California</td>
+              <td>University City</td>
+              <td>9500 Gilman Dr</td>
+              <td>3.5</td>
+              <td>3.5</td>
+              <td>6.99</td>
+              <td>276</td>
+            </tr>
+            <tr>
+              <th>276</th>
+              <td>Taco Villa</td>
+              <td>Breakfast</td>
+              <td>University City</td>
+              <td>9500 Gilman Dr</td>
+              <td>3.5</td>
+              <td>3.5</td>
+              <td>4.99</td>
+              <td>277</td>
+            </tr>
+            <tr>
+              <th>277</th>
+              <td>Taco Villa</td>
+              <td>Carnitas</td>
+              <td>University City</td>
+              <td>9500 Gilman Dr</td>
+              <td>3.5</td>
+              <td>3.5</td>
+              <td>5.95</td>
+              <td>278</td>
+            </tr>
+            <tr>
+              <th>278</th>
+              <td>Taco Villa</td>
+              <td>Tejano</td>
+              <td>University City</td>
+              <td>9500 Gilman Dr</td>
+              <td>3.5</td>
+              <td>3.5</td>
+              <td>6.99</td>
+              <td>279</td>
+            </tr>
+            <tr>
+              <th>279</th>
+              <td>Taco Villa</td>
+              <td>Chicken</td>
+              <td>University City</td>
+              <td>9500 Gilman Dr</td>
+              <td>3.5</td>
+              <td>3.5</td>
+              <td>4.99</td>
+              <td>280</td>
+            </tr>
+            <tr>
+              <th>280</th>
+              <td>Taco Villa</td>
+              <td>Pollo asado</td>
+              <td>University City</td>
+              <td>9500 Gilman Dr</td>
+              <td>3.5</td>
+              <td>3.5</td>
+              <td>5.99</td>
+              <td>281</td>
+            </tr>
+            <tr>
+              <th>281</th>
+              <td>Taco Villa</td>
+              <td>Al pastor</td>
+              <td>University City</td>
+              <td>9500 Gilman Dr</td>
+              <td>3.5</td>
+              <td>3.5</td>
+              <td>6.99</td>
+              <td>282</td>
+            </tr>
+            <tr>
+              <th>282</th>
+              <td>Tony's Fresh Mexican Food</td>
+              <td>Chile verde pork</td>
+              <td>Miramar</td>
+              <td>7122 Miramar Rd</td>
+              <td>3.0</td>
+              <td>4.1</td>
+              <td>6.95</td>
+              <td>283</td>
+            </tr>
+            <tr>
+              <th>283</th>
+              <td>Tony's Fresh Mexican Food</td>
+              <td>California</td>
+              <td>Miramar</td>
+              <td>7122 Miramar Rd</td>
+              <td>3.0</td>
+              <td>4.1</td>
+              <td>6.25</td>
+              <td>284</td>
+            </tr>
+            <tr>
+              <th>284</th>
+              <td>Tony's Fresh Mexican Food</td>
+              <td>battered fish</td>
+              <td>Miramar</td>
+              <td>7122 Miramar Rd</td>
+              <td>3.0</td>
+              <td>4.1</td>
+              <td>6.99</td>
+              <td>285</td>
+            </tr>
+            <tr>
+              <th>285</th>
+              <td>Tony's Fresh Mexican Food</td>
+              <td>California</td>
+              <td>Miramar</td>
+              <td>7122 Miramar Rd</td>
+              <td>3.0</td>
+              <td>4.1</td>
+              <td>6.25</td>
+              <td>286</td>
+            </tr>
+            <tr>
+              <th>286</th>
+              <td>Valentines Mexican Food</td>
+              <td>California</td>
+              <td>Downtown</td>
+              <td>1157 Sixth Ave</td>
+              <td>4.0</td>
+              <td>4.0</td>
+              <td>7.90</td>
+              <td>287</td>
+            </tr>
+            <tr>
+              <th>287</th>
+              <td>Valentines Mexican Food</td>
+              <td>California Chipotle</td>
+              <td>Downtown</td>
+              <td>1157 Sixth Ave</td>
+              <td>4.0</td>
+              <td>4.0</td>
+              <td>7.90</td>
+              <td>288</td>
+            </tr>
+            <tr>
+              <th>288</th>
+              <td>Valentines Mexican Food</td>
+              <td>Carne asada</td>
+              <td>Downtown</td>
+              <td>1157 Sixth Ave</td>
+              <td>4.0</td>
+              <td>4.0</td>
+              <td>6.75</td>
+              <td>289</td>
+            </tr>
+            <tr>
+              <th>289</th>
+              <td>Valentines Mexican Food</td>
+              <td>Pork california</td>
+              <td>Downtown</td>
+              <td>1157 Sixth Ave</td>
+              <td>4.0</td>
+              <td>4.0</td>
+              <td>7.90</td>
+              <td>290</td>
+            </tr>
+            <tr>
+              <th>290</th>
+              <td>Valentines Mexican Food</td>
+              <td>California</td>
+              <td>Downtown</td>
+              <td>1157 Sixth Ave</td>
+              <td>4.0</td>
+              <td>4.0</td>
+              <td>7.90</td>
+              <td>291</td>
+            </tr>
+            <tr>
+              <th>291</th>
+              <td>Valentines Mexican Food</td>
+              <td>California</td>
+              <td>Downtown</td>
+              <td>1157 Sixth Ave</td>
+              <td>4.0</td>
+              <td>4.0</td>
+              <td>7.90</td>
+              <td>292</td>
+            </tr>
+            <tr>
+              <th>292</th>
+              <td>Valentines Mexican Food</td>
+              <td>California</td>
+              <td>Downtown</td>
+              <td>1157 Sixth Ave</td>
+              <td>4.0</td>
+              <td>4.0</td>
+              <td>7.90</td>
+              <td>293</td>
+            </tr>
+            <tr>
+              <th>293</th>
+              <td>Valentines Mexican Food</td>
+              <td>Carne asada</td>
+              <td>Downtown</td>
+              <td>1157 Sixth Ave</td>
+              <td>4.0</td>
+              <td>4.0</td>
+              <td>6.75</td>
+              <td>294</td>
+            </tr>
+            <tr>
+              <th>294</th>
+              <td>Valentines Mexican Food</td>
+              <td>California</td>
+              <td>Downtown</td>
+              <td>1157 Sixth Ave</td>
+              <td>4.0</td>
+              <td>4.0</td>
+              <td>7.90</td>
+              <td>295</td>
+            </tr>
+            <tr>
+              <th>295</th>
+              <td>Vallarta Express</td>
+              <td>Quesaburro</td>
+              <td>Clairemont</td>
+              <td>4277 Genesee Ave</td>
+              <td>3.5</td>
+              <td>4.0</td>
+              <td>6.95</td>
+              <td>296</td>
+            </tr>
+            <tr>
+              <th>296</th>
+              <td>Vallarta Express</td>
+              <td>Philly</td>
+              <td>Clairemont</td>
+              <td>4277 Genesee Ave</td>
+              <td>3.5</td>
+              <td>4.0</td>
+              <td>6.95</td>
+              <td>297</td>
+            </tr>
+            <tr>
+              <th>297</th>
+              <td>Vallarta Express</td>
+              <td>Carne asada</td>
+              <td>Clairemont</td>
+              <td>4277 Genesee Ave</td>
+              <td>3.5</td>
+              <td>4.0</td>
+              <td>6.50</td>
+              <td>298</td>
+            </tr>
+            <tr>
+              <th>298</th>
+              <td>Vallarta Express</td>
+              <td>Quesa</td>
+              <td>Clairemont</td>
+              <td>4277 Genesee Ave</td>
+              <td>3.5</td>
+              <td>4.0</td>
+              <td>6.95</td>
+              <td>299</td>
+            </tr>
+            <tr>
+              <th>299</th>
+              <td>Vallarta Express</td>
+              <td>Surf and turf</td>
+              <td>Clairemont</td>
+              <td>4277 Genesee Ave</td>
+              <td>3.5</td>
+              <td>4.0</td>
+              <td>7.65</td>
+              <td>300</td>
+            </tr>
+            <tr>
+              <th>300</th>
+              <td>Vallarta Express</td>
+              <td>Mahi</td>
+              <td>Clairemont</td>
+              <td>4277 Genesee Ave</td>
+              <td>3.5</td>
+              <td>4.0</td>
+              <td>7.30</td>
+              <td>301</td>
+            </tr>
+            <tr>
+              <th>301</th>
+              <td>Vallarta Express</td>
+              <td>Fish</td>
+              <td>Clairemont</td>
+              <td>4277 Genesee Ave</td>
+              <td>3.5</td>
+              <td>4.0</td>
+              <td>6.50</td>
+              <td>302</td>
+            </tr>
+            <tr>
+              <th>302</th>
+              <td>Vallarta Express</td>
+              <td>California</td>
+              <td>Clairemont</td>
+              <td>4277 Genesee Ave</td>
+              <td>3.5</td>
+              <td>4.0</td>
+              <td>6.65</td>
+              <td>303</td>
+            </tr>
+            <tr>
+              <th>303</th>
+              <td>Vallarta Express</td>
+              <td>California</td>
+              <td>Clairemont</td>
+              <td>4277 Genesee Ave</td>
+              <td>3.5</td>
+              <td>4.0</td>
+              <td>6.95</td>
+              <td>304</td>
+            </tr>
+            <tr>
+              <th>304</th>
+              <td>Vallarta Express</td>
+              <td>California</td>
+              <td>Clairemont</td>
+              <td>4277 Genesee Ave</td>
+              <td>3.5</td>
+              <td>4.0</td>
+              <td>7.50</td>
+              <td>305</td>
+            </tr>
+            <tr>
+              <th>305</th>
+              <td>Vallarta Express</td>
+              <td>Surf &amp; Turf</td>
+              <td>Clairemont</td>
+              <td>4277 Genesee Ave</td>
+              <td>3.5</td>
+              <td>4.0</td>
+              <td>8.55</td>
+              <td>306</td>
+            </tr>
+            <tr>
+              <th>306</th>
+              <td>Vallarta Express</td>
+              <td>California</td>
+              <td>Clairemont</td>
+              <td>4277 Genesee Ave</td>
+              <td>3.5</td>
+              <td>4.0</td>
+              <td>7.80</td>
+              <td>307</td>
+            </tr>
+            <tr>
+              <th>307</th>
+              <td>Vallarta Express</td>
+              <td>California</td>
+              <td>Clairemont</td>
+              <td>4277 Genesee Ave</td>
+              <td>3.5</td>
+              <td>4.0</td>
+              <td>8.35</td>
+              <td>308</td>
+            </tr>
+          </tbody>
+        </table>
+      </table>
+
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top of Page</button>
+
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="../static/js/KmarJS.js"></script>
+  <link rel="stylesheet" type="text/css" href="../static/css/kmarCSS.css">
+
+</body>
+
+</html>
