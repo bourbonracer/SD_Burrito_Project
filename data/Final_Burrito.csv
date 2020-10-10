@@ -1,164 +1,42 @@
 Location,Burrito,Neighborhood,Address,Yelp,Google,Cost,key
-Albertacos,California ,San Marcos,500 W San Marcos Blvd # 103,3.5,3.9,5.7,1
-Albertacos,Carne asada,San Marcos,500 W San Marcos Blvd # 103,3.5,3.9,5.25,2
-Burros and Fries,California,Clairemont,4705 Clairemont Dr,3.5,4.1,6.89,3
-Burros and Fries,Carne asada,Clairemont,4705 Clairemont Dr,3.5,4.1,6.89,4
-Burros and Fries,Shrimp california,Clairemont,4705 Clairemont Dr,3.5,4.1,6.99,5
-Burros and Fries,California,Clairemont,4705 Clairemont Dr,3.5,4.1,7.19,6
-Caliente Mexican Food,carne asada ,Sorrento Valley,11815 Sorrento Valley Rd,3.5,4.4,5.56,7
-Caliente Mexican Food,carne asada ,Sorrento Valley,11815 Sorrento Valley Rd,3.5,4.4,5.56,8
-Caliente Mexican Food,fried fish,Sorrento Valley,11815 Sorrento Valley Rd,3.5,4.4,5.56,9
-Caliente Mexican Food,California,Sorrento Valley,11815 Sorrento Valley Rd,3.5,4.4,6.47,10
-California Burrito Company,Dave's California,Miramar,6912 Miramar Rd,3.5,4.4,6.5,11
-California Burrito Company,California,Miramar,6912 Miramar Rd,3.5,4.4,5.5,12
-California Burrito Company,California,Miramar,6912 Miramar Rd,3.5,4.4,5.5,13
-California Burrito Company,Fajitas ,Miramar,6912 Miramar Rd,3.5,4.4,6.5,14
-California Burrito Company,California ,Miramar,6912 Miramar Rd,3.5,4.4,5.5,15
-California Burritos,California Everything,Linda Vista,7754 Starling Dr,4.5,4.4,6.25,16
-California Burritos,California Everything,Linda Vista,7754 Starling Dr,4.5,4.4,6.25,17
-California Burritos,California Everything,Linda Vista,7754 Starling Dr,4.5,4.4,6.25,18
-California Burritos,Chile relleno and carnitas,Linda Vista,7754 Starling Dr,4.5,4.4,6.5,19
-California Burritos,California (only cheese),Linda Vista,7754 Starling Dr,4.5,4.4,6.25,20
-California Burritos,California Everything,Linda Vista,7754 Starling Dr,4.5,4.4,6.25,21
-California Burritos,California Everything,Linda Vista,7754 Starling Dr,4.5,4.4,6.25,22
-California Burritos,California Everything,Linda Vista,7754 Starling Dr,4.5,4.4,6.25,23
-California Burritos,California Everything,Linda Vista,7754 Starling Dr,4.5,4.4,6.25,24
-California Burritos,California Everything,Linda Vista,7754 Starling Dr,4.5,4.4,6.25,25
-California Burritos,Carnitas,Linda Vista,7754 Starling Dr,4.5,4.4,5.5,26
-California Burritos,Carne asada everything,Linda Vista,7754 Starling Dr,4.5,4.4,6.25,27
-California Burritos,Carne asada everything,Linda Vista,7754 Starling Dr,4.5,4.4,6.25,28
-California Burritos,Carne asada everything,Linda Vista,7754 Starling Dr,4.5,4.4,6.25,29
-Cancun Mexican & Seafood,California,Encinitas,1766 N Coast Hwy,4.5,4.1,6.99,30
-Cancun Mexican & Seafood,Machaca,Encinitas,1766 N Coast Hwy,4.5,4.1,5.99,31
-Cancun Mexican & Seafood,Adobada,Encinitas,1766 N Coast Hwy,4.5,4.1,6.45,32
-Cancun Mexican & Seafood,California,Encinitas,1766 N Coast Hwy,4.5,4.1,6.99,33
-Cancun Mexican & Seafood,California ,Encinitas,1766 N Coast Hwy,4.5,4.1,6.99,34
-Cancun Mexican & Seafood,California ,Encinitas,1766 N Coast Hwy,4.5,4.1,6.99,35
-Carmen's Mexican Food,Adobada,Clairemont,4937 Diane Ave,4,4.2,6.5,36
-Carmen's Mexican Food,Carne asada,Clairemont,4937 Diane Ave,4,4.2,6.5,37
-Chipotle,Carnitas,Carlsbad,2505 Palomar airport Rd,3,4.2,7.15,38
-Chipotle,Custom,Carlsbad,2505 Palomar airport Rd,3,4.2,7,39
-Colima's Mexican Food,Hawaiian,North Park,2302 University Ave,4,4.2,6.29,40
-Colima's Mexican Food,Bandido,North Park,2302 University Ave,4,4.2,6.49,41
-Colima's Mexican Food,Bandido,North Park,2302 University Ave,4,4.2,6.49,42
-Colima's Mexican Food,Colimas burrito,North Park,2302 University Ave,4,4.2,8.25,43
-Cortez Mexican Food,California ,Bonsall,5517 Mission Rd,4.2,4,6.25,44
-Cotixan,California,Clairemont,4370 Genessee Ave,4,4,7.19,45
-Cotixan,California,Clairemont,4370 Genessee Ave,4,4,6.9,46
-Don Carlos Taco Shop,California,La Jolla,737 Pearl St,4,4.5,7.75,47
-Don Carlos Taco Shop,California,La Jolla,737 Pearl St,4,4.5,7.75,48
-Donato's Taco Shop,California ,Miramar,6780 Miramar Rd,3.5,4.2,6.49,49
-Donato's Taco Shop,Al pastor ,Miramar,6780 Miramar Rd,3.5,4.2,5.99,50
-Donato's Taco Shop,Carne asada,Miramar,6780 Miramar Rd,3.5,4.2,5.99,51
-El Cuervo,California ,Hillcrest,110 Washington St,4,4.3,6.95,52
-El Cuervo,Pollo adobado,Hillcrest,110 Washington St,4,4.3,5.95,53
-El Dorado Mexican Food,California,Temecula,29000 Old Town Front St,4.5,4,6.94,54
-El Dorado Mexican Food,Super,Temecula,29000 Old Town Front St,4.5,4,6.94,55
-El Dorado Mexican Food,California,Temecula,29000 Old Town Front St,4.5,4,7.4,56
-El Dorado Mexican Food,California,Temecula,29000 Old Town Front St,4.5,4,7.4,57
-El Indio,California,San Diego,3695 India St,3.5,3.9,7.84,58
-El Nopalito ,Especial ,Encinitas,582 Santa Fe Dr,4,4,4.87,59
-El Nopalito ,Ranchero steak,Encinitas,582 Santa Fe Dr,4,4,4.87,60
-El Pollo Loco,Chicken avocado,Oceanside,3500 College Blvd,3.5,4.1,5.99,61
-El Portal Fresh Mexican Grill,Mahi,Clairemont,4101 Genesee Ave,4,4.4,7.35,62
-El Portal Fresh Mexican Grill,Carnitas,Clairemont,4101 Genesee Ave,4,4.4,6.7,63
-El Pueblo Mexican Food,California,Cardiff ,820 Birmingham Dr,4,4.7,4.99,64
-El Rey Moro,California Surf,Clairemont,4471 Clairemont Mesa Blvd,4,3.8,9.19,65
-El Rey Moro,Hashbrown,Clairemont,4471 Clairemont Mesa Blvd,4,3.8,6.47,66
-El Rey Moro,Hashbrown,Clairemont,4471 Clairemont Mesa Blvd,4,3.8,8.94,67
-El Torrito Foods,Asada,Vista,249 Emerald Dr,4,4.4,5.49,68
-El Torrito Foods,Adobada,Vista,249 Emerald Dr,4,4.4,3.99,69
-El Zarape,California,University Heights,4642 Park Blvd,4,4.4,6.25,70
-El Zarape,California chicken,University Heights,4642 Park Blvd,4,4.4,6.25,71
-El Zarape,Azteca,University Heights,4642 Park Blvd,4,4.4,6.25,72
-El Zarape,Lobster,University Heights,4642 Park Blvd,4,4.4,9.5,73
-El Zarape,Surf and Turf,University Heights,4642 Park Blvd,4,4.4,7,74
-El Zarape,California,University Heights,4642 Park Blvd,4,4.4,6.25,75
-El Zarape,California,University Heights,4642 Park Blvd,4,4.4,6.25,76
-El Zarape,California,University Heights,4642 Park Blvd,4,4.4,6.25,77
-El Zarape,Carne asada supreme,University Heights,4642 Park Blvd,4,4.4,6.25,78
+Pokirrito,Pokirrito classic ,Kearny Mesa,4646 Convoy St,4,4.3,11.95,203
+Pokirrito,Mauna Lani,Kearny Mesa,4646 Convoy St,4,4.3,11.95,204
+Los Primos Mexican Food,619 Burrito Original,University City,7770 Regents Rd,3,3.7,11.75,130
 Famoso Mexican Street Food,Cali Diablo,Downtown,815 C St,4.5,3.9,10.5,79
-Filiberto's,Adobada,Encinitas,476 S Coast Hwy 101,3,3.8,6.25,80
-Filiberto's,California,Encinitas,476 S Coast Hwy 101,3,3.8,6.25,81
-Gloria's Taco Shop,California ,South Park,1233 28th St,4,4.3,5.65,82
-Gloria's Taco Shop,Cabeza,South Park,1233 28th St,4,4.3,5.49,83
-Goody's,Custom,La Jolla,Marshall College,3.5,4.1,7.25,84
-Goody's,Custom,La Jolla,Marshall College,3.5,4.1,8,85
-Goody's,Custom,La Jolla,Marshall College,3.5,4.1,8,86
-Goody's,Carne Asada,La Jolla,Marshall College,3.5,4.1,6.25,87
-Graciela's Taco Shop,Adobada ,Bonita,5047 Central Ave,4,4.5,5.99,88
-Graciela's Taco Shop,Barbacoa,Bonita,5047 Central Ave,4,4.5,5.99,89
-JV's Mexican Food,Carne Asada,Morena,1112 Morena Blvd,4,4.1,6.25,90
-JV's Mexican Food,Surf & Turf,Morena,1112 Morena Blvd,4,4.1,9.5,91
-Jorge's Mexicatessen,California ,Encinitas,267 N El Camino Real,4,4.5,5.95,92
-Jorge's Mexicatessen,Chimichanga beef,Encinitas,267 N El Camino Real,4,4.5,5.5,93
-Jose's Taco,California,Oceanside,3910 Vista Way,4,3.8,6.1,94
-Juanita's Taco Shop,California ,Encinitas,290 N Coast Hwy 101,4,4.5,5.55,95
-Juanita's Taco Shop,Arizona,Encinitas,290 N Coast Hwy 101,4,4.5,5.55,96
-Karina's Taco Shop ,Bomb,Encinitas,916 N Coast Hwy 101,4,4.2,7.99,97
-Karina's Taco Shop ,California ,Encinitas,916 N Coast Hwy 101,4,4.2,6.99,98
-King Burrito,Adobada,Oceanside,3490 Marron Rd,4,3.9,4.99,99
-King Burrito,California,Oceanside,3490 Marron Rd,4,3.9,5.29,100
-Kotija Jr,California,Del Mar,2668 Del Mar Heights Rd,4,4.2,6.99,101
-Kotija Jr,Fish,Del Mar,2668 Del Mar Heights Rd,4,4.2,6.5,102
-Kotija Jr,Steak fajitas,Del Mar,2668 Del Mar Heights Rd,4,4.2,7.1,103
-La Morena Taco Shop and Seafood,California,Webster,5059 Federal Blvd,4.5,4.7,6.35,104
-La Perla Cocina,Addiction,Pacific Beach,745 Emerald St,4.5,4.7,7.99,105
+Lupe's Taco Shop,TGunz,Linda Vista,7621 Linda Vista Rd,3.5,4.5,10,179
+Lupe's Taco Shop,TGunz,Linda Vista,7621 Linda Vista Rd,3.5,4.5,10,180
 La Perla Cocina,Oaxacalifornia,Pacific Beach,745 Emerald St,4.5,4.7,9.99,106
-La Perla Cocina,California,Pacific Beach,745 Emerald St,4.5,4.7,6.5,107
-Lola's 7 Up Market & Deli,Shredded beef,Carlsbad,3292 Roosevelt St,4.5,4.9,6,108
-Lola's 7 Up Market & Deli,Carne asada,Carlsbad,3292 Roosevelt St,4.5,4.9,7,109
+Los Tacos 2,Cheese steak,Oceanside,3480 Marron Rd,4.5,5,9.95,156
+El Zarape,Lobster,University Heights,4642 Park Blvd,4,4.4,9.5,73
+JV's Mexican Food,Surf & Turf,Morena,1112 Morena Blvd,4,4.1,9.5,91
+Los Primos Mexican Food,Monster California,University City,7770 Regents Rd,3,3.7,9.25,129
+Los Primos Mexican Food,Monster California,University City,7770 Regents Rd,3,3.7,9.25,132
+El Rey Moro,California Surf,Clairemont,4471 Clairemont Mesa Blvd,4,3.8,9.19,65
+Roberto's Taco Shop Hillcrest,California Surf and Turf,Hillcrest,420 Robinson Ave,4,4.2,9,237
+Senor Grubby's,California,Carlsbad,377 Carlsbad Village Dr,4,4.1,9,247
+Senor Grubby's,Pastor,Carlsbad,377 Carlsbad Village Dr,4,4.1,9,248
+Rubios UCSD,Grilled fish salmon,University City,9500 Gilman Dr,3.5,3.4,8.99,244
+Lolita's Taco Shop,Shrimp,Kearny Mesa,7305 Clairemont Mesa Blvd,4,4.4,8.95,116
+El Rey Moro,Hashbrown,Clairemont,4471 Clairemont Mesa Blvd,4,3.8,8.94,67
 Lolita's Taco Shop,2 in 1,Kearny Mesa,7305 Clairemont Mesa Blvd,4,4.4,8.75,110
-Lolita's Taco Shop,Adobado,Kearny Mesa,7305 Clairemont Mesa Blvd,4,4.4,5.5,111
-Lolita's Taco Shop,California,Kearny Mesa,7305 Clairemont Mesa Blvd,4,4.4,7,112
 Lolita's Taco Shop,2 in 1,Kearny Mesa,7305 Clairemont Mesa Blvd,4,4.4,8.75,113
 Lolita's Taco Shop,2 in 1,Kearny Mesa,7305 Clairemont Mesa Blvd,4,4.4,8.75,114
-Lolita's Taco Shop,Carne asada,Kearny Mesa,7305 Clairemont Mesa Blvd,4,4.4,6.25,115
-Lolita's Taco Shop,Shrimp,Kearny Mesa,7305 Clairemont Mesa Blvd,4,4.4,8.95,116
-Lolita's Taco Shop,Bean and cheese,Kearny Mesa,7305 Clairemont Mesa Blvd,4,4.4,3.5,117
-Lolita's Taco Shop,California,Kearny Mesa,7305 Clairemont Mesa Blvd,4,4.4,7,118
-Lolita's Taco Shop,California,Kearny Mesa,7305 Clairemont Mesa Blvd,4,4.4,7,119
-Lolita's Taco Shop,California,Kearny Mesa,7305 Clairemont Mesa Blvd,4,4.4,7,120
-Lolita's Taco Shop,Mixed,Kearny Mesa,7305 Clairemont Mesa Blvd,4,4.4,8.25,121
-Los Cabos,California,San Marcos,165 S Rancho Santa Fe Rd,4,4.1,5.99,122
-Los Cabos,Al pastor,San Marcos,165 S Rancho Santa Fe Rd,4,4.1,5.69,123
-Los Palmitos,California,Clairemont,5145 Clairemont Mesa Blvd,4,4.1,7.1,124
-Los Palmitos,Surf & Turf,Clairemont,5145 Clairemont Mesa Blvd,4,4.1,8.25,125
-Los Panchos Taco Shop,California,Hillcrest,409 Washington St,3,3.4,6.25,126
-Los Panchos Taco Shop,Bitchin California,Hillcrest,409 Washington St,3,3.4,7.25,127
-Los Panchos Taco Shop,Tijuana,Hillcrest,409 Washington St,3,3.4,7,128
-Los Primos Mexican Food,Monster California,University City,7770 Regents Rd,3,3.7,9.25,129
-Los Primos Mexican Food,619 Burrito Original,University City,7770 Regents Rd,3,3.7,11.75,130
-Los Primos Mexican Food,California,University City,7770 Regents Rd,3,3.7,7.5,131
-Los Primos Mexican Food,Monster California,University City,7770 Regents Rd,3,3.7,9.25,132
-Los Primos Mexican Food,California,University City,7770 Regents Rd,3,3.7,7,133
-Los Primos Mexican Food,California breakfast,University City,7770 Regents Rd,3,3.7,6.25,134
-Los Primos Mexican Food,Baja monster,University City,7770 Regents Rd,3,3.7,6,135
-Los Primos Mexican Food,Baja monster,University City,7770 Regents Rd,3,3.7,6,136
-Los Primos Mexican Food,Carnitas,University City,7770 Regents Rd,3,3.7,6.35,137
-Los Primos Mexican Food,Surf & Turf,University City,7770 Regents Rd,3,3.7,7,138
-Los Primos Mexican Food,Adobada,University City,7770 Regents Rd,3,3.7,6.25,139
-Los Primos Mexican Food,Carne asada,University City,7770 Regents Rd,3,3.7,7,140
-Los Tacos,Local,Oceanside,2183 Vista Way,4,4.2,7.9,141
+Porkyland ,California,Carmel Valley,4645 Carmel Mountain Rd,4,4.4,8.75,212
+Mikes Taco Club,California,Ocean Beach,5060 Newport Ave,4.5,4.9,8.59,185
+Mikes Taco Club,California,Ocean Beach,5060 Newport Ave,4.5,4.9,8.59,186
+Vallarta Express,Surf & Turf,Clairemont,4277 Genesee Ave,3.5,4,8.55,306
 Los Tacos,Fusion,Oceanside,2183 Vista Way,4,4.2,8.5,142
-Los Tacos,California ,Oceanside,2183 Vista Way,4,4.2,7.9,143
-Los Tacos,Local,Oceanside,2183 Vista Way,4,4.2,7.9,144
 Los Tacos,Fusion,Oceanside,2183 Vista Way,4,4.2,8.5,145
-Los Tacos,Local,Oceanside,2183 Vista Way,4,4.2,7.9,146
-Los Tacos,Local,Oceanside,2183 Vista Way,4,4.2,7.9,147
-Los Tacos,Local,Oceanside,2183 Vista Way,4,4.2,7.9,148
-Los Tacos,Local,Oceanside,2183 Vista Way,4,4.2,7.9,149
-Los Tacos,Local,Oceanside,2183 Vista Way,4,4.2,7.9,150
-Los Tacos,Local,Oceanside,2183 Vista Way,4,4.2,7.9,151
-Los Tacos,Local,Oceanside,2183 Vista Way,4,4.2,7.9,152
 Los Tacos,Local,Oceanside,2183 Vista Way,4,4.2,8.5,153
 Los Tacos,Local,Oceanside,2183 Vista Way,4,4.2,8.5,154
-Los Tacos 2,Al pastor tradicional ,Oceanside,3480 Marron Rd,4.5,5,8.25,155
-Los Tacos 2,Cheese steak,Oceanside,3480 Marron Rd,4.5,5,9.95,156
 Los Tacos 2,Local,Oceanside,3480 Marron Rd,4.5,5,8.5,157
 Los Tacos 2,Local,Oceanside,3480 Marron Rd,4.5,5,8.5,158
-Lourdes,Carnitas,Encinitas,2113 San Elijo Ave,4,4.7,7.35,159
-Lourdes,California,Encinitas,2113 San Elijo Ave,4,4.7,6.35,160
+Taco Stand,Surf and turf ,La Jolla,621 Pearl St,4.5,4.4,8.49,254
+Vallarta Express,California,Clairemont,4277 Genesee Ave,3.5,4,8.35,308
+Colima's Mexican Food,Colimas burrito,North Park,2302 University Ave,4,4.2,8.25,43
+Lolita's Taco Shop,Mixed,Kearny Mesa,7305 Clairemont Mesa Blvd,4,4.4,8.25,121
+Los Palmitos,Surf & Turf,Clairemont,5145 Clairemont Mesa Blvd,4,4.1,8.25,125
+Los Tacos 2,Al pastor tradicional ,Oceanside,3480 Marron Rd,4.5,5,8.25,155
 Lucha Libre North Park,Surf & Turf,North Park,3016 University Ave,3.5,4.3,8.25,161
 Lucha Libre North Park,Surf & Turf,North Park,3016 University Ave,3.5,4.3,8.25,162
 Lucha Libre North Park,Surf & Turf,North Park,3016 University Ave,3.5,4.3,8.25,163
@@ -171,95 +49,54 @@ Lucha Libre North Park,Surfin California,North Park,3016 University Ave,3.5,4.3,
 Lucha Libre North Park,Surfin California,North Park,3016 University Ave,3.5,4.3,8.25,170
 Lucha Libre North Park,Surfin California,North Park,3016 University Ave,3.5,4.3,8.25,171
 Lucha Libre North Park,Surfin California,North Park,3016 University Ave,3.5,4.3,8.25,172
-Lucha Libre North Park,Nutty,North Park,3016 University Ave,3.5,4.3,7.5,173
-Lucha Libre North Park,Veg Out,North Park,3016 University Ave,3.5,4.3,6.95,174
-Lupe's Taco Shop,Hot cheetos,Linda Vista,7621 Linda Vista Rd,3.5,4.5,7.29,175
-Lupe's Taco Shop,Surfin California,Linda Vista,7621 Linda Vista Rd,3.5,4.5,7.89,176
-Lupe's Taco Shop,California,Linda Vista,7621 Linda Vista Rd,3.5,4.5,7.49,177
-Lupe's Taco Shop,Spicy a la Diabla,Linda Vista,7621 Linda Vista Rd,3.5,4.5,7.49,178
-Lupe's Taco Shop,TGunz,Linda Vista,7621 Linda Vista Rd,3.5,4.5,10,179
-Lupe's Taco Shop,TGunz,Linda Vista,7621 Linda Vista Rd,3.5,4.5,10,180
-Matador Mexican Food,Carnitas,Morena,5201 Linda Vista Rd,4.5,4,6.6,181
-Matador Mexican Food,Carne asada,Morena,5201 Linda Vista Rd,4.5,4,6.6,182
-Mi Asador Mexican & Seafood ,California ,Oceanside,4750 Oceanside Blvd,4.5,4.4,6.89,183
-Mi Asador Mexican & Seafood ,El Hawaiiano ,Oceanside,4750 Oceanside Blvd,4.5,4.4,6.39,184
-Mikes Taco Club,California,Ocean Beach,5060 Newport Ave,4.5,4.9,8.59,185
-Mikes Taco Club,California,Ocean Beach,5060 Newport Ave,4.5,4.9,8.59,186
-Mister Falafel,Chicken Shawarma,Clairemont,4461 Clairemont Mesa Blvd,4.5,4.6,6.99,187
-Mr. Ruribertos Taco Shop ,California,Mission Beach,3202 Mission Blvd,3.5,3.7,7.75,188
-Mr. Ruribertos Taco Shop ,Carne asada,Mission Beach,3202 Mission Blvd,3.5,3.7,7.75,189
-Netos Mexican Food,California ,San Marcos,325 S Rancho Santa Fe Rd,4.5,4.1,5.99,190
-Netos Mexican Food,Carne adobada ,San Marcos,325 S Rancho Santa Fe Rd,4.5,4.1,5.5,191
-Nico's Taco Shop,California,Carmel Valley,3860 Valley Centre Dr #404,3,2.9,7.19,192
-Nico's Taco Shop,Carnitas,Carmel Valley,3860 Valley Centre Dr #404,3,2.9,6.99,193
-Ortiz's Taco Shop #2,California,Pacific Beach,1313 Garnet Ave,4,4.2,6.39,194
-Ortiz's Taco Shop #2,California chicken,Pacific Beach,1313 Garnet Ave,4,4.2,6.39,195
-Ortiz's Taco Shop #2,California,Pacific Beach,1313 Garnet Ave,4,4.2,6.39,196
-Ortiz's Taco Shop #2,California,Pacific Beach,1313 Garnet Ave,4,4.2,6.39,197
-Oscar's Mexican Food,California ,San Marcos,225 S Rancho Santa Fe Rd,3.5,3.3,5.45,198
-Oscar's Mexican Food,Carnitas,San Marcos,225 S Rancho Santa Fe Rd,3.5,3.3,4.85,199
-Oscar's Mexican Food,Carne asada,San Marcos,225 S Rancho Santa Fe Rd,3.5,3.3,5.25,200
-Papa Chito's Mexican Food,California,University City,3951 Governor Dr,2.5,3.3,6.25,201
-Papa Chito's Mexican Food,California,University City,3951 Governor Dr,2.5,3.3,6.25,202
-Pokirrito,Pokirrito classic ,Kearny Mesa,4646 Convoy St,4,4.3,11.95,203
-Pokirrito,Mauna Lani,Kearny Mesa,4646 Convoy St,4,4.3,11.95,204
-Pollos Maria,California,Carlsbad,3055 Harding St,4,3.8,6.59,205
-Pollos Maria,combo chicken,Carlsbad,3055 Harding St,4,3.8,6.99,206
-Pollos Maria,Combo chicken,Carlsbad,3055 Harding St,4,3.8,6.99,207
-Pollos Maria,Carne asada,Carlsbad,3055 Harding St,4,3.8,6.49,208
 Porkyland ,Deborah's special,Carmel Valley,4645 Carmel Mountain Rd,4,4.4,8.25,209
+Goody's,Custom,La Jolla,Marshall College,3.5,4.1,8,85
+Goody's,Custom,La Jolla,Marshall College,3.5,4.1,8,86
+Taco Stand,California,La Jolla,621 Pearl St,4.5,4.4,8,261
+Karina's Taco Shop ,Bomb,Encinitas,916 N Coast Hwy 101,4,4.2,7.99,97
+La Perla Cocina,Addiction,Pacific Beach,745 Emerald St,4.5,4.7,7.99,105
+Rubios UCSD,Tilapia one,University City,9500 Gilman Dr,3.5,3.4,7.99,243
 Porkyland ,Chicken nopalito,Carmel Valley,4645 Carmel Mountain Rd,4,4.4,7.95,210
 Porkyland ,Chicken nopalito,Carmel Valley,4645 Carmel Mountain Rd,4,4.4,7.95,211
-Porkyland ,California,Carmel Valley,4645 Carmel Mountain Rd,4,4.4,8.75,212
-Raul's Mexican food,Chile verde pork,Encinitas,490 S Coast Hwy 101,4,4.2,5,213
-Raul's Mexican food,carne asada,Encinitas,490 S Coast Hwy 101,4,4.2,5,214
-Rigoberto's Taco Shop,Carne asada,Miramar,7094 Miramar Rd,4,4.4,6.6,215
-Rigoberto's Taco Shop,Campeon,Miramar,7094 Miramar Rd,4,4.4,7.65,216
-Rigoberto's Taco Shop,California ,Miramar,7094 Miramar Rd,4,4.4,6.6,217
-Rigoberto's Taco Shop,Adobada,Miramar,7094 Miramar Rd,4,4.4,6.6,218
-Rigoberto's Taco Shop,California,Miramar,7094 Miramar Rd,4,4.4,6.6,219
-Rigoberto's Taco Shop,Surf & Turf,Miramar,7094 Miramar Rd,4,4.4,7.45,220
-Rigoberto's Taco Shop,El Rusio,Miramar,7094 Miramar Rd,4,4.4,6.65,221
-Rigoberto's Taco Shop,Carne asada,Miramar,7094 Miramar Rd,4,4.4,6.6,222
-Rigoberto's Taco Shop,Carne asada,Miramar,7094 Miramar Rd,4,4.4,6.6,223
-Rigoberto's Taco Shop,Carnitas,Miramar,7094 Miramar Rd,4,4.4,7.5,224
-Rigoberto's Taco Shop,Bacon breakfast,Miramar,7094 Miramar Rd,4,4.4,6.25,225
-Rigoberto's Taco Shop,Chile Relleno,Miramar,7094 Miramar Rd,4,4.4,6.6,226
-Rigoberto's Taco Shop,Fish,Miramar,7094 Miramar Rd,4,4.4,6,227
-Rigoberto's Taco Shop La Jolla,California,La Jolla,7345 La Jolla Blvd,2.5,4,6.4,228
-Rigoberto's Taco Shop La Jolla,California,La Jolla,7345 La Jolla Blvd,2.5,4,6.4,229
-Rigoberto's Taco Shop La Jolla,California,La Jolla,7345 La Jolla Blvd,2.5,4,6.85,230
-Rigoberto's Taco Shop La Jolla,California,La Jolla,7345 La Jolla Blvd,2.5,4,6.85,231
-Roberto's Taco Shop Clairemont,California,Clairemont,3095 Clairemont Dr,4,4,5.79,232
-Roberto's Taco Shop Clairemont,California,Clairemont,3095 Clairemont Dr,4,4,5.79,233
-Roberto's Taco Shop Clairemont,California + Guac + sour cream,Clairemont,3095 Clairemont Dr,4,4,7.29,234
-Roberto's Taco Shop Clairemont,Carne asada,Clairemont,3095 Clairemont Dr,4,4,5.69,235
-Roberto's Taco Shop Hillcrest,Asada,Hillcrest,420 Robinson Ave,4,4.2,7,236
-Roberto's Taco Shop Hillcrest,California Surf and Turf,Hillcrest,420 Robinson Ave,4,4.2,9,237
-Roberto's Taco Shop Hillcrest,California,Hillcrest,420 Robinson Ave,4,4.2,7,238
-Roberto's Taco Shop Hillcrest,Golden State,Hillcrest,420 Robinson Ave,4,4.2,25,239
-Roberto's Taco Shop Hillcrest,California,Hillcrest,420 Robinson Ave,4,4.2,7,240
-Roberto's Very Mexican Food,Chicken asada,Del Mar,2206 Carmel Valley Road,3.5,3.9,6.5,241
-Roberto's Very Mexican Food,Carnitas,Del Mar,2206 Carmel Valley Road,3.5,3.9,5.4,242
-Rubios UCSD,Tilapia one,University City,9500 Gilman Dr,3.5,3.4,7.99,243
-Rubios UCSD,Grilled fish salmon,University City,9500 Gilman Dr,3.5,3.4,8.99,244
-Rudy's Taco Shop,Chicken,Solana Beach,524 Stevens Ave,4,4.3,6.6,245
-Rudy's Taco Shop,Carnitas,Solana Beach,524 Stevens Ave,4,4.3,6.6,246
-Senor Grubby's,California,Carlsbad,377 Carlsbad Village Dr,4,4.1,9,247
-Senor Grubby's,Pastor,Carlsbad,377 Carlsbad Village Dr,4,4.1,9,248
-Senor Panchos,Pollo asado,San Marcos,1909 W San Marcos Blvd,4,4.2,6.25,249
-Senor Panchos,California,San Marcos,1909 W San Marcos Blvd,4,4.2,6.25,250
-Sotos Mexican Food,California,Miramar,6904 Miramar Rd,4.5,4.6,6.75,251
-Sotos Mexican Food,Pastor,Miramar,6904 Miramar Rd,4.5,4.6,5.99,252
-Taco Stand,California,La Jolla,621 Pearl St,4.5,4.4,7.49,253
-Taco Stand,Surf and turf ,La Jolla,621 Pearl St,4.5,4.4,8.49,254
-Taco Stand,California,La Jolla,621 Pearl St,4.5,4.4,7.49,255
-Taco Stand,California,La Jolla,621 Pearl St,4.5,4.4,7.49,256
+Los Tacos,Local,Oceanside,2183 Vista Way,4,4.2,7.9,141
+Los Tacos,California ,Oceanside,2183 Vista Way,4,4.2,7.9,143
+Los Tacos,Local,Oceanside,2183 Vista Way,4,4.2,7.9,144
+Los Tacos,Local,Oceanside,2183 Vista Way,4,4.2,7.9,146
+Los Tacos,Local,Oceanside,2183 Vista Way,4,4.2,7.9,147
+Los Tacos,Local,Oceanside,2183 Vista Way,4,4.2,7.9,148
+Los Tacos,Local,Oceanside,2183 Vista Way,4,4.2,7.9,149
+Los Tacos,Local,Oceanside,2183 Vista Way,4,4.2,7.9,150
+Los Tacos,Local,Oceanside,2183 Vista Way,4,4.2,7.9,151
+Los Tacos,Local,Oceanside,2183 Vista Way,4,4.2,7.9,152
+Valentines Mexican Food,California ,Downtown,1157 Sixth Ave,4,4,7.9,287
+Valentines Mexican Food,California Chipotle,Downtown,1157 Sixth Ave,4,4,7.9,288
+Valentines Mexican Food,Pork california,Downtown,1157 Sixth Ave,4,4,7.9,290
+Valentines Mexican Food,California,Downtown,1157 Sixth Ave,4,4,7.9,291
+Valentines Mexican Food,California,Downtown,1157 Sixth Ave,4,4,7.9,292
+Valentines Mexican Food,California,Downtown,1157 Sixth Ave,4,4,7.9,293
+Valentines Mexican Food,California,Downtown,1157 Sixth Ave,4,4,7.9,295
+Lupe's Taco Shop,Surfin California,Linda Vista,7621 Linda Vista Rd,3.5,4.5,7.89,176
 Taco Stand,Carne asada,La Jolla,621 Pearl St,4.5,4.4,7.89,257
-Taco Stand,Al pastor,La Jolla,621 Pearl St,4.5,4.4,6.99,258
 Taco Stand,Carne asada,La Jolla,621 Pearl St,4.5,4.4,7.89,259
 Taco Stand,Carne asada,La Jolla,621 Pearl St,4.5,4.4,7.89,260
-Taco Stand,California,La Jolla,621 Pearl St,4.5,4.4,8,261
+Taco Stand Encinitas,California,Encinitas,642 S Coast Hwy 101,4,4.4,7.89,269
+El Indio,California,San Diego,3695 India St,3.5,3.9,7.84,58
+Vallarta Express,California,Clairemont,4277 Genesee Ave,3.5,4,7.8,307
+Don Carlos Taco Shop,California,La Jolla,737 Pearl St,4,4.5,7.75,47
+Don Carlos Taco Shop,California,La Jolla,737 Pearl St,4,4.5,7.75,48
+Mr. Ruribertos Taco Shop ,California,Mission Beach,3202 Mission Blvd,3.5,3.7,7.75,188
+Mr. Ruribertos Taco Shop ,Carne asada,Mission Beach,3202 Mission Blvd,3.5,3.7,7.75,189
+Rigoberto's Taco Shop,Campeon,Miramar,7094 Miramar Rd,4,4.4,7.65,216
+Vallarta Express,Surf and turf,Clairemont,4277 Genesee Ave,3.5,4,7.65,300
+Los Primos Mexican Food,California,University City,7770 Regents Rd,3,3.7,7.5,131
+Lucha Libre North Park,Nutty,North Park,3016 University Ave,3.5,4.3,7.5,173
+Rigoberto's Taco Shop,Carnitas,Miramar,7094 Miramar Rd,4,4.4,7.5,224
+Vallarta Express,California,Clairemont,4277 Genesee Ave,3.5,4,7.5,305
+Lupe's Taco Shop,California,Linda Vista,7621 Linda Vista Rd,3.5,4.5,7.49,177
+Lupe's Taco Shop,Spicy a la Diabla,Linda Vista,7621 Linda Vista Rd,3.5,4.5,7.49,178
+Taco Stand,California,La Jolla,621 Pearl St,4.5,4.4,7.49,253
+Taco Stand,California,La Jolla,621 Pearl St,4.5,4.4,7.49,255
+Taco Stand,California,La Jolla,621 Pearl St,4.5,4.4,7.49,256
 Taco Stand,California,La Jolla,621 Pearl St,4.5,4.4,7.49,262
 Taco Stand,California,La Jolla,621 Pearl St,4.5,4.4,7.49,263
 Taco Stand,California,La Jolla,621 Pearl St,4.5,4.4,7.49,264
@@ -267,43 +104,205 @@ Taco Stand,California,La Jolla,621 Pearl St,4.5,4.4,7.49,265
 Taco Stand,California,La Jolla,621 Pearl St,4.5,4.4,7.49,266
 Taco Stand Encinitas,California ,Encinitas,642 S Coast Hwy 101,4,4.4,7.49,267
 Taco Stand Encinitas,California ,Encinitas,642 S Coast Hwy 101,4,4.4,7.49,268
-Taco Stand Encinitas,California,Encinitas,642 S Coast Hwy 101,4,4.4,7.89,269
+Rigoberto's Taco Shop,Surf & Turf,Miramar,7094 Miramar Rd,4,4.4,7.45,220
+El Dorado Mexican Food,California,Temecula,29000 Old Town Front St,4.5,4,7.4,56
+El Dorado Mexican Food,California,Temecula,29000 Old Town Front St,4.5,4,7.4,57
+El Portal Fresh Mexican Grill,Mahi,Clairemont,4101 Genesee Ave,4,4.4,7.35,62
+Lourdes,Carnitas,Encinitas,2113 San Elijo Ave,4,4.7,7.35,159
+Vallarta Express,Mahi,Clairemont,4277 Genesee Ave,3.5,4,7.3,301
+Lupe's Taco Shop,Hot cheetos,Linda Vista,7621 Linda Vista Rd,3.5,4.5,7.29,175
+Roberto's Taco Shop Clairemont,California + Guac + sour cream,Clairemont,3095 Clairemont Dr,4,4,7.29,234
+Goody's,Custom,La Jolla,Marshall College,3.5,4.1,7.25,84
+Los Panchos Taco Shop,Bitchin California,Hillcrest,409 Washington St,3,3.4,7.25,127
+Burros and Fries,California,Clairemont,4705 Clairemont Dr,3.5,4.1,7.19,6
+Cotixan,California,Clairemont,4370 Genessee Ave,4,4,7.19,45
+Nico's Taco Shop,California,Carmel Valley,3860 Valley Centre Dr #404,3,2.9,7.19,192
+Chipotle,Carnitas,Carlsbad,2505 Palomar airport Rd,3,4.2,7.15,38
 Taco Surf PB,California,Pacific Beach,4657 Mission Blvd,4,4.6,7.14,270
 Taco Surf PB,California,Pacific Beach,4657 Mission Blvd,4,4.6,7.14,271
-Taco Surf PB,Carne asada,Pacific Beach,4657 Mission Blvd,4,4.6,6.02,272
-Taco Villa,Carnitas,University City,9500 Gilman Dr,3.5,3.5,5.99,273
-Taco Villa,Al pastor,University City,9500 Gilman Dr,3.5,3.5,5.99,274
-Taco Villa,Chicken and rice,University City,9500 Gilman Dr,3.5,3.5,4.95,275
+Kotija Jr,Steak fajitas,Del Mar,2668 Del Mar Heights Rd,4,4.2,7.1,103
+Los Palmitos,California,Clairemont,5145 Clairemont Mesa Blvd,4,4.1,7.1,124
+Chipotle,Custom,Carlsbad,2505 Palomar airport Rd,3,4.2,7,39
+El Zarape,Surf and Turf,University Heights,4642 Park Blvd,4,4.4,7,74
+Lola's 7 Up Market & Deli,Carne asada,Carlsbad,3292 Roosevelt St,4.5,4.9,7,109
+Lolita's Taco Shop,California,Kearny Mesa,7305 Clairemont Mesa Blvd,4,4.4,7,112
+Lolita's Taco Shop,California,Kearny Mesa,7305 Clairemont Mesa Blvd,4,4.4,7,118
+Lolita's Taco Shop,California,Kearny Mesa,7305 Clairemont Mesa Blvd,4,4.4,7,119
+Lolita's Taco Shop,California,Kearny Mesa,7305 Clairemont Mesa Blvd,4,4.4,7,120
+Los Panchos Taco Shop,Tijuana,Hillcrest,409 Washington St,3,3.4,7,128
+Los Primos Mexican Food,California,University City,7770 Regents Rd,3,3.7,7,133
+Los Primos Mexican Food,Surf & Turf,University City,7770 Regents Rd,3,3.7,7,138
+Los Primos Mexican Food,Carne asada,University City,7770 Regents Rd,3,3.7,7,140
+Roberto's Taco Shop Hillcrest,Asada,Hillcrest,420 Robinson Ave,4,4.2,7,236
+Roberto's Taco Shop Hillcrest,California,Hillcrest,420 Robinson Ave,4,4.2,7,238
+Roberto's Taco Shop Hillcrest,California,Hillcrest,420 Robinson Ave,4,4.2,7,240
+Burros and Fries,Shrimp california,Clairemont,4705 Clairemont Dr,3.5,4.1,6.99,5
+Cancun Mexican & Seafood,California,Encinitas,1766 N Coast Hwy,4.5,4.1,6.99,30
+Cancun Mexican & Seafood,California,Encinitas,1766 N Coast Hwy,4.5,4.1,6.99,33
+Cancun Mexican & Seafood,California ,Encinitas,1766 N Coast Hwy,4.5,4.1,6.99,34
+Cancun Mexican & Seafood,California ,Encinitas,1766 N Coast Hwy,4.5,4.1,6.99,35
+Karina's Taco Shop ,California ,Encinitas,916 N Coast Hwy 101,4,4.2,6.99,98
+Kotija Jr,California,Del Mar,2668 Del Mar Heights Rd,4,4.2,6.99,101
+Mister Falafel,Chicken Shawarma,Clairemont,4461 Clairemont Mesa Blvd,4.5,4.6,6.99,187
+Nico's Taco Shop,Carnitas,Carmel Valley,3860 Valley Centre Dr #404,3,2.9,6.99,193
+Pollos Maria,combo chicken,Carlsbad,3055 Harding St,4,3.8,6.99,206
+Pollos Maria,Combo chicken,Carlsbad,3055 Harding St,4,3.8,6.99,207
+Taco Stand,Al pastor,La Jolla,621 Pearl St,4.5,4.4,6.99,258
 Taco Villa,California ,University City,9500 Gilman Dr,3.5,3.5,6.99,276
-Taco Villa,Breakfast,University City,9500 Gilman Dr,3.5,3.5,4.99,277
-Taco Villa,Carnitas,University City,9500 Gilman Dr,3.5,3.5,5.95,278
 Taco Villa,Tejano,University City,9500 Gilman Dr,3.5,3.5,6.99,279
-Taco Villa,Chicken,University City,9500 Gilman Dr,3.5,3.5,4.99,280
-Taco Villa,Pollo asado,University City,9500 Gilman Dr,3.5,3.5,5.99,281
 Taco Villa,Al pastor,University City,9500 Gilman Dr,3.5,3.5,6.99,282
-Tony's Fresh Mexican Food,Chile verde pork,Miramar,7122 Miramar Rd,3,4.1,6.95,283
-Tony's Fresh Mexican Food,California,Miramar,7122 Miramar Rd,3,4.1,6.25,284
 Tony's Fresh Mexican Food,battered fish ,Miramar,7122 Miramar Rd,3,4.1,6.99,285
-Tony's Fresh Mexican Food,California,Miramar,7122 Miramar Rd,3,4.1,6.25,286
-Valentines Mexican Food,California ,Downtown,1157 Sixth Ave,4,4,7.9,287
-Valentines Mexican Food,California Chipotle,Downtown,1157 Sixth Ave,4,4,7.9,288
-Valentines Mexican Food,Carne asada,Downtown,1157 Sixth Ave,4,4,6.75,289
-Valentines Mexican Food,Pork california,Downtown,1157 Sixth Ave,4,4,7.9,290
-Valentines Mexican Food,California,Downtown,1157 Sixth Ave,4,4,7.9,291
-Valentines Mexican Food,California,Downtown,1157 Sixth Ave,4,4,7.9,292
-Valentines Mexican Food,California,Downtown,1157 Sixth Ave,4,4,7.9,293
-Valentines Mexican Food,Carne asada,Downtown,1157 Sixth Ave,4,4,6.75,294
-Valentines Mexican Food,California,Downtown,1157 Sixth Ave,4,4,7.9,295
+El Cuervo,California ,Hillcrest,110 Washington St,4,4.3,6.95,52
+Lucha Libre North Park,Veg Out,North Park,3016 University Ave,3.5,4.3,6.95,174
+Tony's Fresh Mexican Food,Chile verde pork,Miramar,7122 Miramar Rd,3,4.1,6.95,283
 Vallarta Express,Quesaburro,Clairemont,4277 Genesee Ave,3.5,4,6.95,296
 Vallarta Express,Philly ,Clairemont,4277 Genesee Ave,3.5,4,6.95,297
-Vallarta Express,Carne asada,Clairemont,4277 Genesee Ave,3.5,4,6.5,298
 Vallarta Express,Quesa,Clairemont,4277 Genesee Ave,3.5,4,6.95,299
-Vallarta Express,Surf and turf,Clairemont,4277 Genesee Ave,3.5,4,7.65,300
-Vallarta Express,Mahi,Clairemont,4277 Genesee Ave,3.5,4,7.3,301
-Vallarta Express,Fish,Clairemont,4277 Genesee Ave,3.5,4,6.5,302
-Vallarta Express,California,Clairemont,4277 Genesee Ave,3.5,4,6.65,303
 Vallarta Express,California,Clairemont,4277 Genesee Ave,3.5,4,6.95,304
-Vallarta Express,California,Clairemont,4277 Genesee Ave,3.5,4,7.5,305
-Vallarta Express,Surf & Turf,Clairemont,4277 Genesee Ave,3.5,4,8.55,306
-Vallarta Express,California,Clairemont,4277 Genesee Ave,3.5,4,7.8,307
-Vallarta Express,California,Clairemont,4277 Genesee Ave,3.5,4,8.35,308
+El Dorado Mexican Food,California,Temecula,29000 Old Town Front St,4.5,4,6.94,54
+El Dorado Mexican Food,Super,Temecula,29000 Old Town Front St,4.5,4,6.94,55
+Cotixan,California,Clairemont,4370 Genessee Ave,4,4,6.9,46
+Burros and Fries,California,Clairemont,4705 Clairemont Dr,3.5,4.1,6.89,3
+Burros and Fries,Carne asada,Clairemont,4705 Clairemont Dr,3.5,4.1,6.89,4
+Mi Asador Mexican & Seafood ,California ,Oceanside,4750 Oceanside Blvd,4.5,4.4,6.89,183
+Rigoberto's Taco Shop La Jolla,California,La Jolla,7345 La Jolla Blvd,2.5,4,6.85,230
+Rigoberto's Taco Shop La Jolla,California,La Jolla,7345 La Jolla Blvd,2.5,4,6.85,231
+Sotos Mexican Food,California,Miramar,6904 Miramar Rd,4.5,4.6,6.75,251
+Valentines Mexican Food,Carne asada,Downtown,1157 Sixth Ave,4,4,6.75,289
+Valentines Mexican Food,Carne asada,Downtown,1157 Sixth Ave,4,4,6.75,294
+El Portal Fresh Mexican Grill,Carnitas,Clairemont,4101 Genesee Ave,4,4.4,6.7,63
+Rigoberto's Taco Shop,El Rusio,Miramar,7094 Miramar Rd,4,4.4,6.65,221
+Vallarta Express,California,Clairemont,4277 Genesee Ave,3.5,4,6.65,303
+Matador Mexican Food,Carnitas,Morena,5201 Linda Vista Rd,4.5,4,6.6,181
+Matador Mexican Food,Carne asada,Morena,5201 Linda Vista Rd,4.5,4,6.6,182
+Rigoberto's Taco Shop,Carne asada,Miramar,7094 Miramar Rd,4,4.4,6.6,215
+Rigoberto's Taco Shop,California ,Miramar,7094 Miramar Rd,4,4.4,6.6,217
+Rigoberto's Taco Shop,Adobada,Miramar,7094 Miramar Rd,4,4.4,6.6,218
+Rigoberto's Taco Shop,California,Miramar,7094 Miramar Rd,4,4.4,6.6,219
+Rigoberto's Taco Shop,Carne asada,Miramar,7094 Miramar Rd,4,4.4,6.6,222
+Rigoberto's Taco Shop,Carne asada,Miramar,7094 Miramar Rd,4,4.4,6.6,223
+Rigoberto's Taco Shop,Chile Relleno,Miramar,7094 Miramar Rd,4,4.4,6.6,226
+Rudy's Taco Shop,Chicken,Solana Beach,524 Stevens Ave,4,4.3,6.6,245
+Rudy's Taco Shop,Carnitas,Solana Beach,524 Stevens Ave,4,4.3,6.6,246
+Pollos Maria,California,Carlsbad,3055 Harding St,4,3.8,6.59,205
+California Burrito Company,Dave's California,Miramar,6912 Miramar Rd,3.5,4.4,6.5,11
+California Burrito Company,Fajitas ,Miramar,6912 Miramar Rd,3.5,4.4,6.5,14
+California Burritos,Chile relleno and carnitas,Linda Vista,7754 Starling Dr,4.5,4.4,6.5,19
+Carmen's Mexican Food,Adobada,Clairemont,4937 Diane Ave,4,4.2,6.5,36
+Carmen's Mexican Food,Carne asada,Clairemont,4937 Diane Ave,4,4.2,6.5,37
+Kotija Jr,Fish,Del Mar,2668 Del Mar Heights Rd,4,4.2,6.5,102
+La Perla Cocina,California,Pacific Beach,745 Emerald St,4.5,4.7,6.5,107
+Roberto's Very Mexican Food,Chicken asada,Del Mar,2206 Carmel Valley Road,3.5,3.9,6.5,241
+Vallarta Express,Carne asada,Clairemont,4277 Genesee Ave,3.5,4,6.5,298
+Vallarta Express,Fish,Clairemont,4277 Genesee Ave,3.5,4,6.5,302
+Colima's Mexican Food,Bandido,North Park,2302 University Ave,4,4.2,6.49,41
+Colima's Mexican Food,Bandido,North Park,2302 University Ave,4,4.2,6.49,42
+Donato's Taco Shop,California ,Miramar,6780 Miramar Rd,3.5,4.2,6.49,49
+Pollos Maria,Carne asada,Carlsbad,3055 Harding St,4,3.8,6.49,208
+Caliente Mexican Food,California,Sorrento Valley,11815 Sorrento Valley Rd,3.5,4.4,6.47,10
+El Rey Moro,Hashbrown,Clairemont,4471 Clairemont Mesa Blvd,4,3.8,6.47,66
+Cancun Mexican & Seafood,Adobada,Encinitas,1766 N Coast Hwy,4.5,4.1,6.45,32
+Rigoberto's Taco Shop La Jolla,California,La Jolla,7345 La Jolla Blvd,2.5,4,6.4,228
+Rigoberto's Taco Shop La Jolla,California,La Jolla,7345 La Jolla Blvd,2.5,4,6.4,229
+Mi Asador Mexican & Seafood ,El Hawaiiano ,Oceanside,4750 Oceanside Blvd,4.5,4.4,6.39,184
+Ortiz's Taco Shop #2,California,Pacific Beach,1313 Garnet Ave,4,4.2,6.39,194
+Ortiz's Taco Shop #2,California chicken,Pacific Beach,1313 Garnet Ave,4,4.2,6.39,195
+Ortiz's Taco Shop #2,California,Pacific Beach,1313 Garnet Ave,4,4.2,6.39,196
+Ortiz's Taco Shop #2,California,Pacific Beach,1313 Garnet Ave,4,4.2,6.39,197
+La Morena Taco Shop and Seafood,California,Webster,5059 Federal Blvd,4.5,4.7,6.35,104
+Los Primos Mexican Food,Carnitas,University City,7770 Regents Rd,3,3.7,6.35,137
+Lourdes,California,Encinitas,2113 San Elijo Ave,4,4.7,6.35,160
+Colima's Mexican Food,Hawaiian,North Park,2302 University Ave,4,4.2,6.29,40
+California Burritos,California Everything,Linda Vista,7754 Starling Dr,4.5,4.4,6.25,16
+California Burritos,California Everything,Linda Vista,7754 Starling Dr,4.5,4.4,6.25,17
+California Burritos,California Everything,Linda Vista,7754 Starling Dr,4.5,4.4,6.25,18
+California Burritos,California (only cheese),Linda Vista,7754 Starling Dr,4.5,4.4,6.25,20
+California Burritos,California Everything,Linda Vista,7754 Starling Dr,4.5,4.4,6.25,21
+California Burritos,California Everything,Linda Vista,7754 Starling Dr,4.5,4.4,6.25,22
+California Burritos,California Everything,Linda Vista,7754 Starling Dr,4.5,4.4,6.25,23
+California Burritos,California Everything,Linda Vista,7754 Starling Dr,4.5,4.4,6.25,24
+California Burritos,California Everything,Linda Vista,7754 Starling Dr,4.5,4.4,6.25,25
+California Burritos,Carne asada everything,Linda Vista,7754 Starling Dr,4.5,4.4,6.25,27
+California Burritos,Carne asada everything,Linda Vista,7754 Starling Dr,4.5,4.4,6.25,28
+California Burritos,Carne asada everything,Linda Vista,7754 Starling Dr,4.5,4.4,6.25,29
+Cortez Mexican Food,California ,Bonsall,5517 Mission Rd,4.2,4,6.25,44
+El Zarape,California,University Heights,4642 Park Blvd,4,4.4,6.25,70
+El Zarape,California chicken,University Heights,4642 Park Blvd,4,4.4,6.25,71
+El Zarape,Azteca,University Heights,4642 Park Blvd,4,4.4,6.25,72
+El Zarape,California,University Heights,4642 Park Blvd,4,4.4,6.25,75
+El Zarape,California,University Heights,4642 Park Blvd,4,4.4,6.25,76
+El Zarape,California,University Heights,4642 Park Blvd,4,4.4,6.25,77
+El Zarape,Carne asada supreme,University Heights,4642 Park Blvd,4,4.4,6.25,78
+Filiberto's,Adobada,Encinitas,476 S Coast Hwy 101,3,3.8,6.25,80
+Filiberto's,California,Encinitas,476 S Coast Hwy 101,3,3.8,6.25,81
+Goody's,Carne Asada,La Jolla,Marshall College,3.5,4.1,6.25,87
+JV's Mexican Food,Carne Asada,Morena,1112 Morena Blvd,4,4.1,6.25,90
+Lolita's Taco Shop,Carne asada,Kearny Mesa,7305 Clairemont Mesa Blvd,4,4.4,6.25,115
+Los Panchos Taco Shop,California,Hillcrest,409 Washington St,3,3.4,6.25,126
+Los Primos Mexican Food,California breakfast,University City,7770 Regents Rd,3,3.7,6.25,134
+Los Primos Mexican Food,Adobada,University City,7770 Regents Rd,3,3.7,6.25,139
+Papa Chito's Mexican Food,California,University City,3951 Governor Dr,2.5,3.3,6.25,201
+Papa Chito's Mexican Food,California,University City,3951 Governor Dr,2.5,3.3,6.25,202
+Rigoberto's Taco Shop,Bacon breakfast,Miramar,7094 Miramar Rd,4,4.4,6.25,225
+Senor Panchos,Pollo asado,San Marcos,1909 W San Marcos Blvd,4,4.2,6.25,249
+Senor Panchos,California,San Marcos,1909 W San Marcos Blvd,4,4.2,6.25,250
+Tony's Fresh Mexican Food,California,Miramar,7122 Miramar Rd,3,4.1,6.25,284
+Tony's Fresh Mexican Food,California,Miramar,7122 Miramar Rd,3,4.1,6.25,286
+Jose's Taco,California,Oceanside,3910 Vista Way,4,3.8,6.1,94
+Taco Surf PB,Carne asada,Pacific Beach,4657 Mission Blvd,4,4.6,6.02,272
+Lola's 7 Up Market & Deli,Shredded beef,Carlsbad,3292 Roosevelt St,4.5,4.9,6,108
+Los Primos Mexican Food,Baja monster,University City,7770 Regents Rd,3,3.7,6,135
+Los Primos Mexican Food,Baja monster,University City,7770 Regents Rd,3,3.7,6,136
+Rigoberto's Taco Shop,Fish,Miramar,7094 Miramar Rd,4,4.4,6,227
+Cancun Mexican & Seafood,Machaca,Encinitas,1766 N Coast Hwy,4.5,4.1,5.99,31
+Donato's Taco Shop,Al pastor ,Miramar,6780 Miramar Rd,3.5,4.2,5.99,50
+Donato's Taco Shop,Carne asada,Miramar,6780 Miramar Rd,3.5,4.2,5.99,51
+El Pollo Loco,Chicken avocado,Oceanside,3500 College Blvd,3.5,4.1,5.99,61
+Graciela's Taco Shop,Adobada ,Bonita,5047 Central Ave,4,4.5,5.99,88
+Graciela's Taco Shop,Barbacoa,Bonita,5047 Central Ave,4,4.5,5.99,89
+Los Cabos,California,San Marcos,165 S Rancho Santa Fe Rd,4,4.1,5.99,122
+Netos Mexican Food,California ,San Marcos,325 S Rancho Santa Fe Rd,4.5,4.1,5.99,190
+Sotos Mexican Food,Pastor,Miramar,6904 Miramar Rd,4.5,4.6,5.99,252
+Taco Villa,Carnitas,University City,9500 Gilman Dr,3.5,3.5,5.99,273
+Taco Villa,Al pastor,University City,9500 Gilman Dr,3.5,3.5,5.99,274
+Taco Villa,Pollo asado,University City,9500 Gilman Dr,3.5,3.5,5.99,281
+El Cuervo,Pollo adobado,Hillcrest,110 Washington St,4,4.3,5.95,53
+Jorge's Mexicatessen,California ,Encinitas,267 N El Camino Real,4,4.5,5.95,92
+Taco Villa,Carnitas,University City,9500 Gilman Dr,3.5,3.5,5.95,278
+Roberto's Taco Shop Clairemont,California,Clairemont,3095 Clairemont Dr,4,4,5.79,232
+Roberto's Taco Shop Clairemont,California,Clairemont,3095 Clairemont Dr,4,4,5.79,233
+Albertacos,California ,San Marcos,500 W San Marcos Blvd # 103,3.5,3.9,5.7,1
+Los Cabos,Al pastor,San Marcos,165 S Rancho Santa Fe Rd,4,4.1,5.69,123
+Roberto's Taco Shop Clairemont,Carne asada,Clairemont,3095 Clairemont Dr,4,4,5.69,235
+Gloria's Taco Shop,California ,South Park,1233 28th St,4,4.3,5.65,82
+Caliente Mexican Food,carne asada ,Sorrento Valley,11815 Sorrento Valley Rd,3.5,4.4,5.56,7
+Caliente Mexican Food,carne asada ,Sorrento Valley,11815 Sorrento Valley Rd,3.5,4.4,5.56,8
+Caliente Mexican Food,fried fish,Sorrento Valley,11815 Sorrento Valley Rd,3.5,4.4,5.56,9
+Juanita's Taco Shop,California ,Encinitas,290 N Coast Hwy 101,4,4.5,5.55,95
+Juanita's Taco Shop,Arizona,Encinitas,290 N Coast Hwy 101,4,4.5,5.55,96
+California Burrito Company,California,Miramar,6912 Miramar Rd,3.5,4.4,5.5,12
+California Burrito Company,California,Miramar,6912 Miramar Rd,3.5,4.4,5.5,13
+California Burrito Company,California ,Miramar,6912 Miramar Rd,3.5,4.4,5.5,15
+California Burritos,Carnitas,Linda Vista,7754 Starling Dr,4.5,4.4,5.5,26
+Jorge's Mexicatessen,Chimichanga beef,Encinitas,267 N El Camino Real,4,4.5,5.5,93
+Lolita's Taco Shop,Adobado,Kearny Mesa,7305 Clairemont Mesa Blvd,4,4.4,5.5,111
+Netos Mexican Food,Carne adobada ,San Marcos,325 S Rancho Santa Fe Rd,4.5,4.1,5.5,191
+El Torrito Foods,Asada,Vista,249 Emerald Dr,4,4.4,5.49,68
+Gloria's Taco Shop,Cabeza,South Park,1233 28th St,4,4.3,5.49,83
+Oscar's Mexican Food,California ,San Marcos,225 S Rancho Santa Fe Rd,3.5,3.3,5.45,198
+Roberto's Very Mexican Food,Carnitas,Del Mar,2206 Carmel Valley Road,3.5,3.9,5.4,242
+King Burrito,California,Oceanside,3490 Marron Rd,4,3.9,5.29,100
+Albertacos,Carne asada,San Marcos,500 W San Marcos Blvd # 103,3.5,3.9,5.25,2
+Oscar's Mexican Food,Carne asada,San Marcos,225 S Rancho Santa Fe Rd,3.5,3.3,5.25,200
+Raul's Mexican food,Chile verde pork,Encinitas,490 S Coast Hwy 101,4,4.2,5,213
+Raul's Mexican food,carne asada,Encinitas,490 S Coast Hwy 101,4,4.2,5,214
+El Pueblo Mexican Food,California,Cardiff ,820 Birmingham Dr,4,4.7,4.99,64
+King Burrito,Adobada,Oceanside,3490 Marron Rd,4,3.9,4.99,99
+Taco Villa,Breakfast,University City,9500 Gilman Dr,3.5,3.5,4.99,277
+Taco Villa,Chicken,University City,9500 Gilman Dr,3.5,3.5,4.99,280
+Taco Villa,Chicken and rice,University City,9500 Gilman Dr,3.5,3.5,4.95,275
+El Nopalito ,Especial ,Encinitas,582 Santa Fe Dr,4,4,4.87,59
+El Nopalito ,Ranchero steak,Encinitas,582 Santa Fe Dr,4,4,4.87,60
+Oscar's Mexican Food,Carnitas,San Marcos,225 S Rancho Santa Fe Rd,3.5,3.3,4.85,199
+El Torrito Foods,Adobada,Vista,249 Emerald Dr,4,4.4,3.99,69
+Lolita's Taco Shop,Bean and cheese,Kearny Mesa,7305 Clairemont Mesa Blvd,4,4.4,3.5,117
