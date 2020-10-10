@@ -1,0 +1,3082 @@
+{
+    "1": {
+        "Location": "Albertacos",
+        "Burrito": "California ",
+        "Neighborhood": "San Marcos",
+        "Address": "500 W San Marcos Blvd # 103",
+        "Yelp": "3.5",
+        "Google": "3.9",
+        "Cost": "5.7",
+        "key": "1"
+    },
+    "2": {
+        "Location": "Albertacos",
+        "Burrito": "Carne asada",
+        "Neighborhood": "San Marcos",
+        "Address": "500 W San Marcos Blvd # 103",
+        "Yelp": "3.5",
+        "Google": "3.9",
+        "Cost": "5.25",
+        "key": "2"
+    },
+    "3": {
+        "Location": "Burros and Fries",
+        "Burrito": "California",
+        "Neighborhood": "Clairemont",
+        "Address": "4705 Clairemont Dr",
+        "Yelp": "3.5",
+        "Google": "4.1",
+        "Cost": "6.89",
+        "key": "3"
+    },
+    "4": {
+        "Location": "Burros and Fries",
+        "Burrito": "Carne asada",
+        "Neighborhood": "Clairemont",
+        "Address": "4705 Clairemont Dr",
+        "Yelp": "3.5",
+        "Google": "4.1",
+        "Cost": "6.89",
+        "key": "4"
+    },
+    "5": {
+        "Location": "Burros and Fries",
+        "Burrito": "Shrimp california",
+        "Neighborhood": "Clairemont",
+        "Address": "4705 Clairemont Dr",
+        "Yelp": "3.5",
+        "Google": "4.1",
+        "Cost": "6.99",
+        "key": "5"
+    },
+    "6": {
+        "Location": "Burros and Fries",
+        "Burrito": "California",
+        "Neighborhood": "Clairemont",
+        "Address": "4705 Clairemont Dr",
+        "Yelp": "3.5",
+        "Google": "4.1",
+        "Cost": "7.19",
+        "key": "6"
+    },
+    "7": {
+        "Location": "Caliente Mexican Food",
+        "Burrito": "carne asada ",
+        "Neighborhood": "Sorrento Valley",
+        "Address": "11815 Sorrento Valley Rd",
+        "Yelp": "3.5",
+        "Google": "4.4",
+        "Cost": "5.56",
+        "key": "7"
+    },
+    "8": {
+        "Location": "Caliente Mexican Food",
+        "Burrito": "carne asada ",
+        "Neighborhood": "Sorrento Valley",
+        "Address": "11815 Sorrento Valley Rd",
+        "Yelp": "3.5",
+        "Google": "4.4",
+        "Cost": "5.56",
+        "key": "8"
+    },
+    "9": {
+        "Location": "Caliente Mexican Food",
+        "Burrito": "fried fish",
+        "Neighborhood": "Sorrento Valley",
+        "Address": "11815 Sorrento Valley Rd",
+        "Yelp": "3.5",
+        "Google": "4.4",
+        "Cost": "5.56",
+        "key": "9"
+    },
+    "10": {
+        "Location": "Caliente Mexican Food",
+        "Burrito": "California",
+        "Neighborhood": "Sorrento Valley",
+        "Address": "11815 Sorrento Valley Rd",
+        "Yelp": "3.5",
+        "Google": "4.4",
+        "Cost": "6.47",
+        "key": "10"
+    },
+    "11": {
+        "Location": "California Burrito Company",
+        "Burrito": "Dave's California",
+        "Neighborhood": "Miramar",
+        "Address": "6912 Miramar Rd",
+        "Yelp": "3.5",
+        "Google": "4.4",
+        "Cost": "6.5",
+        "key": "11"
+    },
+    "12": {
+        "Location": "California Burrito Company",
+        "Burrito": "California",
+        "Neighborhood": "Miramar",
+        "Address": "6912 Miramar Rd",
+        "Yelp": "3.5",
+        "Google": "4.4",
+        "Cost": "5.5",
+        "key": "12"
+    },
+    "13": {
+        "Location": "California Burrito Company",
+        "Burrito": "California",
+        "Neighborhood": "Miramar",
+        "Address": "6912 Miramar Rd",
+        "Yelp": "3.5",
+        "Google": "4.4",
+        "Cost": "5.5",
+        "key": "13"
+    },
+    "14": {
+        "Location": "California Burrito Company",
+        "Burrito": "Fajitas ",
+        "Neighborhood": "Miramar",
+        "Address": "6912 Miramar Rd",
+        "Yelp": "3.5",
+        "Google": "4.4",
+        "Cost": "6.5",
+        "key": "14"
+    },
+    "15": {
+        "Location": "California Burrito Company",
+        "Burrito": "California ",
+        "Neighborhood": "Miramar",
+        "Address": "6912 Miramar Rd",
+        "Yelp": "3.5",
+        "Google": "4.4",
+        "Cost": "5.5",
+        "key": "15"
+    },
+    "16": {
+        "Location": "California Burritos",
+        "Burrito": "California Everything",
+        "Neighborhood": "Linda Vista",
+        "Address": "7754 Starling Dr",
+        "Yelp": "4.5",
+        "Google": "4.4",
+        "Cost": "6.25",
+        "key": "16"
+    },
+    "17": {
+        "Location": "California Burritos",
+        "Burrito": "California Everything",
+        "Neighborhood": "Linda Vista",
+        "Address": "7754 Starling Dr",
+        "Yelp": "4.5",
+        "Google": "4.4",
+        "Cost": "6.25",
+        "key": "17"
+    },
+    "18": {
+        "Location": "California Burritos",
+        "Burrito": "California Everything",
+        "Neighborhood": "Linda Vista",
+        "Address": "7754 Starling Dr",
+        "Yelp": "4.5",
+        "Google": "4.4",
+        "Cost": "6.25",
+        "key": "18"
+    },
+    "19": {
+        "Location": "California Burritos",
+        "Burrito": "Chile relleno and carnitas",
+        "Neighborhood": "Linda Vista",
+        "Address": "7754 Starling Dr",
+        "Yelp": "4.5",
+        "Google": "4.4",
+        "Cost": "6.5",
+        "key": "19"
+    },
+    "20": {
+        "Location": "California Burritos",
+        "Burrito": "California (only cheese)",
+        "Neighborhood": "Linda Vista",
+        "Address": "7754 Starling Dr",
+        "Yelp": "4.5",
+        "Google": "4.4",
+        "Cost": "6.25",
+        "key": "20"
+    },
+    "21": {
+        "Location": "California Burritos",
+        "Burrito": "California Everything",
+        "Neighborhood": "Linda Vista",
+        "Address": "7754 Starling Dr",
+        "Yelp": "4.5",
+        "Google": "4.4",
+        "Cost": "6.25",
+        "key": "21"
+    },
+    "22": {
+        "Location": "California Burritos",
+        "Burrito": "California Everything",
+        "Neighborhood": "Linda Vista",
+        "Address": "7754 Starling Dr",
+        "Yelp": "4.5",
+        "Google": "4.4",
+        "Cost": "6.25",
+        "key": "22"
+    },
+    "23": {
+        "Location": "California Burritos",
+        "Burrito": "California Everything",
+        "Neighborhood": "Linda Vista",
+        "Address": "7754 Starling Dr",
+        "Yelp": "4.5",
+        "Google": "4.4",
+        "Cost": "6.25",
+        "key": "23"
+    },
+    "24": {
+        "Location": "California Burritos",
+        "Burrito": "California Everything",
+        "Neighborhood": "Linda Vista",
+        "Address": "7754 Starling Dr",
+        "Yelp": "4.5",
+        "Google": "4.4",
+        "Cost": "6.25",
+        "key": "24"
+    },
+    "25": {
+        "Location": "California Burritos",
+        "Burrito": "California Everything",
+        "Neighborhood": "Linda Vista",
+        "Address": "7754 Starling Dr",
+        "Yelp": "4.5",
+        "Google": "4.4",
+        "Cost": "6.25",
+        "key": "25"
+    },
+    "26": {
+        "Location": "California Burritos",
+        "Burrito": "Carnitas",
+        "Neighborhood": "Linda Vista",
+        "Address": "7754 Starling Dr",
+        "Yelp": "4.5",
+        "Google": "4.4",
+        "Cost": "5.5",
+        "key": "26"
+    },
+    "27": {
+        "Location": "California Burritos",
+        "Burrito": "Carne asada everything",
+        "Neighborhood": "Linda Vista",
+        "Address": "7754 Starling Dr",
+        "Yelp": "4.5",
+        "Google": "4.4",
+        "Cost": "6.25",
+        "key": "27"
+    },
+    "28": {
+        "Location": "California Burritos",
+        "Burrito": "Carne asada everything",
+        "Neighborhood": "Linda Vista",
+        "Address": "7754 Starling Dr",
+        "Yelp": "4.5",
+        "Google": "4.4",
+        "Cost": "6.25",
+        "key": "28"
+    },
+    "29": {
+        "Location": "California Burritos",
+        "Burrito": "Carne asada everything",
+        "Neighborhood": "Linda Vista",
+        "Address": "7754 Starling Dr",
+        "Yelp": "4.5",
+        "Google": "4.4",
+        "Cost": "6.25",
+        "key": "29"
+    },
+    "30": {
+        "Location": "Cancun Mexican & Seafood",
+        "Burrito": "California",
+        "Neighborhood": "Encinitas",
+        "Address": "1766 N Coast Hwy",
+        "Yelp": "4.5",
+        "Google": "4.1",
+        "Cost": "6.99",
+        "key": "30"
+    },
+    "31": {
+        "Location": "Cancun Mexican & Seafood",
+        "Burrito": "Machaca",
+        "Neighborhood": "Encinitas",
+        "Address": "1766 N Coast Hwy",
+        "Yelp": "4.5",
+        "Google": "4.1",
+        "Cost": "5.99",
+        "key": "31"
+    },
+    "32": {
+        "Location": "Cancun Mexican & Seafood",
+        "Burrito": "Adobada",
+        "Neighborhood": "Encinitas",
+        "Address": "1766 N Coast Hwy",
+        "Yelp": "4.5",
+        "Google": "4.1",
+        "Cost": "6.45",
+        "key": "32"
+    },
+    "33": {
+        "Location": "Cancun Mexican & Seafood",
+        "Burrito": "California",
+        "Neighborhood": "Encinitas",
+        "Address": "1766 N Coast Hwy",
+        "Yelp": "4.5",
+        "Google": "4.1",
+        "Cost": "6.99",
+        "key": "33"
+    },
+    "34": {
+        "Location": "Cancun Mexican & Seafood",
+        "Burrito": "California ",
+        "Neighborhood": "Encinitas",
+        "Address": "1766 N Coast Hwy",
+        "Yelp": "4.5",
+        "Google": "4.1",
+        "Cost": "6.99",
+        "key": "34"
+    },
+    "35": {
+        "Location": "Cancun Mexican & Seafood",
+        "Burrito": "California ",
+        "Neighborhood": "Encinitas",
+        "Address": "1766 N Coast Hwy",
+        "Yelp": "4.5",
+        "Google": "4.1",
+        "Cost": "6.99",
+        "key": "35"
+    },
+    "36": {
+        "Location": "Carmen's Mexican Food",
+        "Burrito": "Adobada",
+        "Neighborhood": "Clairemont",
+        "Address": "4937 Diane Ave",
+        "Yelp": "4.0",
+        "Google": "4.2",
+        "Cost": "6.5",
+        "key": "36"
+    },
+    "37": {
+        "Location": "Carmen's Mexican Food",
+        "Burrito": "Carne asada",
+        "Neighborhood": "Clairemont",
+        "Address": "4937 Diane Ave",
+        "Yelp": "4.0",
+        "Google": "4.2",
+        "Cost": "6.5",
+        "key": "37"
+    },
+    "38": {
+        "Location": "Chipotle",
+        "Burrito": "Carnitas",
+        "Neighborhood": "Carlsbad",
+        "Address": "2505 Palomar airport Rd",
+        "Yelp": "3.0",
+        "Google": "4.2",
+        "Cost": "7.15",
+        "key": "38"
+    },
+    "39": {
+        "Location": "Chipotle",
+        "Burrito": "Custom",
+        "Neighborhood": "Carlsbad",
+        "Address": "2505 Palomar airport Rd",
+        "Yelp": "3.0",
+        "Google": "4.2",
+        "Cost": "7.0",
+        "key": "39"
+    },
+    "40": {
+        "Location": "Colima's Mexican Food",
+        "Burrito": "Hawaiian",
+        "Neighborhood": "North park",
+        "Address": "2302 University Ave",
+        "Yelp": "4.0",
+        "Google": "4.2",
+        "Cost": "6.29",
+        "key": "40"
+    },
+    "41": {
+        "Location": "Colima's Mexican Food",
+        "Burrito": "Bandido",
+        "Neighborhood": "North park",
+        "Address": "2302 University Ave",
+        "Yelp": "4.0",
+        "Google": "4.2",
+        "Cost": "6.49",
+        "key": "41"
+    },
+    "42": {
+        "Location": "Colima's Mexican Food",
+        "Burrito": "Bandido",
+        "Neighborhood": "North park",
+        "Address": "2302 University Ave",
+        "Yelp": "4.0",
+        "Google": "4.2",
+        "Cost": "6.49",
+        "key": "42"
+    },
+    "43": {
+        "Location": "Colima's Mexican Food",
+        "Burrito": "Colimas burrito",
+        "Neighborhood": "North park",
+        "Address": "2302 University Ave",
+        "Yelp": "4.0",
+        "Google": "4.2",
+        "Cost": "8.25",
+        "key": "43"
+    },
+    "44": {
+        "Location": "Cortez Mexican Food",
+        "Burrito": "California ",
+        "Neighborhood": "Bonsall",
+        "Address": "5517 Mission Rd",
+        "Yelp": "4.2",
+        "Google": "4.0",
+        "Cost": "6.25",
+        "key": "44"
+    },
+    "45": {
+        "Location": "Cotixan",
+        "Burrito": "California",
+        "Neighborhood": "Clairemont",
+        "Address": "4370 Genessee Ave",
+        "Yelp": "4.0",
+        "Google": "4.0",
+        "Cost": "7.19",
+        "key": "45"
+    },
+    "46": {
+        "Location": "Cotixan",
+        "Burrito": "California",
+        "Neighborhood": "Clairemont",
+        "Address": "4370 Genessee Ave",
+        "Yelp": "4.0",
+        "Google": "4.0",
+        "Cost": "6.9",
+        "key": "46"
+    },
+    "47": {
+        "Location": "Don Carlos Taco Shop",
+        "Burrito": "California",
+        "Neighborhood": "La Jolla",
+        "Address": "737 Pearl St",
+        "Yelp": "4.0",
+        "Google": "4.5",
+        "Cost": "7.75",
+        "key": "47"
+    },
+    "48": {
+        "Location": "Don Carlos Taco Shop",
+        "Burrito": "California",
+        "Neighborhood": "La Jolla",
+        "Address": "737 Pearl St",
+        "Yelp": "4.0",
+        "Google": "4.5",
+        "Cost": "7.75",
+        "key": "48"
+    },
+    "49": {
+        "Location": "Donato's Taco Shop",
+        "Burrito": "California ",
+        "Neighborhood": "Miramar",
+        "Address": "6780 Miramar Rd",
+        "Yelp": "3.5",
+        "Google": "4.2",
+        "Cost": "6.49",
+        "key": "49"
+    },
+    "50": {
+        "Location": "Donato's Taco Shop",
+        "Burrito": "Al pastor ",
+        "Neighborhood": "Miramar",
+        "Address": "6780 Miramar Rd",
+        "Yelp": "3.5",
+        "Google": "4.2",
+        "Cost": "5.99",
+        "key": "50"
+    },
+    "51": {
+        "Location": "Donato's Taco Shop",
+        "Burrito": "Carne asada",
+        "Neighborhood": "Miramar",
+        "Address": "6780 Miramar Rd",
+        "Yelp": "3.5",
+        "Google": "4.2",
+        "Cost": "5.99",
+        "key": "51"
+    },
+    "52": {
+        "Location": "El Cuervo",
+        "Burrito": "California ",
+        "Neighborhood": "Hillcrest",
+        "Address": "110 Washington St",
+        "Yelp": "4.0",
+        "Google": "4.3",
+        "Cost": "6.95",
+        "key": "52"
+    },
+    "53": {
+        "Location": "El Cuervo",
+        "Burrito": "Pollo adobado",
+        "Neighborhood": "Hillcrest",
+        "Address": "110 Washington St",
+        "Yelp": "4.0",
+        "Google": "4.3",
+        "Cost": "5.95",
+        "key": "53"
+    },
+    "54": {
+        "Location": "El Dorado Mexican Food",
+        "Burrito": "California",
+        "Neighborhood": "Temecula",
+        "Address": "29000 Old Town Front St",
+        "Yelp": "4.5",
+        "Google": "4.0",
+        "Cost": "6.94",
+        "key": "54"
+    },
+    "55": {
+        "Location": "El Dorado Mexican Food",
+        "Burrito": "Super",
+        "Neighborhood": "Temecula",
+        "Address": "29000 Old Town Front St",
+        "Yelp": "4.5",
+        "Google": "4.0",
+        "Cost": "6.94",
+        "key": "55"
+    },
+    "56": {
+        "Location": "El Dorado Mexican Food",
+        "Burrito": "California",
+        "Neighborhood": "Temecula",
+        "Address": "29000 Old Town Front St",
+        "Yelp": "4.5",
+        "Google": "4.0",
+        "Cost": "7.4",
+        "key": "56"
+    },
+    "57": {
+        "Location": "El Dorado Mexican Food",
+        "Burrito": "California",
+        "Neighborhood": "Temecula",
+        "Address": "29000 Old Town Front St",
+        "Yelp": "4.5",
+        "Google": "4.0",
+        "Cost": "7.4",
+        "key": "57"
+    },
+    "58": {
+        "Location": "El Indio",
+        "Burrito": "California",
+        "Neighborhood": "San Diego",
+        "Address": "3695 India St",
+        "Yelp": "3.5",
+        "Google": "3.9",
+        "Cost": "7.84",
+        "key": "58"
+    },
+    "59": {
+        "Location": "El Nopalito ",
+        "Burrito": "Especial ",
+        "Neighborhood": "Encinitas",
+        "Address": "582 Santa Fe Dr",
+        "Yelp": "4.0",
+        "Google": "4.0",
+        "Cost": "4.87",
+        "key": "59"
+    },
+    "60": {
+        "Location": "El Nopalito ",
+        "Burrito": "Ranchero steak",
+        "Neighborhood": "Encinitas",
+        "Address": "582 Santa Fe Dr",
+        "Yelp": "4.0",
+        "Google": "4.0",
+        "Cost": "4.87",
+        "key": "60"
+    },
+    "61": {
+        "Location": "El Pollo Loco",
+        "Burrito": "Chicken avocado",
+        "Neighborhood": "Oceanside",
+        "Address": "3500 College Blvd",
+        "Yelp": "3.5",
+        "Google": "4.1",
+        "Cost": "5.99",
+        "key": "61"
+    },
+    "62": {
+        "Location": "El Portal Fresh Mexican Grill",
+        "Burrito": "Mahi",
+        "Neighborhood": "Clairemont",
+        "Address": "4101 Genesee Ave",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "7.35",
+        "key": "62"
+    },
+    "63": {
+        "Location": "El Portal Fresh Mexican Grill",
+        "Burrito": "Carnitas",
+        "Neighborhood": "Clairemont",
+        "Address": "4101 Genesee Ave",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "6.7",
+        "key": "63"
+    },
+    "64": {
+        "Location": "El Pueblo Mexican Food",
+        "Burrito": "California",
+        "Neighborhood": "Cardiff ",
+        "Address": "820 Birmingham Dr",
+        "Yelp": "4.0",
+        "Google": "4.7",
+        "Cost": "4.99",
+        "key": "64"
+    },
+    "65": {
+        "Location": "El Rey Moro",
+        "Burrito": "California Surf",
+        "Neighborhood": "Clairemont",
+        "Address": "4471 Clairemont Mesa Blvd",
+        "Yelp": "4.0",
+        "Google": "3.8",
+        "Cost": "9.19",
+        "key": "65"
+    },
+    "66": {
+        "Location": "El Rey Moro",
+        "Burrito": "Hashbrown",
+        "Neighborhood": "Clairemont",
+        "Address": "4471 Clairemont Mesa Blvd",
+        "Yelp": "4.0",
+        "Google": "3.8",
+        "Cost": "6.47",
+        "key": "66"
+    },
+    "67": {
+        "Location": "El Rey Moro",
+        "Burrito": "Hashbrown",
+        "Neighborhood": "Clairemont",
+        "Address": "4471 Clairemont Mesa Blvd",
+        "Yelp": "4.0",
+        "Google": "3.8",
+        "Cost": "8.94",
+        "key": "67"
+    },
+    "68": {
+        "Location": "El Torrito Foods",
+        "Burrito": "Asada",
+        "Neighborhood": "Vista",
+        "Address": "249 Emerald Dr",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "5.49",
+        "key": "68"
+    },
+    "69": {
+        "Location": "El Torrito Foods",
+        "Burrito": "Adobada",
+        "Neighborhood": "Vista",
+        "Address": "249 Emerald Dr",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "3.99",
+        "key": "69"
+    },
+    "70": {
+        "Location": "El Zarape",
+        "Burrito": "California",
+        "Neighborhood": "University Heights",
+        "Address": "4642 Park Blvd",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "6.25",
+        "key": "70"
+    },
+    "71": {
+        "Location": "El Zarape",
+        "Burrito": "California chicken",
+        "Neighborhood": "University Heights",
+        "Address": "4642 Park Blvd",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "6.25",
+        "key": "71"
+    },
+    "72": {
+        "Location": "El Zarape",
+        "Burrito": "Azteca",
+        "Neighborhood": "University Heights",
+        "Address": "4642 Park Blvd",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "6.25",
+        "key": "72"
+    },
+    "73": {
+        "Location": "El Zarape",
+        "Burrito": "Lobster",
+        "Neighborhood": "University Heights",
+        "Address": "4642 Park Blvd",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "9.5",
+        "key": "73"
+    },
+    "74": {
+        "Location": "El Zarape",
+        "Burrito": "Surf and Turf",
+        "Neighborhood": "University Heights",
+        "Address": "4642 Park Blvd",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "7.0",
+        "key": "74"
+    },
+    "75": {
+        "Location": "El Zarape",
+        "Burrito": "California",
+        "Neighborhood": "University Heights",
+        "Address": "4642 Park Blvd",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "6.25",
+        "key": "75"
+    },
+    "76": {
+        "Location": "El Zarape",
+        "Burrito": "California",
+        "Neighborhood": "University Heights",
+        "Address": "4642 Park Blvd",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "6.25",
+        "key": "76"
+    },
+    "77": {
+        "Location": "El Zarape",
+        "Burrito": "California",
+        "Neighborhood": "University Heights",
+        "Address": "4642 Park Blvd",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "6.25",
+        "key": "77"
+    },
+    "78": {
+        "Location": "El Zarape",
+        "Burrito": "Carne asada supreme",
+        "Neighborhood": "University Heights",
+        "Address": "4642 Park Blvd",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "6.25",
+        "key": "78"
+    },
+    "79": {
+        "Location": "Famoso Mexican Street Food",
+        "Burrito": "Cali Diablo",
+        "Neighborhood": "Downtown",
+        "Address": "815 C St",
+        "Yelp": "4.5",
+        "Google": "3.9",
+        "Cost": "10.5",
+        "key": "79"
+    },
+    "80": {
+        "Location": "Filiberto's",
+        "Burrito": "Adobada",
+        "Neighborhood": "Encinitas",
+        "Address": "476 S Coast Hwy 101",
+        "Yelp": "3.0",
+        "Google": "3.8",
+        "Cost": "6.25",
+        "key": "80"
+    },
+    "81": {
+        "Location": "Filiberto's",
+        "Burrito": "California",
+        "Neighborhood": "Encinitas",
+        "Address": "476 S Coast Hwy 101",
+        "Yelp": "3.0",
+        "Google": "3.8",
+        "Cost": "6.25",
+        "key": "81"
+    },
+    "82": {
+        "Location": "Gloria's Taco Shop",
+        "Burrito": "California ",
+        "Neighborhood": "South Park",
+        "Address": "1233 28th St",
+        "Yelp": "4.0",
+        "Google": "4.3",
+        "Cost": "5.65",
+        "key": "82"
+    },
+    "83": {
+        "Location": "Gloria's Taco Shop",
+        "Burrito": "Cabeza",
+        "Neighborhood": "South Park",
+        "Address": "1233 28th St",
+        "Yelp": "4.0",
+        "Google": "4.3",
+        "Cost": "5.49",
+        "key": "83"
+    },
+    "84": {
+        "Location": "Goody's",
+        "Burrito": "Custom",
+        "Neighborhood": "La Jolla",
+        "Address": "Marshall College",
+        "Yelp": "3.5",
+        "Google": "4.1",
+        "Cost": "7.25",
+        "key": "84"
+    },
+    "85": {
+        "Location": "Goody's",
+        "Burrito": "Custom",
+        "Neighborhood": "La Jolla",
+        "Address": "Marshall College",
+        "Yelp": "3.5",
+        "Google": "4.1",
+        "Cost": "8.0",
+        "key": "85"
+    },
+    "86": {
+        "Location": "Goody's",
+        "Burrito": "Custom",
+        "Neighborhood": "La Jolla",
+        "Address": "Marshall College",
+        "Yelp": "3.5",
+        "Google": "4.1",
+        "Cost": "8.0",
+        "key": "86"
+    },
+    "87": {
+        "Location": "Goody's",
+        "Burrito": "Carne Asada",
+        "Neighborhood": "La Jolla",
+        "Address": "Marshall College",
+        "Yelp": "3.5",
+        "Google": "4.1",
+        "Cost": "6.25",
+        "key": "87"
+    },
+    "88": {
+        "Location": "Graciela's Taco Shop",
+        "Burrito": "Adobada ",
+        "Neighborhood": "Bonita",
+        "Address": "5047 Central Ave",
+        "Yelp": "4.0",
+        "Google": "4.5",
+        "Cost": "5.99",
+        "key": "88"
+    },
+    "89": {
+        "Location": "Graciela's Taco Shop",
+        "Burrito": "Barbacoa",
+        "Neighborhood": "Bonita",
+        "Address": "5047 Central Ave",
+        "Yelp": "4.0",
+        "Google": "4.5",
+        "Cost": "5.99",
+        "key": "89"
+    },
+    "90": {
+        "Location": "JV's Mexican Food",
+        "Burrito": "Carne Asada",
+        "Neighborhood": "Morena",
+        "Address": "1112 Morena Blvd",
+        "Yelp": "4.0",
+        "Google": "4.1",
+        "Cost": "6.25",
+        "key": "90"
+    },
+    "91": {
+        "Location": "JV's Mexican Food",
+        "Burrito": "Surf & Turf",
+        "Neighborhood": "Morena",
+        "Address": "1112 Morena Blvd",
+        "Yelp": "4.0",
+        "Google": "4.1",
+        "Cost": "9.5",
+        "key": "91"
+    },
+    "92": {
+        "Location": "Jorge's Mexicatessen",
+        "Burrito": "California ",
+        "Neighborhood": "Encinitas ",
+        "Address": "267 N El Camino Real",
+        "Yelp": "4.0",
+        "Google": "4.5",
+        "Cost": "5.95",
+        "key": "92"
+    },
+    "93": {
+        "Location": "Jorge's Mexicatessen",
+        "Burrito": "Chimichanga beef",
+        "Neighborhood": "Encinitas ",
+        "Address": "267 N El Camino Real",
+        "Yelp": "4.0",
+        "Google": "4.5",
+        "Cost": "5.5",
+        "key": "93"
+    },
+    "94": {
+        "Location": "Jose's Taco",
+        "Burrito": "California",
+        "Neighborhood": "Oceanside",
+        "Address": "3910 Vista Way",
+        "Yelp": "4.0",
+        "Google": "3.8",
+        "Cost": "6.1",
+        "key": "94"
+    },
+    "95": {
+        "Location": "Juanita's Taco Shop",
+        "Burrito": "California ",
+        "Neighborhood": "Encinitas ",
+        "Address": "290 N Coast Hwy 101",
+        "Yelp": "4.0",
+        "Google": "4.5",
+        "Cost": "5.55",
+        "key": "95"
+    },
+    "96": {
+        "Location": "Juanita's Taco Shop",
+        "Burrito": "Arizona",
+        "Neighborhood": "Encinitas ",
+        "Address": "290 N Coast Hwy 101",
+        "Yelp": "4.0",
+        "Google": "4.5",
+        "Cost": "5.55",
+        "key": "96"
+    },
+    "97": {
+        "Location": "Karina's Taco Shop ",
+        "Burrito": "Bomb",
+        "Neighborhood": "Encinitas ",
+        "Address": "916 N Coast Hwy 101",
+        "Yelp": "4.0",
+        "Google": "4.2",
+        "Cost": "7.99",
+        "key": "97"
+    },
+    "98": {
+        "Location": "Karina's Taco Shop ",
+        "Burrito": "California ",
+        "Neighborhood": "Encinitas ",
+        "Address": "916 N Coast Hwy 101",
+        "Yelp": "4.0",
+        "Google": "4.2",
+        "Cost": "6.99",
+        "key": "98"
+    },
+    "99": {
+        "Location": "King Burrito",
+        "Burrito": "Adobada",
+        "Neighborhood": "Oceanside",
+        "Address": "3490 Marron Rd",
+        "Yelp": "4.0",
+        "Google": "3.9",
+        "Cost": "4.99",
+        "key": "99"
+    },
+    "100": {
+        "Location": "King Burrito",
+        "Burrito": "California",
+        "Neighborhood": "Oceanside",
+        "Address": "3490 Marron Rd",
+        "Yelp": "4.0",
+        "Google": "3.9",
+        "Cost": "5.29",
+        "key": "100"
+    },
+    "101": {
+        "Location": "Kotija Jr",
+        "Burrito": "California",
+        "Neighborhood": "Del Mar",
+        "Address": "2668 Del Mar Heights Rd",
+        "Yelp": "4.0",
+        "Google": "4.2",
+        "Cost": "6.99",
+        "key": "101"
+    },
+    "102": {
+        "Location": "Kotija Jr",
+        "Burrito": "Fish",
+        "Neighborhood": "Del Mar",
+        "Address": "2668 Del Mar Heights Rd",
+        "Yelp": "4.0",
+        "Google": "4.2",
+        "Cost": "6.5",
+        "key": "102"
+    },
+    "103": {
+        "Location": "Kotija Jr",
+        "Burrito": "Steak fajitas",
+        "Neighborhood": "Del Mar",
+        "Address": "2668 Del Mar Heights Rd",
+        "Yelp": "4.0",
+        "Google": "4.2",
+        "Cost": "7.1",
+        "key": "103"
+    },
+    "104": {
+        "Location": "La Morena Taco Shop and Seafood",
+        "Burrito": "California",
+        "Neighborhood": "Webster",
+        "Address": "5059 Federal Blvd",
+        "Yelp": "4.5",
+        "Google": "4.7",
+        "Cost": "6.35",
+        "key": "104"
+    },
+    "105": {
+        "Location": "La Perla Cocina",
+        "Burrito": "Addiction",
+        "Neighborhood": "Pacific Beach",
+        "Address": "745 Emerald St",
+        "Yelp": "4.5",
+        "Google": "4.7",
+        "Cost": "7.99",
+        "key": "105"
+    },
+    "106": {
+        "Location": "La Perla Cocina",
+        "Burrito": "Oaxacalifornia",
+        "Neighborhood": "Pacific Beach",
+        "Address": "745 Emerald St",
+        "Yelp": "4.5",
+        "Google": "4.7",
+        "Cost": "9.99",
+        "key": "106"
+    },
+    "107": {
+        "Location": "La Perla Cocina",
+        "Burrito": "California",
+        "Neighborhood": "Pacific Beach",
+        "Address": "745 Emerald St",
+        "Yelp": "4.5",
+        "Google": "4.7",
+        "Cost": "6.5",
+        "key": "107"
+    },
+    "108": {
+        "Location": "Lola's 7 Up Market & Deli",
+        "Burrito": "Shredded beef",
+        "Neighborhood": "Carlsbad",
+        "Address": "3292 Roosevelt St",
+        "Yelp": "4.5",
+        "Google": "4.9",
+        "Cost": "6.0",
+        "key": "108"
+    },
+    "109": {
+        "Location": "Lola's 7 Up Market & Deli",
+        "Burrito": "Carne asada",
+        "Neighborhood": "Carlsbad",
+        "Address": "3292 Roosevelt St",
+        "Yelp": "4.5",
+        "Google": "4.9",
+        "Cost": "7.0",
+        "key": "109"
+    },
+    "110": {
+        "Location": "Lolita's Taco Shop",
+        "Burrito": "2 in 1",
+        "Neighborhood": "Kearny Mesa",
+        "Address": "7305 Clairemont Mesa Blvd",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "8.75",
+        "key": "110"
+    },
+    "111": {
+        "Location": "Lolita's Taco Shop",
+        "Burrito": "Adobado",
+        "Neighborhood": "Kearny Mesa",
+        "Address": "7305 Clairemont Mesa Blvd",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "5.5",
+        "key": "111"
+    },
+    "112": {
+        "Location": "Lolita's Taco Shop",
+        "Burrito": "California",
+        "Neighborhood": "Kearny Mesa",
+        "Address": "7305 Clairemont Mesa Blvd",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "7.0",
+        "key": "112"
+    },
+    "113": {
+        "Location": "Lolita's Taco Shop",
+        "Burrito": "2 in 1",
+        "Neighborhood": "Kearny Mesa",
+        "Address": "7305 Clairemont Mesa Blvd",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "8.75",
+        "key": "113"
+    },
+    "114": {
+        "Location": "Lolita's Taco Shop",
+        "Burrito": "2 in 1",
+        "Neighborhood": "Kearny Mesa",
+        "Address": "7305 Clairemont Mesa Blvd",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "8.75",
+        "key": "114"
+    },
+    "115": {
+        "Location": "Lolita's Taco Shop",
+        "Burrito": "Carne asada",
+        "Neighborhood": "Kearny Mesa",
+        "Address": "7305 Clairemont Mesa Blvd",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "6.25",
+        "key": "115"
+    },
+    "116": {
+        "Location": "Lolita's Taco Shop",
+        "Burrito": "Shrimp",
+        "Neighborhood": "Kearny Mesa",
+        "Address": "7305 Clairemont Mesa Blvd",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "8.95",
+        "key": "116"
+    },
+    "117": {
+        "Location": "Lolita's Taco Shop",
+        "Burrito": "Bean and cheese",
+        "Neighborhood": "Kearny Mesa",
+        "Address": "7305 Clairemont Mesa Blvd",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "3.5",
+        "key": "117"
+    },
+    "118": {
+        "Location": "Lolita's Taco Shop",
+        "Burrito": "California",
+        "Neighborhood": "Kearny Mesa",
+        "Address": "7305 Clairemont Mesa Blvd",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "7.0",
+        "key": "118"
+    },
+    "119": {
+        "Location": "Lolita's Taco Shop",
+        "Burrito": "California",
+        "Neighborhood": "Kearny Mesa",
+        "Address": "7305 Clairemont Mesa Blvd",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "7.0",
+        "key": "119"
+    },
+    "120": {
+        "Location": "Lolita's Taco Shop",
+        "Burrito": "California",
+        "Neighborhood": "Kearny Mesa",
+        "Address": "7305 Clairemont Mesa Blvd",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "7.0",
+        "key": "120"
+    },
+    "121": {
+        "Location": "Lolita's Taco Shop",
+        "Burrito": "Mixed",
+        "Neighborhood": "Kearny Mesa",
+        "Address": "7305 Clairemont Mesa Blvd",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "8.25",
+        "key": "121"
+    },
+    "122": {
+        "Location": "Los Cabos",
+        "Burrito": "California",
+        "Neighborhood": "San Marcos",
+        "Address": "165 S Rancho Santa Fe Rd",
+        "Yelp": "4.0",
+        "Google": "4.1",
+        "Cost": "5.99",
+        "key": "122"
+    },
+    "123": {
+        "Location": "Los Cabos",
+        "Burrito": "Al pastor",
+        "Neighborhood": "San Marcos",
+        "Address": "165 S Rancho Santa Fe Rd",
+        "Yelp": "4.0",
+        "Google": "4.1",
+        "Cost": "5.69",
+        "key": "123"
+    },
+    "124": {
+        "Location": "Los Palmitos",
+        "Burrito": "California",
+        "Neighborhood": "Clairemont",
+        "Address": "5145 Clairemont Mesa Blvd",
+        "Yelp": "4.0",
+        "Google": "4.1",
+        "Cost": "7.1",
+        "key": "124"
+    },
+    "125": {
+        "Location": "Los Palmitos",
+        "Burrito": "Surf & Turf",
+        "Neighborhood": "Clairemont",
+        "Address": "5145 Clairemont Mesa Blvd",
+        "Yelp": "4.0",
+        "Google": "4.1",
+        "Cost": "8.25",
+        "key": "125"
+    },
+    "126": {
+        "Location": "Los Panchos Taco Shop",
+        "Burrito": "California",
+        "Neighborhood": "Hillcrest",
+        "Address": "409 Washington St",
+        "Yelp": "3.0",
+        "Google": "3.4",
+        "Cost": "6.25",
+        "key": "126"
+    },
+    "127": {
+        "Location": "Los Panchos Taco Shop",
+        "Burrito": "Bitchin California",
+        "Neighborhood": "Hillcrest",
+        "Address": "409 Washington St",
+        "Yelp": "3.0",
+        "Google": "3.4",
+        "Cost": "7.25",
+        "key": "127"
+    },
+    "128": {
+        "Location": "Los Panchos Taco Shop",
+        "Burrito": "Tijuana",
+        "Neighborhood": "Hillcrest",
+        "Address": "409 Washington St",
+        "Yelp": "3.0",
+        "Google": "3.4",
+        "Cost": "7.0",
+        "key": "128"
+    },
+    "129": {
+        "Location": "Los Primos Mexican Food",
+        "Burrito": "Monster California",
+        "Neighborhood": "UTC",
+        "Address": "7770 Regents Rd",
+        "Yelp": "3.0",
+        "Google": "3.7",
+        "Cost": "9.25",
+        "key": "129"
+    },
+    "130": {
+        "Location": "Los Primos Mexican Food",
+        "Burrito": "619 Burrito Original",
+        "Neighborhood": "UTC",
+        "Address": "7770 Regents Rd",
+        "Yelp": "3.0",
+        "Google": "3.7",
+        "Cost": "11.75",
+        "key": "130"
+    },
+    "131": {
+        "Location": "Los Primos Mexican Food",
+        "Burrito": "California",
+        "Neighborhood": "UTC",
+        "Address": "7770 Regents Rd",
+        "Yelp": "3.0",
+        "Google": "3.7",
+        "Cost": "7.5",
+        "key": "131"
+    },
+    "132": {
+        "Location": "Los Primos Mexican Food",
+        "Burrito": "Monster California",
+        "Neighborhood": "UTC",
+        "Address": "7770 Regents Rd",
+        "Yelp": "3.0",
+        "Google": "3.7",
+        "Cost": "9.25",
+        "key": "132"
+    },
+    "133": {
+        "Location": "Los Primos Mexican Food",
+        "Burrito": "California",
+        "Neighborhood": "UTC",
+        "Address": "7770 Regents Rd",
+        "Yelp": "3.0",
+        "Google": "3.7",
+        "Cost": "7.0",
+        "key": "133"
+    },
+    "134": {
+        "Location": "Los Primos Mexican Food",
+        "Burrito": "California breakfast",
+        "Neighborhood": "UTC",
+        "Address": "7770 Regents Rd",
+        "Yelp": "3.0",
+        "Google": "3.7",
+        "Cost": "6.25",
+        "key": "134"
+    },
+    "135": {
+        "Location": "Los Primos Mexican Food",
+        "Burrito": "Baja monster",
+        "Neighborhood": "UTC",
+        "Address": "7770 Regents Rd",
+        "Yelp": "3.0",
+        "Google": "3.7",
+        "Cost": "6.0",
+        "key": "135"
+    },
+    "136": {
+        "Location": "Los Primos Mexican Food",
+        "Burrito": "Baja monster",
+        "Neighborhood": "UTC",
+        "Address": "7770 Regents Rd",
+        "Yelp": "3.0",
+        "Google": "3.7",
+        "Cost": "6.0",
+        "key": "136"
+    },
+    "137": {
+        "Location": "Los Primos Mexican Food",
+        "Burrito": "Carnitas",
+        "Neighborhood": "UTC",
+        "Address": "7770 Regents Rd",
+        "Yelp": "3.0",
+        "Google": "3.7",
+        "Cost": "6.35",
+        "key": "137"
+    },
+    "138": {
+        "Location": "Los Primos Mexican Food",
+        "Burrito": "Surf & Turf",
+        "Neighborhood": "UTC",
+        "Address": "7770 Regents Rd",
+        "Yelp": "3.0",
+        "Google": "3.7",
+        "Cost": "7.0",
+        "key": "138"
+    },
+    "139": {
+        "Location": "Los Primos Mexican Food",
+        "Burrito": "Adobada",
+        "Neighborhood": "UTC",
+        "Address": "7770 Regents Rd",
+        "Yelp": "3.0",
+        "Google": "3.7",
+        "Cost": "6.25",
+        "key": "139"
+    },
+    "140": {
+        "Location": "Los Primos Mexican Food",
+        "Burrito": "Carne asada",
+        "Neighborhood": "UTC",
+        "Address": "7770 Regents Rd",
+        "Yelp": "3.0",
+        "Google": "3.7",
+        "Cost": "7.0",
+        "key": "140"
+    },
+    "141": {
+        "Location": "Los Tacos",
+        "Burrito": "Local",
+        "Neighborhood": "Oceanside",
+        "Address": "2183 Vista Way",
+        "Yelp": "4.0",
+        "Google": "4.2",
+        "Cost": "7.9",
+        "key": "141"
+    },
+    "142": {
+        "Location": "Los Tacos",
+        "Burrito": "Fusion",
+        "Neighborhood": "Oceanside",
+        "Address": "2183 Vista Way",
+        "Yelp": "4.0",
+        "Google": "4.2",
+        "Cost": "8.5",
+        "key": "142"
+    },
+    "143": {
+        "Location": "Los Tacos",
+        "Burrito": "California ",
+        "Neighborhood": "Oceanside",
+        "Address": "2183 Vista Way",
+        "Yelp": "4.0",
+        "Google": "4.2",
+        "Cost": "7.9",
+        "key": "143"
+    },
+    "144": {
+        "Location": "Los Tacos",
+        "Burrito": "Local",
+        "Neighborhood": "Oceanside",
+        "Address": "2183 Vista Way",
+        "Yelp": "4.0",
+        "Google": "4.2",
+        "Cost": "7.9",
+        "key": "144"
+    },
+    "145": {
+        "Location": "Los Tacos",
+        "Burrito": "Fusion",
+        "Neighborhood": "Oceanside",
+        "Address": "2183 Vista Way",
+        "Yelp": "4.0",
+        "Google": "4.2",
+        "Cost": "8.5",
+        "key": "145"
+    },
+    "146": {
+        "Location": "Los Tacos",
+        "Burrito": "Local",
+        "Neighborhood": "Oceanside",
+        "Address": "2183 Vista Way",
+        "Yelp": "4.0",
+        "Google": "4.2",
+        "Cost": "7.9",
+        "key": "146"
+    },
+    "147": {
+        "Location": "Los Tacos",
+        "Burrito": "Local",
+        "Neighborhood": "Oceanside",
+        "Address": "2183 Vista Way",
+        "Yelp": "4.0",
+        "Google": "4.2",
+        "Cost": "7.9",
+        "key": "147"
+    },
+    "148": {
+        "Location": "Los Tacos",
+        "Burrito": "Local",
+        "Neighborhood": "Oceanside",
+        "Address": "2183 Vista Way",
+        "Yelp": "4.0",
+        "Google": "4.2",
+        "Cost": "7.9",
+        "key": "148"
+    },
+    "149": {
+        "Location": "Los Tacos",
+        "Burrito": "Local",
+        "Neighborhood": "Oceanside",
+        "Address": "2183 Vista Way",
+        "Yelp": "4.0",
+        "Google": "4.2",
+        "Cost": "7.9",
+        "key": "149"
+    },
+    "150": {
+        "Location": "Los Tacos",
+        "Burrito": "Local",
+        "Neighborhood": "Oceanside",
+        "Address": "2183 Vista Way",
+        "Yelp": "4.0",
+        "Google": "4.2",
+        "Cost": "7.9",
+        "key": "150"
+    },
+    "151": {
+        "Location": "Los Tacos",
+        "Burrito": "Local",
+        "Neighborhood": "Oceanside",
+        "Address": "2183 Vista Way",
+        "Yelp": "4.0",
+        "Google": "4.2",
+        "Cost": "7.9",
+        "key": "151"
+    },
+    "152": {
+        "Location": "Los Tacos",
+        "Burrito": "Local",
+        "Neighborhood": "Oceanside",
+        "Address": "2183 Vista Way",
+        "Yelp": "4.0",
+        "Google": "4.2",
+        "Cost": "7.9",
+        "key": "152"
+    },
+    "153": {
+        "Location": "Los Tacos",
+        "Burrito": "Local",
+        "Neighborhood": "Oceanside",
+        "Address": "2183 Vista Way",
+        "Yelp": "4.0",
+        "Google": "4.2",
+        "Cost": "8.5",
+        "key": "153"
+    },
+    "154": {
+        "Location": "Los Tacos",
+        "Burrito": "Local",
+        "Neighborhood": "Oceanside",
+        "Address": "2183 Vista Way",
+        "Yelp": "4.0",
+        "Google": "4.2",
+        "Cost": "8.5",
+        "key": "154"
+    },
+    "155": {
+        "Location": "Los Tacos 2",
+        "Burrito": "Al pastor tradicional ",
+        "Neighborhood": "Oceanside",
+        "Address": "3480 Marron Rd",
+        "Yelp": "4.5",
+        "Google": "5.0",
+        "Cost": "8.25",
+        "key": "155"
+    },
+    "156": {
+        "Location": "Los Tacos 2",
+        "Burrito": "Cheese steak",
+        "Neighborhood": "Oceanside",
+        "Address": "3480 Marron Rd",
+        "Yelp": "4.5",
+        "Google": "5.0",
+        "Cost": "9.95",
+        "key": "156"
+    },
+    "157": {
+        "Location": "Los Tacos 2",
+        "Burrito": "Local",
+        "Neighborhood": "Oceanside",
+        "Address": "3480 Marron Rd",
+        "Yelp": "4.5",
+        "Google": "5.0",
+        "Cost": "8.5",
+        "key": "157"
+    },
+    "158": {
+        "Location": "Los Tacos 2",
+        "Burrito": "Local",
+        "Neighborhood": "Oceanside",
+        "Address": "3480 Marron Rd",
+        "Yelp": "4.5",
+        "Google": "5.0",
+        "Cost": "8.5",
+        "key": "158"
+    },
+    "159": {
+        "Location": "Lourdes",
+        "Burrito": "Carnitas",
+        "Neighborhood": "Encinitas",
+        "Address": "2113 San Elijo Ave",
+        "Yelp": "4.0",
+        "Google": "4.7",
+        "Cost": "7.35",
+        "key": "159"
+    },
+    "160": {
+        "Location": "Lourdes",
+        "Burrito": "California",
+        "Neighborhood": "Encinitas",
+        "Address": "2113 San Elijo Ave",
+        "Yelp": "4.0",
+        "Google": "4.7",
+        "Cost": "6.35",
+        "key": "160"
+    },
+    "161": {
+        "Location": "Lucha Libre North Park",
+        "Burrito": "Surf & Turf",
+        "Neighborhood": "North Park",
+        "Address": "3016 University Ave",
+        "Yelp": "3.5",
+        "Google": "4.3",
+        "Cost": "8.25",
+        "key": "161"
+    },
+    "162": {
+        "Location": "Lucha Libre North Park",
+        "Burrito": "Surf & Turf",
+        "Neighborhood": "North Park",
+        "Address": "3016 University Ave",
+        "Yelp": "3.5",
+        "Google": "4.3",
+        "Cost": "8.25",
+        "key": "162"
+    },
+    "163": {
+        "Location": "Lucha Libre North Park",
+        "Burrito": "Surf & Turf",
+        "Neighborhood": "North Park",
+        "Address": "3016 University Ave",
+        "Yelp": "3.5",
+        "Google": "4.3",
+        "Cost": "8.25",
+        "key": "163"
+    },
+    "164": {
+        "Location": "Lucha Libre North Park",
+        "Burrito": "Surf & Turf",
+        "Neighborhood": "North Park",
+        "Address": "3016 University Ave",
+        "Yelp": "3.5",
+        "Google": "4.3",
+        "Cost": "8.25",
+        "key": "164"
+    },
+    "165": {
+        "Location": "Lucha Libre North Park",
+        "Burrito": "Surf & Turf",
+        "Neighborhood": "North Park",
+        "Address": "3016 University Ave",
+        "Yelp": "3.5",
+        "Google": "4.3",
+        "Cost": "8.25",
+        "key": "165"
+    },
+    "166": {
+        "Location": "Lucha Libre North Park",
+        "Burrito": "Surfin California",
+        "Neighborhood": "North Park",
+        "Address": "3016 University Ave",
+        "Yelp": "3.5",
+        "Google": "4.3",
+        "Cost": "8.25",
+        "key": "166"
+    },
+    "167": {
+        "Location": "Lucha Libre North Park",
+        "Burrito": "Surfin California",
+        "Neighborhood": "North Park",
+        "Address": "3016 University Ave",
+        "Yelp": "3.5",
+        "Google": "4.3",
+        "Cost": "8.25",
+        "key": "167"
+    },
+    "168": {
+        "Location": "Lucha Libre North Park",
+        "Burrito": "Surfin California",
+        "Neighborhood": "North Park",
+        "Address": "3016 University Ave",
+        "Yelp": "3.5",
+        "Google": "4.3",
+        "Cost": "8.25",
+        "key": "168"
+    },
+    "169": {
+        "Location": "Lucha Libre North Park",
+        "Burrito": "Surfin California",
+        "Neighborhood": "North Park",
+        "Address": "3016 University Ave",
+        "Yelp": "3.5",
+        "Google": "4.3",
+        "Cost": "8.25",
+        "key": "169"
+    },
+    "170": {
+        "Location": "Lucha Libre North Park",
+        "Burrito": "Surfin California",
+        "Neighborhood": "North Park",
+        "Address": "3016 University Ave",
+        "Yelp": "3.5",
+        "Google": "4.3",
+        "Cost": "8.25",
+        "key": "170"
+    },
+    "171": {
+        "Location": "Lucha Libre North Park",
+        "Burrito": "Surfin California",
+        "Neighborhood": "North Park",
+        "Address": "3016 University Ave",
+        "Yelp": "3.5",
+        "Google": "4.3",
+        "Cost": "8.25",
+        "key": "171"
+    },
+    "172": {
+        "Location": "Lucha Libre North Park",
+        "Burrito": "Surfin California",
+        "Neighborhood": "North Park",
+        "Address": "3016 University Ave",
+        "Yelp": "3.5",
+        "Google": "4.3",
+        "Cost": "8.25",
+        "key": "172"
+    },
+    "173": {
+        "Location": "Lucha Libre North Park",
+        "Burrito": "Nutty",
+        "Neighborhood": "North Park",
+        "Address": "3016 University Ave",
+        "Yelp": "3.5",
+        "Google": "4.3",
+        "Cost": "7.5",
+        "key": "173"
+    },
+    "174": {
+        "Location": "Lucha Libre North Park",
+        "Burrito": "Veg Out",
+        "Neighborhood": "North Park",
+        "Address": "3016 University Ave",
+        "Yelp": "3.5",
+        "Google": "4.3",
+        "Cost": "6.95",
+        "key": "174"
+    },
+    "175": {
+        "Location": "Lupe's Taco Shop",
+        "Burrito": "Hot cheetos",
+        "Neighborhood": "Linda Vista",
+        "Address": "7621 Linda Vista Rd",
+        "Yelp": "3.5",
+        "Google": "4.5",
+        "Cost": "7.29",
+        "key": "175"
+    },
+    "176": {
+        "Location": "Lupe's Taco Shop",
+        "Burrito": "Surfin California",
+        "Neighborhood": "Linda Vista",
+        "Address": "7621 Linda Vista Rd",
+        "Yelp": "3.5",
+        "Google": "4.5",
+        "Cost": "7.89",
+        "key": "176"
+    },
+    "177": {
+        "Location": "Lupe's Taco Shop",
+        "Burrito": "California",
+        "Neighborhood": "Linda Vista",
+        "Address": "7621 Linda Vista Rd",
+        "Yelp": "3.5",
+        "Google": "4.5",
+        "Cost": "7.49",
+        "key": "177"
+    },
+    "178": {
+        "Location": "Lupe's Taco Shop",
+        "Burrito": "Spicy a la Diabla",
+        "Neighborhood": "Linda Vista",
+        "Address": "7621 Linda Vista Rd",
+        "Yelp": "3.5",
+        "Google": "4.5",
+        "Cost": "7.49",
+        "key": "178"
+    },
+    "179": {
+        "Location": "Lupe's Taco Shop",
+        "Burrito": "TGunz",
+        "Neighborhood": "Linda Vista",
+        "Address": "7621 Linda Vista Rd",
+        "Yelp": "3.5",
+        "Google": "4.5",
+        "Cost": "10.0",
+        "key": "179"
+    },
+    "180": {
+        "Location": "Lupe's Taco Shop",
+        "Burrito": "TGunz",
+        "Neighborhood": "Linda Vista",
+        "Address": "7621 Linda Vista Rd",
+        "Yelp": "3.5",
+        "Google": "4.5",
+        "Cost": "10.0",
+        "key": "180"
+    },
+    "181": {
+        "Location": "Matador Mexican Food",
+        "Burrito": "Carnitas",
+        "Neighborhood": "Morena",
+        "Address": "5201 Linda Vista Rd",
+        "Yelp": "4.5",
+        "Google": "4.0",
+        "Cost": "6.6",
+        "key": "181"
+    },
+    "182": {
+        "Location": "Matador Mexican Food",
+        "Burrito": "Carne asada",
+        "Neighborhood": "Morena",
+        "Address": "5201 Linda Vista Rd",
+        "Yelp": "4.5",
+        "Google": "4.0",
+        "Cost": "6.6",
+        "key": "182"
+    },
+    "183": {
+        "Location": "Mi Asador Mexican & Seafood ",
+        "Burrito": "California ",
+        "Neighborhood": "Oceanside",
+        "Address": "4750 Oceanside Blvd",
+        "Yelp": "4.5",
+        "Google": "4.4",
+        "Cost": "6.89",
+        "key": "183"
+    },
+    "184": {
+        "Location": "Mi Asador Mexican & Seafood ",
+        "Burrito": "El Hawaiiano ",
+        "Neighborhood": "Oceanside",
+        "Address": "4750 Oceanside Blvd",
+        "Yelp": "4.5",
+        "Google": "4.4",
+        "Cost": "6.39",
+        "key": "184"
+    },
+    "185": {
+        "Location": "Mikes Taco Club",
+        "Burrito": "California",
+        "Neighborhood": "Ocean Beach",
+        "Address": "5060 Newport Ave",
+        "Yelp": "4.5",
+        "Google": "4.9",
+        "Cost": "8.59",
+        "key": "185"
+    },
+    "186": {
+        "Location": "Mikes Taco Club",
+        "Burrito": "California",
+        "Neighborhood": "Ocean Beach",
+        "Address": "5060 Newport Ave",
+        "Yelp": "4.5",
+        "Google": "4.9",
+        "Cost": "8.59",
+        "key": "186"
+    },
+    "187": {
+        "Location": "Mister Falafel",
+        "Burrito": "Chicken Shawarma",
+        "Neighborhood": "Clairemont",
+        "Address": "4461 Clairemont Mesa Blvd",
+        "Yelp": "4.5",
+        "Google": "4.6",
+        "Cost": "6.99",
+        "key": "187"
+    },
+    "188": {
+        "Location": "Mr. Ruribertos Taco Shop ",
+        "Burrito": "California",
+        "Neighborhood": "Mission Beach",
+        "Address": "3202 Mission Blvd",
+        "Yelp": "3.5",
+        "Google": "3.7",
+        "Cost": "7.75",
+        "key": "188"
+    },
+    "189": {
+        "Location": "Mr. Ruribertos Taco Shop ",
+        "Burrito": "Carne asada",
+        "Neighborhood": "Mission Beach",
+        "Address": "3202 Mission Blvd",
+        "Yelp": "3.5",
+        "Google": "3.7",
+        "Cost": "7.75",
+        "key": "189"
+    },
+    "190": {
+        "Location": "Netos Mexican Food",
+        "Burrito": "California ",
+        "Neighborhood": "San Marcos",
+        "Address": "325 S Rancho Santa Fe Rd",
+        "Yelp": "4.5",
+        "Google": "4.1",
+        "Cost": "5.99",
+        "key": "190"
+    },
+    "191": {
+        "Location": "Netos Mexican Food",
+        "Burrito": "Carne adobada ",
+        "Neighborhood": "San Marcos",
+        "Address": "325 S Rancho Santa Fe Rd",
+        "Yelp": "4.5",
+        "Google": "4.1",
+        "Cost": "5.5",
+        "key": "191"
+    },
+    "192": {
+        "Location": "Nico's Taco Shop",
+        "Burrito": "California",
+        "Neighborhood": "Carmel Valley",
+        "Address": "3860 Valley Centre Dr #404",
+        "Yelp": "3.0",
+        "Google": "2.9",
+        "Cost": "7.19",
+        "key": "192"
+    },
+    "193": {
+        "Location": "Nico's Taco Shop",
+        "Burrito": "Carnitas",
+        "Neighborhood": "Carmel Valley",
+        "Address": "3860 Valley Centre Dr #404",
+        "Yelp": "3.0",
+        "Google": "2.9",
+        "Cost": "6.99",
+        "key": "193"
+    },
+    "194": {
+        "Location": "Ortiz's Taco Shop #2",
+        "Burrito": "California",
+        "Neighborhood": "Pacific Beach",
+        "Address": "1313 Garnet Ave",
+        "Yelp": "4.0",
+        "Google": "4.2",
+        "Cost": "6.39",
+        "key": "194"
+    },
+    "195": {
+        "Location": "Ortiz's Taco Shop #2",
+        "Burrito": "California chicken",
+        "Neighborhood": "Pacific Beach",
+        "Address": "1313 Garnet Ave",
+        "Yelp": "4.0",
+        "Google": "4.2",
+        "Cost": "6.39",
+        "key": "195"
+    },
+    "196": {
+        "Location": "Ortiz's Taco Shop #2",
+        "Burrito": "California",
+        "Neighborhood": "Pacific Beach",
+        "Address": "1313 Garnet Ave",
+        "Yelp": "4.0",
+        "Google": "4.2",
+        "Cost": "6.39",
+        "key": "196"
+    },
+    "197": {
+        "Location": "Ortiz's Taco Shop #2",
+        "Burrito": "California",
+        "Neighborhood": "Pacific Beach",
+        "Address": "1313 Garnet Ave",
+        "Yelp": "4.0",
+        "Google": "4.2",
+        "Cost": "6.39",
+        "key": "197"
+    },
+    "198": {
+        "Location": "Oscar's Mexican Food",
+        "Burrito": "California ",
+        "Neighborhood": "San Marcos",
+        "Address": "225 S Rancho Santa Fe Rd",
+        "Yelp": "3.5",
+        "Google": "3.3",
+        "Cost": "5.45",
+        "key": "198"
+    },
+    "199": {
+        "Location": "Oscar's Mexican Food",
+        "Burrito": "Carnitas",
+        "Neighborhood": "San Marcos",
+        "Address": "225 S Rancho Santa Fe Rd",
+        "Yelp": "3.5",
+        "Google": "3.3",
+        "Cost": "4.85",
+        "key": "199"
+    },
+    "200": {
+        "Location": "Oscar's Mexican Food",
+        "Burrito": "Carne asada",
+        "Neighborhood": "San Marcos",
+        "Address": "225 S Rancho Santa Fe Rd",
+        "Yelp": "3.5",
+        "Google": "3.3",
+        "Cost": "5.25",
+        "key": "200"
+    },
+    "201": {
+        "Location": "Papa Chito's Mexican Food",
+        "Burrito": "California",
+        "Neighborhood": "University City",
+        "Address": "3951 Governor Dr",
+        "Yelp": "2.5",
+        "Google": "3.3",
+        "Cost": "6.25",
+        "key": "201"
+    },
+    "202": {
+        "Location": "Papa Chito's Mexican Food",
+        "Burrito": "California",
+        "Neighborhood": "University City",
+        "Address": "3951 Governor Dr",
+        "Yelp": "2.5",
+        "Google": "3.3",
+        "Cost": "6.25",
+        "key": "202"
+    },
+    "203": {
+        "Location": "Pokirrito",
+        "Burrito": "Pokirrito classic ",
+        "Neighborhood": "Kearny Mesa",
+        "Address": "4646 Convoy St",
+        "Yelp": "4.0",
+        "Google": "4.3",
+        "Cost": "11.95",
+        "key": "203"
+    },
+    "204": {
+        "Location": "Pokirrito",
+        "Burrito": "Mauna Lani",
+        "Neighborhood": "Kearny Mesa",
+        "Address": "4646 Convoy St",
+        "Yelp": "4.0",
+        "Google": "4.3",
+        "Cost": "11.95",
+        "key": "204"
+    },
+    "205": {
+        "Location": "Pollos Maria",
+        "Burrito": "California",
+        "Neighborhood": "Carlsbad",
+        "Address": "3055 Harding St",
+        "Yelp": "4.0",
+        "Google": "3.8",
+        "Cost": "6.59",
+        "key": "205"
+    },
+    "206": {
+        "Location": "Pollos Maria",
+        "Burrito": "combo chicken",
+        "Neighborhood": "Carlsbad",
+        "Address": "3055 Harding St",
+        "Yelp": "4.0",
+        "Google": "3.8",
+        "Cost": "6.99",
+        "key": "206"
+    },
+    "207": {
+        "Location": "Pollos Maria",
+        "Burrito": "Combo chicken",
+        "Neighborhood": "Carlsbad",
+        "Address": "3055 Harding St",
+        "Yelp": "4.0",
+        "Google": "3.8",
+        "Cost": "6.99",
+        "key": "207"
+    },
+    "208": {
+        "Location": "Pollos Maria",
+        "Burrito": "Carne asada",
+        "Neighborhood": "Carlsbad",
+        "Address": "3055 Harding St",
+        "Yelp": "4.0",
+        "Google": "3.8",
+        "Cost": "6.49",
+        "key": "208"
+    },
+    "209": {
+        "Location": "Porkyland ",
+        "Burrito": "Deborah's special",
+        "Neighborhood": "Carmel Valley",
+        "Address": "4645 Carmel Mountain Rd",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "8.25",
+        "key": "209"
+    },
+    "210": {
+        "Location": "Porkyland ",
+        "Burrito": "Chicken nopalito",
+        "Neighborhood": "Carmel Valley",
+        "Address": "4645 Carmel Mountain Rd",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "7.95",
+        "key": "210"
+    },
+    "211": {
+        "Location": "Porkyland ",
+        "Burrito": "Chicken nopalito",
+        "Neighborhood": "Carmel Valley",
+        "Address": "4645 Carmel Mountain Rd",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "7.95",
+        "key": "211"
+    },
+    "212": {
+        "Location": "Porkyland ",
+        "Burrito": "California",
+        "Neighborhood": "Carmel Valley",
+        "Address": "4645 Carmel Mountain Rd",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "8.75",
+        "key": "212"
+    },
+    "213": {
+        "Location": "Raul's Mexican food",
+        "Burrito": "Chile verde pork",
+        "Neighborhood": "Encinitas",
+        "Address": "490 S Coast Hwy 101",
+        "Yelp": "4.0",
+        "Google": "4.2",
+        "Cost": "5.0",
+        "key": "213"
+    },
+    "214": {
+        "Location": "Raul's Mexican food",
+        "Burrito": "carne asada",
+        "Neighborhood": "Encinitas",
+        "Address": "490 S Coast Hwy 101",
+        "Yelp": "4.0",
+        "Google": "4.2",
+        "Cost": "5.0",
+        "key": "214"
+    },
+    "215": {
+        "Location": "Rigoberto's Taco Shop",
+        "Burrito": "Carne asada",
+        "Neighborhood": "Miramar",
+        "Address": "7094 Miramar Rd",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "6.6",
+        "key": "215"
+    },
+    "216": {
+        "Location": "Rigoberto's Taco Shop",
+        "Burrito": "Campeon",
+        "Neighborhood": "Miramar",
+        "Address": "7094 Miramar Rd",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "7.65",
+        "key": "216"
+    },
+    "217": {
+        "Location": "Rigoberto's Taco Shop",
+        "Burrito": "California ",
+        "Neighborhood": "Miramar",
+        "Address": "7094 Miramar Rd",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "6.6",
+        "key": "217"
+    },
+    "218": {
+        "Location": "Rigoberto's Taco Shop",
+        "Burrito": "Adobada",
+        "Neighborhood": "Miramar",
+        "Address": "7094 Miramar Rd",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "6.6",
+        "key": "218"
+    },
+    "219": {
+        "Location": "Rigoberto's Taco Shop",
+        "Burrito": "California",
+        "Neighborhood": "Miramar",
+        "Address": "7094 Miramar Rd",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "6.6",
+        "key": "219"
+    },
+    "220": {
+        "Location": "Rigoberto's Taco Shop",
+        "Burrito": "Surf & Turf",
+        "Neighborhood": "Miramar",
+        "Address": "7094 Miramar Rd",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "7.45",
+        "key": "220"
+    },
+    "221": {
+        "Location": "Rigoberto's Taco Shop",
+        "Burrito": "El Rusio",
+        "Neighborhood": "Miramar",
+        "Address": "7094 Miramar Rd",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "6.65",
+        "key": "221"
+    },
+    "222": {
+        "Location": "Rigoberto's Taco Shop",
+        "Burrito": "Carne asada",
+        "Neighborhood": "Miramar",
+        "Address": "7094 Miramar Rd",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "6.6",
+        "key": "222"
+    },
+    "223": {
+        "Location": "Rigoberto's Taco Shop",
+        "Burrito": "Carne asada",
+        "Neighborhood": "Miramar",
+        "Address": "7094 Miramar Rd",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "6.6",
+        "key": "223"
+    },
+    "224": {
+        "Location": "Rigoberto's Taco Shop",
+        "Burrito": "Carnitas",
+        "Neighborhood": "Miramar",
+        "Address": "7094 Miramar Rd",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "7.5",
+        "key": "224"
+    },
+    "225": {
+        "Location": "Rigoberto's Taco Shop",
+        "Burrito": "Bacon breakfast",
+        "Neighborhood": "Miramar",
+        "Address": "7094 Miramar Rd",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "6.25",
+        "key": "225"
+    },
+    "226": {
+        "Location": "Rigoberto's Taco Shop",
+        "Burrito": "Chile Relleno",
+        "Neighborhood": "Miramar",
+        "Address": "7094 Miramar Rd",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "6.6",
+        "key": "226"
+    },
+    "227": {
+        "Location": "Rigoberto's Taco Shop",
+        "Burrito": "Fish",
+        "Neighborhood": "Miramar",
+        "Address": "7094 Miramar Rd",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "6.0",
+        "key": "227"
+    },
+    "228": {
+        "Location": "Rigoberto's Taco Shop La Jolla",
+        "Burrito": "California",
+        "Neighborhood": "La Jolla",
+        "Address": "7345 La Jolla Blvd",
+        "Yelp": "2.5",
+        "Google": "4.0",
+        "Cost": "6.4",
+        "key": "228"
+    },
+    "229": {
+        "Location": "Rigoberto's Taco Shop La Jolla",
+        "Burrito": "California",
+        "Neighborhood": "La Jolla",
+        "Address": "7345 La Jolla Blvd",
+        "Yelp": "2.5",
+        "Google": "4.0",
+        "Cost": "6.4",
+        "key": "229"
+    },
+    "230": {
+        "Location": "Rigoberto's Taco Shop La Jolla",
+        "Burrito": "California",
+        "Neighborhood": "La Jolla",
+        "Address": "7345 La Jolla Blvd",
+        "Yelp": "2.5",
+        "Google": "4.0",
+        "Cost": "6.85",
+        "key": "230"
+    },
+    "231": {
+        "Location": "Rigoberto's Taco Shop La Jolla",
+        "Burrito": "California",
+        "Neighborhood": "La Jolla",
+        "Address": "7345 La Jolla Blvd",
+        "Yelp": "2.5",
+        "Google": "4.0",
+        "Cost": "6.85",
+        "key": "231"
+    },
+    "232": {
+        "Location": "Roberto's Taco Shop Clairemont",
+        "Burrito": "California",
+        "Neighborhood": "Clairemont",
+        "Address": "3095 Clairemont Dr",
+        "Yelp": "4.0",
+        "Google": "4.0",
+        "Cost": "5.79",
+        "key": "232"
+    },
+    "233": {
+        "Location": "Roberto's Taco Shop Clairemont",
+        "Burrito": "California",
+        "Neighborhood": "Clairemont",
+        "Address": "3095 Clairemont Dr",
+        "Yelp": "4.0",
+        "Google": "4.0",
+        "Cost": "5.79",
+        "key": "233"
+    },
+    "234": {
+        "Location": "Roberto's Taco Shop Clairemont",
+        "Burrito": "California + Guac + sour cream",
+        "Neighborhood": "Clairemont",
+        "Address": "3095 Clairemont Dr",
+        "Yelp": "4.0",
+        "Google": "4.0",
+        "Cost": "7.29",
+        "key": "234"
+    },
+    "235": {
+        "Location": "Roberto's Taco Shop Clairemont",
+        "Burrito": "Carne asada",
+        "Neighborhood": "Clairemont",
+        "Address": "3095 Clairemont Dr",
+        "Yelp": "4.0",
+        "Google": "4.0",
+        "Cost": "5.69",
+        "key": "235"
+    },
+    "236": {
+        "Location": "Roberto's Taco Shop Hillcrest",
+        "Burrito": "Asada",
+        "Neighborhood": "Hillcrest",
+        "Address": "420 Robinson Ave",
+        "Yelp": "4.0",
+        "Google": "4.2",
+        "Cost": "7.0",
+        "key": "236"
+    },
+    "237": {
+        "Location": "Roberto's Taco Shop Hillcrest",
+        "Burrito": "California Surf and Turf",
+        "Neighborhood": "Hillcrest",
+        "Address": "420 Robinson Ave",
+        "Yelp": "4.0",
+        "Google": "4.2",
+        "Cost": "9.0",
+        "key": "237"
+    },
+    "238": {
+        "Location": "Roberto's Taco Shop Hillcrest",
+        "Burrito": "California",
+        "Neighborhood": "Hillcrest",
+        "Address": "420 Robinson Ave",
+        "Yelp": "4.0",
+        "Google": "4.2",
+        "Cost": "7.0",
+        "key": "238"
+    },
+    "239": {
+        "Location": "Roberto's Taco Shop Hillcrest",
+        "Burrito": "Golden State",
+        "Neighborhood": "Hillcrest",
+        "Address": "420 Robinson Ave",
+        "Yelp": "4.0",
+        "Google": "4.2",
+        "Cost": "25.0",
+        "key": "239"
+    },
+    "240": {
+        "Location": "Roberto's Taco Shop Hillcrest",
+        "Burrito": "California",
+        "Neighborhood": "Hillcrest",
+        "Address": "420 Robinson Ave",
+        "Yelp": "4.0",
+        "Google": "4.2",
+        "Cost": "7.0",
+        "key": "240"
+    },
+    "241": {
+        "Location": "Roberto's Very Mexican Food",
+        "Burrito": "Chicken asada",
+        "Neighborhood": "Del Mar",
+        "Address": "2206 Carmel Valley Road",
+        "Yelp": "3.5",
+        "Google": "3.9",
+        "Cost": "6.5",
+        "key": "241"
+    },
+    "242": {
+        "Location": "Roberto's Very Mexican Food",
+        "Burrito": "Carnitas",
+        "Neighborhood": "Del Mar",
+        "Address": "2206 Carmel Valley Road",
+        "Yelp": "3.5",
+        "Google": "3.9",
+        "Cost": "5.4",
+        "key": "242"
+    },
+    "243": {
+        "Location": "Rubios UCSD",
+        "Burrito": "Tilapia one",
+        "Neighborhood": "UTC",
+        "Address": "9500 Gilman Dr",
+        "Yelp": "3.5",
+        "Google": "3.4",
+        "Cost": "7.99",
+        "key": "243"
+    },
+    "244": {
+        "Location": "Rubios UCSD",
+        "Burrito": "Grilled fish salmon",
+        "Neighborhood": "UTC",
+        "Address": "9500 Gilman Dr",
+        "Yelp": "3.5",
+        "Google": "3.4",
+        "Cost": "8.99",
+        "key": "244"
+    },
+    "245": {
+        "Location": "Rudy's Taco Shop",
+        "Burrito": "Chicken",
+        "Neighborhood": "Solana Beach",
+        "Address": "524 Stevens Ave",
+        "Yelp": "4.0",
+        "Google": "4.3",
+        "Cost": "6.6",
+        "key": "245"
+    },
+    "246": {
+        "Location": "Rudy's Taco Shop",
+        "Burrito": "Carnitas",
+        "Neighborhood": "Solana Beach",
+        "Address": "524 Stevens Ave",
+        "Yelp": "4.0",
+        "Google": "4.3",
+        "Cost": "6.6",
+        "key": "246"
+    },
+    "247": {
+        "Location": "Senor Grubby's",
+        "Burrito": "California",
+        "Neighborhood": "Carlsbad",
+        "Address": "377 Carlsbad Village Dr",
+        "Yelp": "4.0",
+        "Google": "4.1",
+        "Cost": "9.0",
+        "key": "247"
+    },
+    "248": {
+        "Location": "Senor Grubby's",
+        "Burrito": "Pastor",
+        "Neighborhood": "Carlsbad",
+        "Address": "377 Carlsbad Village Dr",
+        "Yelp": "4.0",
+        "Google": "4.1",
+        "Cost": "9.0",
+        "key": "248"
+    },
+    "249": {
+        "Location": "Senor Panchos",
+        "Burrito": "Pollo asado",
+        "Neighborhood": "San Marcos",
+        "Address": "1909 W San Marcos Blvd",
+        "Yelp": "4.0",
+        "Google": "4.2",
+        "Cost": "6.25",
+        "key": "249"
+    },
+    "250": {
+        "Location": "Senor Panchos",
+        "Burrito": "California",
+        "Neighborhood": "San Marcos",
+        "Address": "1909 W San Marcos Blvd",
+        "Yelp": "4.0",
+        "Google": "4.2",
+        "Cost": "6.25",
+        "key": "250"
+    },
+    "251": {
+        "Location": "Sotos Mexican Food",
+        "Burrito": "California",
+        "Neighborhood": "Miramar ",
+        "Address": "6904 Miramar Rd",
+        "Yelp": "4.5",
+        "Google": "4.6",
+        "Cost": "6.75",
+        "key": "251"
+    },
+    "252": {
+        "Location": "Sotos Mexican Food",
+        "Burrito": "Pastor",
+        "Neighborhood": "Miramar ",
+        "Address": "6904 Miramar Rd",
+        "Yelp": "4.5",
+        "Google": "4.6",
+        "Cost": "5.99",
+        "key": "252"
+    },
+    "253": {
+        "Location": "Taco Stand",
+        "Burrito": "California",
+        "Neighborhood": "La Jolla",
+        "Address": "621 Pearl St",
+        "Yelp": "4.5",
+        "Google": "4.4",
+        "Cost": "7.49",
+        "key": "253"
+    },
+    "254": {
+        "Location": "Taco Stand",
+        "Burrito": "Surf and turf ",
+        "Neighborhood": "La Jolla",
+        "Address": "621 Pearl St",
+        "Yelp": "4.5",
+        "Google": "4.4",
+        "Cost": "8.49",
+        "key": "254"
+    },
+    "255": {
+        "Location": "Taco Stand",
+        "Burrito": "California",
+        "Neighborhood": "La Jolla",
+        "Address": "621 Pearl St",
+        "Yelp": "4.5",
+        "Google": "4.4",
+        "Cost": "7.49",
+        "key": "255"
+    },
+    "256": {
+        "Location": "Taco Stand",
+        "Burrito": "California",
+        "Neighborhood": "La Jolla",
+        "Address": "621 Pearl St",
+        "Yelp": "4.5",
+        "Google": "4.4",
+        "Cost": "7.49",
+        "key": "256"
+    },
+    "257": {
+        "Location": "Taco Stand",
+        "Burrito": "Carne asada",
+        "Neighborhood": "La Jolla",
+        "Address": "621 Pearl St",
+        "Yelp": "4.5",
+        "Google": "4.4",
+        "Cost": "7.89",
+        "key": "257"
+    },
+    "258": {
+        "Location": "Taco Stand",
+        "Burrito": "Al pastor",
+        "Neighborhood": "La Jolla",
+        "Address": "621 Pearl St",
+        "Yelp": "4.5",
+        "Google": "4.4",
+        "Cost": "6.99",
+        "key": "258"
+    },
+    "259": {
+        "Location": "Taco Stand",
+        "Burrito": "Carne asada",
+        "Neighborhood": "La Jolla",
+        "Address": "621 Pearl St",
+        "Yelp": "4.5",
+        "Google": "4.4",
+        "Cost": "7.89",
+        "key": "259"
+    },
+    "260": {
+        "Location": "Taco Stand",
+        "Burrito": "Carne asada",
+        "Neighborhood": "La Jolla",
+        "Address": "621 Pearl St",
+        "Yelp": "4.5",
+        "Google": "4.4",
+        "Cost": "7.89",
+        "key": "260"
+    },
+    "261": {
+        "Location": "Taco Stand",
+        "Burrito": "California",
+        "Neighborhood": "La Jolla",
+        "Address": "621 Pearl St",
+        "Yelp": "4.5",
+        "Google": "4.4",
+        "Cost": "8.0",
+        "key": "261"
+    },
+    "262": {
+        "Location": "Taco Stand",
+        "Burrito": "California",
+        "Neighborhood": "La Jolla",
+        "Address": "621 Pearl St",
+        "Yelp": "4.5",
+        "Google": "4.4",
+        "Cost": "7.49",
+        "key": "262"
+    },
+    "263": {
+        "Location": "Taco Stand",
+        "Burrito": "California",
+        "Neighborhood": "La Jolla",
+        "Address": "621 Pearl St",
+        "Yelp": "4.5",
+        "Google": "4.4",
+        "Cost": "7.49",
+        "key": "263"
+    },
+    "264": {
+        "Location": "Taco Stand",
+        "Burrito": "California",
+        "Neighborhood": "La Jolla",
+        "Address": "621 Pearl St",
+        "Yelp": "4.5",
+        "Google": "4.4",
+        "Cost": "7.49",
+        "key": "264"
+    },
+    "265": {
+        "Location": "Taco Stand",
+        "Burrito": "California",
+        "Neighborhood": "La Jolla",
+        "Address": "621 Pearl St",
+        "Yelp": "4.5",
+        "Google": "4.4",
+        "Cost": "7.49",
+        "key": "265"
+    },
+    "266": {
+        "Location": "Taco Stand",
+        "Burrito": "California",
+        "Neighborhood": "La Jolla",
+        "Address": "621 Pearl St",
+        "Yelp": "4.5",
+        "Google": "4.4",
+        "Cost": "7.49",
+        "key": "266"
+    },
+    "267": {
+        "Location": "Taco Stand Encinitas",
+        "Burrito": "California ",
+        "Neighborhood": "Encinitas ",
+        "Address": "642 S Coast Hwy 101",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "7.49",
+        "key": "267"
+    },
+    "268": {
+        "Location": "Taco Stand Encinitas",
+        "Burrito": "California ",
+        "Neighborhood": "Encinitas ",
+        "Address": "642 S Coast Hwy 101",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "7.49",
+        "key": "268"
+    },
+    "269": {
+        "Location": "Taco Stand Encinitas",
+        "Burrito": "California",
+        "Neighborhood": "Encinitas ",
+        "Address": "642 S Coast Hwy 101",
+        "Yelp": "4.0",
+        "Google": "4.4",
+        "Cost": "7.89",
+        "key": "269"
+    },
+    "270": {
+        "Location": "Taco Surf PB",
+        "Burrito": "California",
+        "Neighborhood": "Pacific Beach",
+        "Address": "4657 Mission Blvd",
+        "Yelp": "4.0",
+        "Google": "4.6",
+        "Cost": "7.14",
+        "key": "270"
+    },
+    "271": {
+        "Location": "Taco Surf PB",
+        "Burrito": "California",
+        "Neighborhood": "Pacific Beach",
+        "Address": "4657 Mission Blvd",
+        "Yelp": "4.0",
+        "Google": "4.6",
+        "Cost": "7.14",
+        "key": "271"
+    },
+    "272": {
+        "Location": "Taco Surf PB",
+        "Burrito": "Carne asada",
+        "Neighborhood": "Pacific Beach",
+        "Address": "4657 Mission Blvd",
+        "Yelp": "4.0",
+        "Google": "4.6",
+        "Cost": "6.02",
+        "key": "272"
+    },
+    "273": {
+        "Location": "Taco Villa",
+        "Burrito": "Carnitas",
+        "Neighborhood": "UTC",
+        "Address": "9500 Gilman Dr",
+        "Yelp": "3.5",
+        "Google": "3.5",
+        "Cost": "5.99",
+        "key": "273"
+    },
+    "274": {
+        "Location": "Taco Villa",
+        "Burrito": "Al pastor",
+        "Neighborhood": "UTC",
+        "Address": "9500 Gilman Dr",
+        "Yelp": "3.5",
+        "Google": "3.5",
+        "Cost": "5.99",
+        "key": "274"
+    },
+    "275": {
+        "Location": "Taco Villa",
+        "Burrito": "Chicken and rice",
+        "Neighborhood": "UTC",
+        "Address": "9500 Gilman Dr",
+        "Yelp": "3.5",
+        "Google": "3.5",
+        "Cost": "4.95",
+        "key": "275"
+    },
+    "276": {
+        "Location": "Taco Villa",
+        "Burrito": "California ",
+        "Neighborhood": "UTC",
+        "Address": "9500 Gilman Dr",
+        "Yelp": "3.5",
+        "Google": "3.5",
+        "Cost": "6.99",
+        "key": "276"
+    },
+    "277": {
+        "Location": "Taco Villa",
+        "Burrito": "Breakfast",
+        "Neighborhood": "UTC",
+        "Address": "9500 Gilman Dr",
+        "Yelp": "3.5",
+        "Google": "3.5",
+        "Cost": "4.99",
+        "key": "277"
+    },
+    "278": {
+        "Location": "Taco Villa",
+        "Burrito": "Carnitas",
+        "Neighborhood": "UTC",
+        "Address": "9500 Gilman Dr",
+        "Yelp": "3.5",
+        "Google": "3.5",
+        "Cost": "5.95",
+        "key": "278"
+    },
+    "279": {
+        "Location": "Taco Villa",
+        "Burrito": "Tejano",
+        "Neighborhood": "UTC",
+        "Address": "9500 Gilman Dr",
+        "Yelp": "3.5",
+        "Google": "3.5",
+        "Cost": "6.99",
+        "key": "279"
+    },
+    "280": {
+        "Location": "Taco Villa",
+        "Burrito": "Chicken",
+        "Neighborhood": "UTC",
+        "Address": "9500 Gilman Dr",
+        "Yelp": "3.5",
+        "Google": "3.5",
+        "Cost": "4.99",
+        "key": "280"
+    },
+    "281": {
+        "Location": "Taco Villa",
+        "Burrito": "Pollo asado",
+        "Neighborhood": "UTC",
+        "Address": "9500 Gilman Dr",
+        "Yelp": "3.5",
+        "Google": "3.5",
+        "Cost": "5.99",
+        "key": "281"
+    },
+    "282": {
+        "Location": "Taco Villa",
+        "Burrito": "Al pastor",
+        "Neighborhood": "UTC",
+        "Address": "9500 Gilman Dr",
+        "Yelp": "3.5",
+        "Google": "3.5",
+        "Cost": "6.99",
+        "key": "282"
+    },
+    "283": {
+        "Location": "Tony's Fresh Mexican Food",
+        "Burrito": "Chile verde pork",
+        "Neighborhood": "Miramar",
+        "Address": "7122 Miramar Rd",
+        "Yelp": "3.0",
+        "Google": "4.1",
+        "Cost": "6.95",
+        "key": "283"
+    },
+    "284": {
+        "Location": "Tony's Fresh Mexican Food",
+        "Burrito": "California",
+        "Neighborhood": "Miramar",
+        "Address": "7122 Miramar Rd",
+        "Yelp": "3.0",
+        "Google": "4.1",
+        "Cost": "6.25",
+        "key": "284"
+    },
+    "285": {
+        "Location": "Tony's Fresh Mexican Food",
+        "Burrito": "battered fish ",
+        "Neighborhood": "Miramar",
+        "Address": "7122 Miramar Rd",
+        "Yelp": "3.0",
+        "Google": "4.1",
+        "Cost": "6.99",
+        "key": "285"
+    },
+    "286": {
+        "Location": "Tony's Fresh Mexican Food",
+        "Burrito": "California",
+        "Neighborhood": "Miramar",
+        "Address": "7122 Miramar Rd",
+        "Yelp": "3.0",
+        "Google": "4.1",
+        "Cost": "6.25",
+        "key": "286"
+    },
+    "287": {
+        "Location": "Valentines Mexican Food",
+        "Burrito": "California ",
+        "Neighborhood": "Downtown",
+        "Address": "1157 Sixth Ave",
+        "Yelp": "4.0",
+        "Google": "4.0",
+        "Cost": "7.9",
+        "key": "287"
+    },
+    "288": {
+        "Location": "Valentines Mexican Food",
+        "Burrito": "California Chipotle",
+        "Neighborhood": "Downtown",
+        "Address": "1157 Sixth Ave",
+        "Yelp": "4.0",
+        "Google": "4.0",
+        "Cost": "7.9",
+        "key": "288"
+    },
+    "289": {
+        "Location": "Valentines Mexican Food",
+        "Burrito": "Carne asada",
+        "Neighborhood": "Downtown",
+        "Address": "1157 Sixth Ave",
+        "Yelp": "4.0",
+        "Google": "4.0",
+        "Cost": "6.75",
+        "key": "289"
+    },
+    "290": {
+        "Location": "Valentines Mexican Food",
+        "Burrito": "Pork california",
+        "Neighborhood": "Downtown",
+        "Address": "1157 Sixth Ave",
+        "Yelp": "4.0",
+        "Google": "4.0",
+        "Cost": "7.9",
+        "key": "290"
+    },
+    "291": {
+        "Location": "Valentines Mexican Food",
+        "Burrito": "California",
+        "Neighborhood": "Downtown",
+        "Address": "1157 Sixth Ave",
+        "Yelp": "4.0",
+        "Google": "4.0",
+        "Cost": "7.9",
+        "key": "291"
+    },
+    "292": {
+        "Location": "Valentines Mexican Food",
+        "Burrito": "California",
+        "Neighborhood": "Downtown",
+        "Address": "1157 Sixth Ave",
+        "Yelp": "4.0",
+        "Google": "4.0",
+        "Cost": "7.9",
+        "key": "292"
+    },
+    "293": {
+        "Location": "Valentines Mexican Food",
+        "Burrito": "California",
+        "Neighborhood": "Downtown",
+        "Address": "1157 Sixth Ave",
+        "Yelp": "4.0",
+        "Google": "4.0",
+        "Cost": "7.9",
+        "key": "293"
+    },
+    "294": {
+        "Location": "Valentines Mexican Food",
+        "Burrito": "Carne asada",
+        "Neighborhood": "Downtown",
+        "Address": "1157 Sixth Ave",
+        "Yelp": "4.0",
+        "Google": "4.0",
+        "Cost": "6.75",
+        "key": "294"
+    },
+    "295": {
+        "Location": "Valentines Mexican Food",
+        "Burrito": "California",
+        "Neighborhood": "Downtown",
+        "Address": "1157 Sixth Ave",
+        "Yelp": "4.0",
+        "Google": "4.0",
+        "Cost": "7.9",
+        "key": "295"
+    },
+    "296": {
+        "Location": "Vallarta Express",
+        "Burrito": "Quesaburro",
+        "Neighborhood": "Clairemont",
+        "Address": "4277 Genesee Ave",
+        "Yelp": "3.5",
+        "Google": "4.0",
+        "Cost": "6.95",
+        "key": "296"
+    },
+    "297": {
+        "Location": "Vallarta Express",
+        "Burrito": "Philly ",
+        "Neighborhood": "Clairemont",
+        "Address": "4277 Genesee Ave",
+        "Yelp": "3.5",
+        "Google": "4.0",
+        "Cost": "6.95",
+        "key": "297"
+    },
+    "298": {
+        "Location": "Vallarta Express",
+        "Burrito": "Carne asada",
+        "Neighborhood": "Clairemont",
+        "Address": "4277 Genesee Ave",
+        "Yelp": "3.5",
+        "Google": "4.0",
+        "Cost": "6.5",
+        "key": "298"
+    },
+    "299": {
+        "Location": "Vallarta Express",
+        "Burrito": "Quesa",
+        "Neighborhood": "Clairemont",
+        "Address": "4277 Genesee Ave",
+        "Yelp": "3.5",
+        "Google": "4.0",
+        "Cost": "6.95",
+        "key": "299"
+    },
+    "300": {
+        "Location": "Vallarta Express",
+        "Burrito": "Surf and turf",
+        "Neighborhood": "Clairemont",
+        "Address": "4277 Genesee Ave",
+        "Yelp": "3.5",
+        "Google": "4.0",
+        "Cost": "7.65",
+        "key": "300"
+    },
+    "301": {
+        "Location": "Vallarta Express",
+        "Burrito": "Mahi",
+        "Neighborhood": "Clairemont",
+        "Address": "4277 Genesee Ave",
+        "Yelp": "3.5",
+        "Google": "4.0",
+        "Cost": "7.3",
+        "key": "301"
+    },
+    "302": {
+        "Location": "Vallarta Express",
+        "Burrito": "Fish",
+        "Neighborhood": "Clairemont",
+        "Address": "4277 Genesee Ave",
+        "Yelp": "3.5",
+        "Google": "4.0",
+        "Cost": "6.5",
+        "key": "302"
+    },
+    "303": {
+        "Location": "Vallarta Express",
+        "Burrito": "California",
+        "Neighborhood": "Clairemont",
+        "Address": "4277 Genesee Ave",
+        "Yelp": "3.5",
+        "Google": "4.0",
+        "Cost": "6.65",
+        "key": "303"
+    },
+    "304": {
+        "Location": "Vallarta Express",
+        "Burrito": "California",
+        "Neighborhood": "Clairemont",
+        "Address": "4277 Genesee Ave",
+        "Yelp": "3.5",
+        "Google": "4.0",
+        "Cost": "6.95",
+        "key": "304"
+    },
+    "305": {
+        "Location": "Vallarta Express",
+        "Burrito": "California",
+        "Neighborhood": "Clairemont",
+        "Address": "4277 Genesee Ave",
+        "Yelp": "3.5",
+        "Google": "4.0",
+        "Cost": "7.5",
+        "key": "305"
+    },
+    "306": {
+        "Location": "Vallarta Express",
+        "Burrito": "Surf & Turf",
+        "Neighborhood": "Clairemont",
+        "Address": "4277 Genesee Ave",
+        "Yelp": "3.5",
+        "Google": "4.0",
+        "Cost": "8.55",
+        "key": "306"
+    },
+    "307": {
+        "Location": "Vallarta Express",
+        "Burrito": "California",
+        "Neighborhood": "Clairemont",
+        "Address": "4277 Genesee Ave",
+        "Yelp": "3.5",
+        "Google": "4.0",
+        "Cost": "7.8",
+        "key": "307"
+    },
+    "308": {
+        "Location": "Vallarta Express",
+        "Burrito": "California",
+        "Neighborhood": "Clairemont",
+        "Address": "4277 Genesee Ave",
+        "Yelp": "3.5",
+        "Google": "4.0",
+        "Cost": "8.35",
+        "key": "308"
+    }
+}

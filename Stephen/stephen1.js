@@ -92,7 +92,7 @@ d3.json("/burrito_data").then(function(burritoData) {
         .offset([100, -100])
         .html(function(d) 
         {
-        return (`<h6>${d.Location}</h6><hr>Cost: ${d.Cost}<br>Google Rating: ${d.Google}<br>Burrito: ${d.Burrito}`);
+        return (`<h6>${d.Location}</h6><hr>Cost: ${d.Cost}<br>Google Rating: ${d.Google}<br>Yelp Rating: ${d.Yelp}`);
         });
         
         // Create tooltip in the chart
@@ -215,7 +215,7 @@ var yelpscatterGroup = yelp_svg.append("g")
         .offset([100, -100])
         .html(function(d) 
         {
-        return (`<h6>${d.Location}</h6><hr>Cost: ${d.Cost}<br>Yelp Rating: ${d.Yelp}<br>Burrito: ${d.Burrito}`);
+        return (`<h6>${d.Location}</h6><hr>Cost: ${d.Cost}<br>Yelp Rating: ${d.Yelp}<br>Yelp Rating: ${d.Yelp}`);
         });
         
         // Create tooltip in the chart
