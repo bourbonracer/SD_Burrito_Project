@@ -43,6 +43,10 @@ opacity: 0.15;
 z-index: 1
 }
 
+svg {
+  z-index: 1000;
+}
+
 #img-container {
 z-index: 1;
 }
@@ -54,7 +58,7 @@ font-size: 50px;
 }
 
 h2 {
-color: white;
+/* color: white; */
 text-shadow: 2px 2px #5f5757;
 font-family: 'Sansita Swashed', cursive;
 font-size: 42px;
